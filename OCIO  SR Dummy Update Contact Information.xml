@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-04 00:28:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>A  Dummy catalog item  as a place holder for  Update Contact Information  - DO NOT migrate beyond  Development instance</description>
+<inserted/>
+<name>OCIO  SR Dummy Update Contact Information </name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>27731d28db6e5300f72fe04a4896193b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-04 00:28:42</sys_created_on>
+<sys_id>6ca45d2cdb6e5300f72fe04a489619ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-04 00:28:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_43f3592cdb6e5300f72fe04a489619cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Under construction">47f35968db6e5300f72fe04a489619af</sc_cat_item><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-04 00:25:53</sys_created_on><sys_id>43f3592cdb6e5300f72fe04a489619cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO Catalog.Copy of Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_43f3592cdb6e5300f72fe04a489619cb</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-04 00:25:53</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>1614588220</payload_hash>
+<remote_update_set display_value="OCIO  SR Dummy Update Contact Information ">6ca45d2cdb6e5300f72fe04a489619ef</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-04 00:28:42</sys_created_on>
+<sys_id>24a45d2cdb6e5300f72fe04a489619f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c82f9b3b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-04 00:28:42</sys_updated_on>
+<table/>
+<target_name>OCIO Catalog.Copy of Under construction</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>4ff3592ca66e5300016e1710e17ba9cc</update_guid>
+<update_guid_history>4ff3592ca66e5300016e1710e17ba9cc:1614588220</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_47f35968db6e5300f72fe04a489619af</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_both&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category display_value="User Accounts"&gt;1ef67db7db961300f72fe04a489619ce&lt;/category&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;The Global Address List (GAL) is the BC Government&amp;#39;s directory and contains your contact information.&lt;/p&gt;
+&lt;p&gt;Complete the information fields below. If your address is not listed or is incomplete, please raise an iStore request.&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;meta&gt;Suggested&lt;/meta&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Update Contact Information &lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=47f35968db6e5300f72fe04a489619af&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;4deda47edb1113003d1dd001cf9619b2&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;short_description&gt;To update GAL information. The Global Address List (GAL) is the BC Government's directory and contains your contact information.&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-04 00:25:53&lt;/sys_created_on&gt;&lt;sys_id&gt;47f35968db6e5300f72fe04a489619af&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Contact Information &lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_47f35968db6e5300f72fe04a489619af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-04 00:27:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow display_value=" OCIO Service Request Item"&gt;77a0da0bdb5113003d1dd001cf9619af&lt;/workflow&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=47f35968db6e5300f72fe04a489619af"/&gt;&lt;fx_price action="delete_multiple" query="id=47f35968db6e5300f72fe04a489619af"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;47f35968db6e5300f72fe04a489619af&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-04 00:25:53&lt;/sys_created_on&gt;&lt;sys_id&gt;03f35968db6e5300f72fe04a489619b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-04 00:25:53&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;47f35968db6e5300f72fe04a489619af&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-04 00:25:53&lt;/sys_created_on&gt;&lt;sys_id&gt;4bf35968db6e5300f72fe04a489619b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-04 00:25:53&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>592082229</payload_hash>
+<remote_update_set display_value="OCIO  SR Dummy Update Contact Information ">6ca45d2cdb6e5300f72fe04a489619ef</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-04 00:28:42</sys_created_on>
+<sys_id>60a45d2cdb6e5300f72fe04a489619f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c83166020000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-04 00:28:42</sys_updated_on>
+<table/>
+<target_name>Update Contact Information </target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>f7645d2cff6e53002224a862732e57e1</update_guid>
+<update_guid_history>f7645d2cff6e53002224a862732e57e1:592082229,5ff3592cf46e530067322dbf2de396d1:1375238680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_f764592cdb6e5300f72fe04a48961965</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Update Contact Information ">47f35968db6e5300f72fe04a489619af</sc_cat_item><sc_category display_value="User Accounts">1ef67db7db961300f72fe04a489619ce</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-04 00:27:50</sys_created_on><sys_id>f764592cdb6e5300f72fe04a48961965</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Accounts.Update Contact Information </sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_f764592cdb6e5300f72fe04a48961965</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-04 00:27:50</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>785096752</payload_hash>
+<remote_update_set display_value="OCIO  SR Dummy Update Contact Information ">6ca45d2cdb6e5300f72fe04a489619ef</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-04 00:28:42</sys_created_on>
+<sys_id>a8a45d2cdb6e5300f72fe04a489619f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c83165e20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-04 00:28:42</sys_updated_on>
+<table/>
+<target_name>User Accounts.Update Contact Information </target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>f3645d2cc96e5300a5bbe538a3c4e5df</update_guid>
+<update_guid_history>f3645d2cc96e5300a5bbe538a3c4e5df:785096752</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_cbf3592cdb6e5300f72fe04a489619cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Update Contact Information ">47f35968db6e5300f72fe04a489619af</sc_cat_item><sc_category display_value="User Permissions">9cb6f9b7db961300f72fe04a48961976</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-04 00:25:53</sys_created_on><sys_id>cbf3592cdb6e5300f72fe04a489619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Permissions.Copy of Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_cbf3592cdb6e5300f72fe04a489619cd</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-04 00:25:53</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1717626707</payload_hash>
+<remote_update_set display_value="OCIO  SR Dummy Update Contact Information ">6ca45d2cdb6e5300f72fe04a489619ef</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-04 00:28:42</sys_created_on>
+<sys_id>e4a45d2cdb6e5300f72fe04a489619f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c83165bf0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-04 00:28:42</sys_updated_on>
+<table/>
+<target_name>User Permissions.Copy of Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>f764592cde6e530014f08dc6a2718564</update_guid>
+<update_guid_history>f764592cde6e530014f08dc6a2718564:-1717626707,c7f3592cdb6e5300708c7e956e503acf:939673871</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

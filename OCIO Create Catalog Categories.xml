@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-01 19:16:20">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Catalog categories for Account Service &amp; Permissions,  Phones,  User Accounts and User Permissions</description>
+<inserted/>
+<name>OCIO Create Catalog Categories</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>f835fd77db961300f72fe04a489619e3</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-01 19:16:19</sys_created_on>
+<sys_id>45f93d77db961300f72fe04a4896196d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-01 19:16:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_8647bd77db961300f72fe04a489619e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Services and devices for Voice Network &amp; Communication</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:05:03</sys_created_on><sys_id>8647bd77db961300f72fe04a489619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Phones</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_8647bd77db961300f72fe04a489619e8</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:05:03</sys_updated_on><title>Phones</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=8647bd77db961300f72fe04a489619e8"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>776</size_bytes><size_compressed>799</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:05:10</sys_created_on><sys_id>65673177db961300f72fe04a489619b8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:05:10</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>8647bd77db961300f72fe04a489619e8</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="65673177db961300f72fe04a489619b8">65673177db961300f72fe04a489619b8</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:05:10</sys_created_on><sys_id>a5673177db961300f72fe04a489619b8</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>AQgD9/yJUE5HDQoaCgAAAA1JSERSAAAAJwAAACQIAgAAAIVVtMwAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAASdAAAEnQB3mYfeAAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAAAn9JREFUWEftlr1xAjEQRt2ZGyCnAAqgAHIKIKcACqAACqAAcgqggAv85r61Rtpd3R3gGQf2i07SSt/+SfAx/Ab/quLxeFyvVxu0HI/H3W632WxWq9V6veZ7v9+fz2dbniNXPZ1OnPg5wrnxOJSYxwa97XbLUMbM4JAZ9fGqxIfX7Ocs9iOvE/kwiz7FGO37/W6zGV4V39mGHvKa4UNxL0wg2hiTiV51oFG9XC5sOBwONv6mCN9uN5uaBDNUoRdxo0qgmJYoa9iPKgY2HsESgfRo5rEn4TZuaVQxopw2CBAuPtlgGEg45xbIkHNXmUubq1Hl0AlVfELYBmP0nCjURGx3JWC+drTQqLpoatQjCNg4UJqojlj5iG3YqJIljGKd1B04npa8IA0uno3HwjPjugEaVVXCXU12KlEueykxW64uolGVANh4RN0Yr1MKJcC49o9GiVVrVEFJrrcpSxNdViPV+n3QS2eDb7xqqqGd5N/GfaRadwZFncmwiBrLS4ueaws2znSTQAMBVwyShiscwapNLYMt8b4lqpA+yBKO6XqBXBVICxrud0NPAcLPRuzoqpZaukdD/YJwfExwkTbEXZIUV2u6qqCbGmup/ONQ6TgMlBsmsecDJnp+ShV6tcQhnU7Dc7qyQv7lH6tsYbX3R2BGFRRZWkvdMajjFhhLOI14XhX0rBNQrBYz5CM6BEwqBzauWKQKSjVHuK6eRu5GX5eqQqllvPU9dNPeUgWSxt3gIGo2+zpC+oMDz6kKRQDclol7KbM0Ma+oAkGXBkbb3RBWESNKltJGe1FVkOSiDWgwJKu6M3ykkvCWaoFLiZ56jRDRI722lvEzqs/yd1SH4QvLw2j2vRasVwAAAABJRU5ErkJggmY1hqcIAwAA</data><length>1052</length><position>1</position><sys_attachment display_value="icon" sys_id="65673177db961300f72fe04a489619b8">65673177db961300f72fe04a489619b8</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:05:10</sys_created_on><sys_id>29673177db961300f72fe04a489619b8</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>-164386305</payload_hash>
+<remote_update_set display_value="OCIO Create Catalog Categories">45f93d77db961300f72fe04a4896196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-01 19:16:19</sys_created_on>
+<sys_id>01f93d77db961300f72fe04a4896196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bcbd431c0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-01 19:16:19</sys_updated_on>
+<table/>
+<target_name>Phones</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>2967f1f7829613009c307a4cb942b378</update_guid>
+<update_guid_history>2967f1f7829613009c307a4cb942b378:-164386305,4467b1f7c9961300bf37d405c1af915c:325718829</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_1ef67db7db961300f72fe04a489619ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Update GAL information</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Account Services &amp; Permissions">c216f5b7db961300f72fe04a489619dc</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:04:04</sys_created_on><sys_id>1ef67db7db961300f72fe04a489619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Accounts</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_1ef67db7db961300f72fe04a489619ce</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:04:04</sys_updated_on><title>User Accounts</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=1ef67db7db961300f72fe04a489619ce"/></record_update>]]></payload>
+<payload_hash>-720430433</payload_hash>
+<remote_update_set display_value="OCIO Create Catalog Categories">45f93d77db961300f72fe04a4896196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-01 19:16:19</sys_created_on>
+<sys_id>49f93d77db961300f72fe04a4896196d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bcbc41a10000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-01 19:16:19</sys_updated_on>
+<table/>
+<target_name>User Accounts</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>252771f717961300b9e400a29a4adb25</update_guid>
+<update_guid_history>252771f717961300b9e400a29a4adb25:-720430433</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_c216f5b7db961300f72fe04a489619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>This is the description about Account Services &amp; Permissions category.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:00:25</sys_created_on><sys_id>c216f5b7db961300f72fe04a489619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Account Services &amp; Permissions</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_c216f5b7db961300f72fe04a489619dc</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:00:25</sys_updated_on><title>Account Services &amp; Permissions</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=c216f5b7db961300f72fe04a489619dc"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>600</size_bytes><size_compressed>623</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:01:20</sys_created_on><sys_id>2d86f9b7db961300f72fe04a4896195a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:01:20</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>c216f5b7db961300f72fe04a489619dc</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="2d86f9b7db961300f72fe04a4896195a">2d86f9b7db961300f72fe04a4896195a</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:01:20</sys_created_on><sys_id>2586f9b7db961300f72fe04a4896195b</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>AVgCp/2JUE5HDQoaCgAAAA1JSERSAAAAJQAAACMIAgAAAJylVEkAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAASdAAAEnQB3mYfeAAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAAAc9JREFUWEfdls11wjAQBtMZDXBPARRAAdwpgLsLoAAKoAAK4O4CKMAH5vnbICEs7QIOLy9z8sqyRj+rha/hs/xt3+l0Wq1W3yObzeZwONiLME/49vv9YrFYLpfr9RoZz9B1nb2OEfUxLqPvdrvL5WJNw0D4rDLkYxslszhju93y6nw+W+wR8rF7bGO+shydpQUevo+5tzeNrKFD3/cWN/F97nCsmw5kk8VNfJ/S0oIK7HYwa3wfZ8Ods6ACHYJH6PvIQKZvQYU5fbpkFlQgRSdvyyO+73g8tvOFV3QI1jbf56afEpiaYHET3we67xbcw2zihwchn3Zs8oR0W4KLg5APVCeLSyZZMFOE42O7brVYiQq4gZzMZXSLlLSqDxOJwLExLs9qZEH8+KGhnYdbEtGBFtobaSWmfcyULOB7Bg3+1tBNe86HjU8mfEo55svNs6YwfMKHcNuSgtL3jkywOFaZn0JO6dNVe1kmpGTeFmfc+VS6nvo/UkNF53Hedz6yo7YPL8BQYMEPyafFuQkdRwMWS0w+FYu5FidIheJ0ko9MmTzhd2DAopQnH3sdL/NBqHYs0YKR5OMF02H5M6LiZ4KR5OPFL2GCkeT7DP/bNwxXUtmXwl1zzFQAAAAASUVORK5CYIK2CeIbWAIAAA==</data><length>820</length><position>1</position><sys_attachment display_value="icon" sys_id="2d86f9b7db961300f72fe04a4896195a">2d86f9b7db961300f72fe04a4896195a</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:01:20</sys_created_on><sys_id>a586f9b7db961300f72fe04a4896195b</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>-2066311317</payload_hash>
+<remote_update_set display_value="OCIO Create Catalog Categories">45f93d77db961300f72fe04a4896196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-01 19:16:19</sys_created_on>
+<sys_id>85f93d77db961300f72fe04a4896196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bcb9c2390000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-01 19:16:19</sys_updated_on>
+<table/>
+<target_name>Account Services &amp; Permissions</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>a586f9b73d961300719a5ea5c0f5d25f</update_guid>
+<update_guid_history>a586f9b73d961300719a5ea5c0f5d25f:-2066311317,98567d77299613005638177a79d11e40:-1709325740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_9cb6f9b7db961300f72fe04a48961976</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Services to change user permissions such as reactivate expired IDIR </description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Account Services &amp; Permissions">c216f5b7db961300f72fe04a489619dc</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:03:00</sys_created_on><sys_id>9cb6f9b7db961300f72fe04a48961976</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Permissions</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_9cb6f9b7db961300f72fe04a48961976</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:03:00</sys_updated_on><title>User Permissions</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=9cb6f9b7db961300f72fe04a48961976"/></record_update>]]></payload>
+<payload_hash>360612292</payload_hash>
+<remote_update_set display_value="OCIO Create Catalog Categories">45f93d77db961300f72fe04a4896196d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-01 19:16:19</sys_created_on>
+<sys_id>c1f93d77db961300f72fe04a4896196e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bcbb485c0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-01 19:16:19</sys_updated_on>
+<table/>
+<target_name>User Permissions</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>c6e679b786961300f0da88bef0b0cf11</update_guid>
+<update_guid_history>c6e679b786961300f0da88bef0b0cf11:360612292</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

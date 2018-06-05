@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-03 21:30:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Header Menu of  the Mysc portal </description>
+<inserted/>
+<name>OCIO SR Header Menu</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8e0410e8dbea5300f72fe04a489619ec</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 21:30:10</sys_created_on>
+<sys_id>ddcba024db2e5300f72fe04a489619fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 21:30:10</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rectangle_menu_item_4008a024db2e5300f72fe04a48961958</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_rectangle_menu_item"&gt;&lt;sp_rectangle_menu_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;color&gt;default&lt;/color&gt;&lt;condition&gt;gs.isLoggedIn()&lt;/condition&gt;&lt;display_1/&gt;&lt;display_2/&gt;&lt;display_date/&gt;&lt;filter/&gt;&lt;glyph/&gt;&lt;hint/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;label&gt;My Requests&lt;/label&gt;&lt;order&gt;400&lt;/order&gt;&lt;record_script&gt;&lt;![CDATA[// maximum number of entries in this Menu
+var max = 30;
+
+var t = data;  // shortcut
+t.items = [];
+
+var u = gs.getUser().getID();
+
+// use record watchers to tell header when to update dropdown counts
+t.record_watchers = [];
+t.record_watchers.push({'table':'incident','filter':'active=true^caller_id=' + u});
+t.record_watchers.push({'table':'sc_request','filter':'active=true^requested_for=' + u});
+
+var st = new GlideRecord('service_task');
+if (st.isValid()) {
+  t.record_watchers.push({'table':'service_task','filter':'active=true^opened_by=' + u});
+  st.addActiveQuery();
+  st.addQuery('opened_by', gs.getUserID());
+  st.orderByDesc('sys_updated_on');
+  st.setLimit(max);
+  st.query();
+  while (st.next()) {
+    if (!st.canRead())
+      continue;
+    
+    var a = {};
+    $sp.getRecordValues(a, st, 'short_description,sys_id,number,sys_updated_on');
+    if (st.short_description.nil())
+      a.short_description = "(No description)";
+    a.__table = st.getTableName();
+    a.type = 'record';
+    a.sortOrder = st.sys_updated_on.getGlideObject().getNumericValue();
+    t.items.push(a);
+  }
+}
+
+var z = new GlideRecord('incident');
+z.addActiveQuery();
+z.addQuery('caller_id', gs.getUserID());
+z.orderByDesc('sys_updated_on');
+z.setLimit(max);
+z.query();
+while (z.next()) {
+  if (!z.canRead())
+    continue;
+  
+  var a = {};
+  $sp.getRecordValues(a, z, 'short_description,sys_id,number,sys_updated_on');
+  if (z.short_description.nil())
+    a.short_description = "(No description)";
+  a.__table = z.getTableName();
+  a.type = 'record';
+  a.sortOrder = z.sys_updated_on.getGlideObject().getNumericValue();
+  t.items.push(a);
+}
+
+var z = new GlideRecord('sc_request');
+z.addActiveQuery();
+z.addQuery('requested_for', gs.getUserID());
+z.orderByDesc('sys_updated_on');
+z.setLimit(max);
+z.query();
+while (z.next()) {
+  if (!z.canRead())
+    continue;
+  
+  var ritm = new GlideRecord('sc_req_item');
+  ritm.addQuery('request', z.getUniqueValue());
+  ritm.query();
+  if (!ritm.next())
+    continue;
+
+  var a = {};
+  $sp.getRecordValues(a, z, 'sys_id,number,sys_updated_on');
+  if (ritm.hasNext()) // there are multiple items for this request
+    a.short_description = ritm.getRowCount() + ' requested items';
+  else if (!ritm.canRead()) // only one item, but user cannot see it
+  	continue;
+  else // one item, and user can see it
+    a.short_description = ritm.cat_item.getDisplayValue() || ritm.getDisplayValue("short_description");
+  a.__table = z.getTableName();
+  a.type = 'request';
+  a.sortOrder = z.sys_updated_on.getGlideObject().getNumericValue();
+  t.items.push(a);
+}
+
+t.items.sort(function(a, b) {
+  return b.sortOrder - a.sortOrder;
+});
+t.items = t.items.slice(0, max); // only want first 30
+t.count = t.items.length;
+
+var link = {title: gs.getMessage('View all requests'), type: 'link', href: '?id=requests', items: []};
+t.items.unshift(link); // put 'View all requests' first]]&gt;&lt;/record_script&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;sp_page/&gt;&lt;sp_rectangle_menu display_value="OCIO SR Header Menu"&gt;a17454e8dbea5300f72fe04a48961901&lt;/sp_rectangle_menu&gt;&lt;sp_rectangle_menu_item/&gt;&lt;sys_class_name&gt;sp_rectangle_menu_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-03 21:15:19&lt;/sys_created_on&gt;&lt;sys_id&gt;4008a024db2e5300f72fe04a48961958&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Requests&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_rectangle_menu_item_4008a024db2e5300f72fe04a48961958&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-03 21:15:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;scripted&lt;/type&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sp_rectangle_menu_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4008a024db2e5300f72fe04a48961958"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1933219223</payload_hash>
+<remote_update_set display_value="OCIO SR Header Menu">ddcba024db2e5300f72fe04a489619fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 21:30:10</sys_created_on>
+<sys_id>11cb28e4db2e5300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c78122e40000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 21:30:10</sys_updated_on>
+<table/>
+<target_name>My Requests</target_name>
+<type>Menu Item</type>
+<update_domain>global</update_domain>
+<update_guid>2f582464052e5300eb43a8bd5212b401</update_guid>
+<update_guid_history>2f582464052e5300eb43a8bd5212b401:-1933219223</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_header_footer_320156bfdb9213003d1dd001cf9619ca</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+
+	$scope.avatarProfile = {
+		userID: $scope.user.sys_id,
+		name: $scope.user.name,
+		initials: $window.NOW.user_initials
+	};
+	
+	if ($window.NOW.user_avatar) {
+		$scope.avatarProfile.userImage = $window.NOW.user_avatar;
+	}
+
+	if (cabrillo.isNative())
+		$scope.isViewNative = true;
+
+	$scope.openPopUp = function() {
+		var url = "$chat_support.do?queueID=" + $scope.data.connect_support_queue_id;
+		var popup = window.open (url, "popup", "width=900, height=600");
+	};
+
+	$scope.openLogin = function () {
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'modalLogin',
+			scope: $scope
+		});
+	};
+
+	var xsScreenSize = isXSScreenSize();
+	$scope.showXSAvatar = isXSScreenSize();
+	$scope.showAvatar = !isXSScreenSize();
+	
+	angular.element($window).on('resize', function () {
+		if(xsScreenSize !== isXSScreenSize() &amp;&amp; (!$scope.showXSAvatar || !$scope.showAvatar)){
+			$scope.showXSAvatar = true;
+			$scope.showAvatar = true;
+		}	   
+	});
+	
+	
+	function isXSScreenSize() {
+		return $window.matchMedia('(max-width: 767px)').matches;
+	}
+	
+	$rootScope.$on('sp.avatar_changed', function() {
+		$scope.userID = "";
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+}
+		]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.navbar {
+  transition: 250ms opacity ease-in-out;
+  -webkit-transition: 250ms opacity ease-in-out;
+  border: 0;
+  border-bottom: 4px solid $sp-navbar-divider-color;
+}
+
+.navbar-fade {
+  opacity: 0.4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+header[role="banner"],
+.nav &amp;gt; li &amp;gt; a {
+  max-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+  .nav &amp;gt; li &amp;gt; a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.navbar-brand {
+  max-height: 60px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand img, .navbar-brand span {
+  margin-left: $sp-logo-margin-x;
+  margin-right: $sp-logo-margin-x;
+  margin-top: $sp-logo-margin-y;
+  margin-bottom: $sp-logo-margin-y;
+  display: block;
+  max-height: $sp-logo-max-height;
+  max-width: $sp-logo-max-width;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.breadcrumb-container {
+  background-color: $panel-bg;
+}
+
+/* for mobile app */
+.navbar-inverse.is-native {
+  background-color: #405060;
+}
+
+nav{
+ margin-bottom: 0px;
+ border-radius: 0px;
+}
+
+.navbar-collapse{
+padding-right: 0px;
+}
+
+.navbar-nav {
+margin: 0px;
+}
+
+// PRB711244: Dropdown menu is scrollable when too many items
+.scrollable-dropdown {
+  max-height: 80vh;
+  overflow: auto;
+  height: auto;
+}
+
+.is-native {
+ .scrollable-dropdown {
+  max-height: 100vh;
+  overflow: scroll;
+  height: auto;
+	}
+}
+
+
+/* PRB923910: Fix for Service Portal - Header Poorly Aligned in Safari */
+@media screen and (min-width: 768px) {
+  .navbar-collapse {
+    display: flex !important;
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element) {
+	$(document).keyup(function(event) {
+		if (event.which == 9) { //tab key handler + arrow keys
+			if ($(event.target).parents(".dropdown-menu").length == 0) { //if we are NOT inside a dropdown...
+				//close the dropdowns
+				$(".dropdown").removeClass("open");
+				$("[data-toggle='dropdown']").attr("aria-expanded", "false");
+			}
+		}
+	});
+	
+	$(element).on('click.nav','.navbar-collapse.in',function(e) {
+		var target = $(e.target);
+		if (target.is('a')) {
+			if (target.hasClass('sp-menu-has-items'))
+				return; // menu item has a submenu, so just toggle it
+			
+			// collapse mobile nav if clicked an anchor
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		if (target.parent().hasClass("toggle-dropdown")) {
+			// collapse mobile nav if parent has toggle-dropdown class
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		// if neither target nor parent is an anchor, do nothing
+		if (!target.parent().is('a'))
+			return;
+
+		// collapse mobile nav if target is part of a submenu
+		if (target.parents("ul.dropdown-menu").length &gt; 0)
+			$(this).removeClass('in').addClass('collapse');
+	});
+}]]&gt;&lt;/link&gt;&lt;name&gt;OCIO SR Header Menu&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("Press space to access user profile or logout");
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+if (data.menu &amp;&amp; data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' &amp;&amp; item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-01 20:57:11&lt;/sys_created_on&gt;&lt;sys_id&gt;320156bfdb9213003d1dd001cf9619ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR Header Menu&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_320156bfdb9213003d1dd001cf9619ca&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-03 21:06:25&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation"&gt;
+    &lt;div ng-show="::!isViewNative" class="navbar-header"&gt;
+      &lt;a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span&gt;{{::portal.title}}&lt;/span&gt;&lt;/a&gt;
+      &lt;a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" href="?id={{::portal.homepage_dv}}" aria-label="${Go to homepage}"&gt;
+        &lt;img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" /&gt;
+      &lt;/a&gt;
+
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar"&gt;
+        &lt;span class="sr-only"&gt;${Toggle navigation}&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div sp-navbar-toggle="" class="collapse navbar-collapse navbar-right scrollable-dropdown" id="sp-nav-bar"&gt;
+      &lt;!-- Include The Menu --&gt;
+      &lt;sp-widget widget="::data.menu"&gt;&lt;/sp-widget&gt;
+      &lt;ul ng-if="::(!user.logged_in &amp;&amp; page.id != portal.login_page_dv &amp;&amp; !data.hasLogin)" class="nav navbar-nav"&gt;
+        &lt;li&gt;&lt;a href ng-click="::openLogin()"&gt;${Login}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul ng-if="::user.logged_in" class="nav navbar-nav" aria-haspopup="true"&gt;
+        &lt;!-- chat, avatar, and logout --&gt;
+        &lt;li ng-if="::data.connect_support_queue_id"&gt;&lt;a href ng-click="openPopUp()"&gt;${Live Chat}&lt;/a&gt;&lt;/li&gt;
+        &lt;li ng-if="showAvatar" class="hidden-xs dropdown"&gt;
+          &lt;a href class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="{{::data.profileBtnMsg}}" id="profile-dropdown" role="button" aria-haspopup="true"&gt;
+            &lt;span class="navbar-avatar" aria-hidden="true"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;
+            &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu" role="menu"&gt;
+            &lt;!-- OCIO custom menu --&gt;
+            &lt;li&gt;&lt;a href="?id=ocio_dashboard" role="menuitem"&gt;${My Dashboard}&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="?id=ocio_my_orders" role="menuitem"&gt;${My Service Requests}&lt;/a&gt;&lt;/li&gt;            
+            &lt;li&gt;&lt;a href="?id=ocio_sr_home" role="menuitem"&gt;${My Favourites}&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="?id=ocio_sr_home" role="menuitem"&gt;${My Saved Service Requests}&lt;/a&gt;&lt;/li&gt;
+            &lt;li role="presentation"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" role="menuitem"&gt;${My Profile}&lt;/a&gt;&lt;/li&gt;
+            &lt;li ng-if="::!isViewNative" role="presentation"&gt;&lt;a href="{{::portal.logoutUrl}}" role="menuitem"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+            
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="showXSAvatar" class="visible-xs-block"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}"&gt;
+          &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="::!isViewNative" class="visible-xs-block"&gt;&lt;a href="{{::portal.logoutUrl}}"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-323995278</payload_hash>
+<remote_update_set display_value="OCIO SR Header Menu">ddcba024db2e5300f72fe04a489619fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 21:30:10</sys_created_on>
+<sys_id>55cb28e4db2e5300f72fe04a4896192e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c778fe530000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 21:30:10</sys_updated_on>
+<table/>
+<target_name>OCIO SR Header Menu</target_name>
+<type>Header | Footer</type>
+<update_domain>global</update_domain>
+<update_guid>d556a0249e2e5300455ffdb53506dd2d</update_guid>
+<update_guid_history>d556a0249e2e5300455ffdb53506dd2d:-323995278,5f2156bf7592130005bd825d4f2f49d2:-1035246480,b20156bf619213001012cde418d22dcc:-1895778638</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_menu_a17454e8dbea5300f72fe04a48961901</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_menu"&gt;&lt;sp_instance_menu action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column/&gt;&lt;sp_widget display_value="OCIO SR Header"&gt;320156bfdb9213003d1dd001cf9619ca&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_menu&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-03 19:49:21&lt;/sys_created_on&gt;&lt;sys_id&gt;a17454e8dbea5300f72fe04a48961901&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR Header Menu&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_menu_a17454e8dbea5300f72fe04a48961901&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-03 19:49:21&lt;/sys_updated_on&gt;&lt;title&gt;OCIO SR Header Menu&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"enable_cart": {
+		"displayValue": "true",
+		"value": true
+	}
+}	]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_menu&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a17454e8dbea5300f72fe04a48961901"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1087770709</payload_hash>
+<remote_update_set display_value="OCIO SR Header Menu">ddcba024db2e5300f72fe04a489619fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 21:30:10</sys_created_on>
+<sys_id>5dcb28e4db2e5300f72fe04a4896192e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c73271990000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 21:30:10</sys_updated_on>
+<table/>
+<target_name>OCIO SR Header Menu</target_name>
+<type>Instance with Menu</type>
+<update_domain>global</update_domain>
+<update_guid>6cb41868fcea53003ffa6095f10267b7</update_guid>
+<update_guid_history>6cb41868fcea53003ffa6095f10267b7:1087770709</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rectangle_menu_item_e7772064db2e5300f72fe04a4896193a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph/><hint/><kb_article/><kb_category/><kb_topic/><label>Products &amp; Services Catalogue</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="ocio_products_services_catalogue">07ac73b3dbd613003d1dd001cf9619d6</sp_page><sp_rectangle_menu display_value="OCIO SR Header Menu">a17454e8dbea5300f72fe04a48961901</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-03 21:12:12</sys_created_on><sys_id>e7772064db2e5300f72fe04a4896193a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Products &amp; Services Catalogue</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rectangle_menu_item_e7772064db2e5300f72fe04a4896193a</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-03 21:12:12</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=e7772064db2e5300f72fe04a4896193a"/></record_update>]]></payload>
+<payload_hash>-2104783607</payload_hash>
+<remote_update_set display_value="OCIO SR Header Menu">ddcba024db2e5300f72fe04a489619fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 21:30:10</sys_created_on>
+<sys_id>95cb28e4db2e5300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c77e49700000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 21:30:10</sys_updated_on>
+<table/>
+<target_name>Products &amp; Services Catalogue</target_name>
+<type>Menu Item</type>
+<update_domain>global</update_domain>
+<update_guid>46a76824482e5300b027f2a85193e04f</update_guid>
+<update_guid_history>46a76824482e5300b027f2a85193e04f:-2104783607</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rectangle_menu_item_bcc7e82cdbea5300f72fe04a48961919</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph/><hint/><kb_article/><kb_category/><kb_topic/><label>Knowledge Base</label><order>200</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page><sp_rectangle_menu display_value="OCIO SR Header Menu">a17454e8dbea5300f72fe04a48961901</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-03 21:13:11</sys_created_on><sys_id>bcc7e82cdbea5300f72fe04a48961919</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Knowledge Base</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rectangle_menu_item_bcc7e82cdbea5300f72fe04a48961919</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-03 21:13:11</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=bcc7e82cdbea5300f72fe04a48961919"/></record_update>]]></payload>
+<payload_hash>-1297767580</payload_hash>
+<remote_update_set display_value="OCIO SR Header Menu">ddcba024db2e5300f72fe04a489619fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 21:30:10</sys_created_on>
+<sys_id>d1cb28e4db2e5300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163c77f2ea80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 21:30:10</sys_updated_on>
+<table/>
+<target_name>Knowledge Base</target_name>
+<type>Menu Item</type>
+<update_domain>global</update_domain>
+<update_guid>d4e7e0648d2e530042c4d40033cf7b75</update_guid>
+<update_guid_history>d4e7e0648d2e530042c4d40033cf7b75:-1297767580</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

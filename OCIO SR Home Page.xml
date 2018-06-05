@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-02 03:24:03">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO SR Home Page</description>
+<inserted/>
+<name>OCIO SR Home Page</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>9628ef77db9613003d1dd001cf961910</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>6999ebb7db9613003d1dd001cf96199f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_016827b7db9613003d1dd001cf96192a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>ocio-home-content</class_name><container_class_name/><name>OCIO SR Home - Container 2</name><order>2</order><sp_page display_value="copy_of_ocio_sr_home_1">09682fb3db9613003d1dd001cf961967</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>016827b7db9613003d1dd001cf96192a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>OCIO SR Home - Container 2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_016827b7db9613003d1dd001cf96192a</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:21:53</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>1908351631</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>2199ebb7db9613003d1dd001cf9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be84062f0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>OCIO SR Home - Container 2</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>ca196b73739613000eb0c2e86c07e17b</update_guid>
+<update_guid_history>ca196b73739613000eb0c2e86c07e17b:1908351631,0d6827b7a5961300c93fb1fe42bd512a:1518764947</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_096827b7db9613003d1dd001cf961930</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">496827b7db9613003d1dd001cf96192b</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>096827b7db9613003d1dd001cf961930</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_096827b7db9613003d1dd001cf961930</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>2082811870</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>2599ebb7db9613003d1dd001cf9619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8137800000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>2</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>c16827b7a9961300560e0a38763dab31</update_guid>
+<update_guid_history>c16827b7a9961300560e0a38763dab31:2082811870</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_0d6827b7db9613003d1dd001cf961921</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>2</order><sp_column/><sp_container display_value="Copy of OCIO SR Home (1) - Container 1">81682fb3db9613003d1dd001cf96196a</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>0d6827b7db9613003d1dd001cf961921</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_0d6827b7db9613003d1dd001cf961921</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-842750698</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>2999ebb7db9613003d1dd001cf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8136b70000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>2</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>c56827b704961300de8827cd05cb7222</update_guid>
+<update_guid_history>c56827b704961300de8827cd05cb7222:-842750698</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_4d6827b7db9613003d1dd001cf961924</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;c16827b7db9613003d1dd001cf961923&lt;/sp_column&gt;&lt;sp_widget display_value="Typeahead Search"&gt;fa20ec02cb31020000f8d856634c9ce9&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-02 03:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;4d6827b7db9613003d1dd001cf961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_4d6827b7db9613003d1dd001cf961924&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-02 03:18:49&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"color": {
+		"value": "primary",
+		"displayValue": "primary"
+	},
+	"glyph": {
+		"value": "",
+		"displayValue": ""
+	},
+	"size": {
+		"value": "",
+		"displayValue": ""
+	},
+	"limit": {
+		"value": null,
+		"displayValue": ""
+	},
+	"contextual_search_sources": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4d6827b7db9613003d1dd001cf961924"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-387939407</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>2d99ebb7db9613003d1dd001cf9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8136eb0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>cd6827b7119613006b249f5358e07225</update_guid>
+<update_guid_history>cd6827b7119613006b249f5358e07225:-387939407</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_09682fb3db9613003d1dd001cf961967</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css>main.body {
+  padding-top: 0
+}</css><draft>false</draft><dynamic_title_structure/><id>ocio_sr_home_1</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:48</sys_created_on><sys_id>09682fb3db9613003d1dd001cf961967</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ocio_sr_home_1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_09682fb3db9613003d1dd001cf961967</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:21:53</sys_updated_on><title>OCIO SR Home</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=09682fb3db9613003d1dd001cf961967"/></record_update>]]></payload>
+<payload_hash>-2057749149</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>6599ebb7db9613003d1dd001cf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8406850000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>ocio_sr_home_1</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>ca19abb7d296130075d5e18e1f871470</update_guid>
+<update_guid_history>ca19abb7d296130075d5e18e1f871470:-2057749149,05682fb37996130045f8b02e868d1369:450620769</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_496827b7db9613003d1dd001cf96191f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;096827b7db9613003d1dd001cf96191d&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-02 03:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;496827b7db9613003d1dd001cf96191f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Services made simple.&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_496827b7db9613003d1dd001cf96191f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-02 03:18:49&lt;/sys_updated_on&gt;&lt;title&gt;Services made simple.&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h1&gt;Services made simple.&lt;/h1&gt;\n&lt;p class=\"ocio-subheading\"&gt;Find and request IT products and services to help you do your job.&lt;/p&gt;",
+		"displayValue": "&lt;h1&gt;Services made simple.&lt;/h1&gt;\n&lt;p class=\"ocio-subheading\"&gt;Find and request IT products and services to help you do your job.&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=496827b7db9613003d1dd001cf96191f"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>68457449</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>6999ebb7db9613003d1dd001cf9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be81369e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>Services made simple.</target_name>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>016827b7a8961300aea4caceaa74da21</update_guid>
+<update_guid_history>016827b7a8961300aea4caceaa74da21:68457449</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_096827b7db9613003d1dd001cf96191d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">c1682fb3db9613003d1dd001cf96196e</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>096827b7db9613003d1dd001cf96191d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_096827b7db9613003d1dd001cf96191d</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-378649717</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>6d99ebb7db9613003d1dd001cf96199f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be81366a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>896827b78b961300866614130a20e21e</update_guid>
+<update_guid_history>896827b78b961300866614130a20e21e:-378649717</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_c16827b7db9613003d1dd001cf961923</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>9</size><size_lg/><size_sm/><size_xs/><sp_row display_value="2">0d6827b7db9613003d1dd001cf961921</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>c16827b7db9613003d1dd001cf961923</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_c16827b7db9613003d1dd001cf961923</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1956919595</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>6d99ebb7db9613003d1dd001cf9619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8136ce0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>cd6827b730961300130dfb0a18015123</update_guid>
+<update_guid_history>cd6827b730961300130dfb0a18015123:-1956919595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_c96827b7db9613003d1dd001cf96192e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">416827b7db9613003d1dd001cf96192d</sp_column><sp_widget display_value="OCIO SC Suggested Items">5bf8efb0db9213003d1dd001cf961927</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>c96827b7db9613003d1dd001cf96192e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_c96827b7db9613003d1dd001cf96192e</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=c96827b7db9613003d1dd001cf96192e"/></record_update>]]></payload>
+<payload_hash>-467227710</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>a199ebb7db9613003d1dd001cf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be81376e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>4d6827b7ab9613006f9e36733cf31d2f</update_guid>
+<update_guid_history>4d6827b7ab9613006f9e36733cf31d2f:-467227710</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_416827b7db9613003d1dd001cf961932</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">096827b7db9613003d1dd001cf961930</sp_column><sp_widget display_value="OCIO SR Icon Links">2f5f1bf8db5213003d1dd001cf96191e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>416827b7db9613003d1dd001cf961932</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_416827b7db9613003d1dd001cf961932</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=416827b7db9613003d1dd001cf961932"/></record_update>]]></payload>
+<payload_hash>-2128732483</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>a599ebb7db9613003d1dd001cf9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be81379a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>c16827b765961300e13a31dfe9db2733</update_guid>
+<update_guid_history>c16827b765961300e13a31dfe9db2733:-2128732483</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_896827b7db9613003d1dd001cf961926</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="2">0d6827b7db9613003d1dd001cf961921</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>896827b7db9613003d1dd001cf961926</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_896827b7db9613003d1dd001cf961926</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1929876579</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>a999ebb7db9613003d1dd001cf9619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8136ff0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>2</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>456827b7ab961300eb48cc482cff4527</update_guid>
+<update_guid_history>456827b7ab961300eb48cc482cff4527:-1929876579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_c1682fb3db9613003d1dd001cf96196e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Copy of OCIO SR Home (1) - Container 1">81682fb3db9613003d1dd001cf96196a</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>c1682fb3db9613003d1dd001cf96196e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_c1682fb3db9613003d1dd001cf96196e</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-42983272</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>ad99ebb7db9613003d1dd001cf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be81363e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>45682fb39b9613004ed8a46d686b576f</update_guid>
+<update_guid_history>45682fb39b9613004ed8a46d686b576f:-42983272</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_81682fb3db9613003d1dd001cf96196a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image>e4fc2e21db5613003d1dd001cf9619df.iix?t=m</background_image><background_style>cover</background_style><bootstrap_alt>false</bootstrap_alt><class_name>ocio-home-banner</class_name><container_class_name/><name>OCIO SR Home - Container 1</name><order>1</order><sp_page display_value="copy_of_ocio_sr_home_1">09682fb3db9613003d1dd001cf961967</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:48</sys_created_on><sys_id>81682fb3db9613003d1dd001cf96196a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>OCIO SR Home - Container 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_81682fb3db9613003d1dd001cf96196a</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:21:53</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>-1411446752</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>e199ebb7db9613003d1dd001cf9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8406580000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>OCIO SR Home - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>c219abb70d9613006d6e189d0ea3376e</update_guid>
+<update_guid_history>c219abb70d9613006d6e189d0ea3376e:-1411446752,05682fb397961300b8a29f75135eba6b:-681653980</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_416827b7db9613003d1dd001cf96192d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>9</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">496827b7db9613003d1dd001cf96192b</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>416827b7db9613003d1dd001cf96192d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_416827b7db9613003d1dd001cf96192d</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>2055768854</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>e599ebb7db9613003d1dd001cf9619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8137510000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>4d6827b7be9613001dbc4f9fd66dff2d</update_guid>
+<update_guid_history>4d6827b7be9613001dbc4f9fd66dff2d:2055768854</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_496827b7db9613003d1dd001cf96192b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Copy of OCIO SR Home (1) - Container 2">016827b7db9613003d1dd001cf96192a</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 03:18:49</sys_created_on><sys_id>496827b7db9613003d1dd001cf96192b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_496827b7db9613003d1dd001cf96192b</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 03:18:49</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-289396742</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>e999ebb7db9613003d1dd001cf9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be81373f0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>456827b7059613003348a298b75a3d2c</update_guid>
+<update_guid_history>456827b7059613003348a298b75a3d2c:-289396742</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_c16827b7db9613003d1dd001cf961928</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;896827b7db9613003d1dd001cf961926&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-02 03:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;c16827b7db9613003d1dd001cf961928&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_c16827b7db9613003d1dd001cf961928&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-02 03:18:49&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "mysc?id=ocio_products_services_catalogue",
+		"displayValue": "mysc?id=ocio_products_services_catalogue"
+	},
+	"button_text": {
+		"value": "Browse Catalogue",
+		"displayValue": "Browse Catalogue"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c16827b7db9613003d1dd001cf961928"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-477137279</payload_hash>
+<remote_update_set display_value="OCIO SR Home Page">6999ebb7db9613003d1dd001cf96199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 03:24:02</sys_created_on>
+<sys_id>ed99ebb7db9613003d1dd001cf9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163be8137190000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 03:24:02</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>456827b7f5961300bcccf12f32603d29</update_guid>
+<update_guid_history>456827b7f5961300bcccf12f32603d29:-477137279</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

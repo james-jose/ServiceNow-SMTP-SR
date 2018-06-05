@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-02 04:50:47">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO SR Products and Service Catalogue Page</description>
+<inserted/>
+<name>OCIO SR Products and Service Catalogue Page</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e17cfb33dbd613003d1dd001cf961986</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>047dfbf3dbd613003d1dd001cf9619ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_8fac73b3dbd613003d1dd001cf9619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">07ac73b3dbd613003d1dd001cf9619db</sp_column><sp_widget display_value="breadcrumbs">0fb269305b3212000d7ec7ad31f91ae2</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>8fac73b3dbd613003d1dd001cf9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_8fac73b3dbd613003d1dd001cf9619dc</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=8fac73b3dbd613003d1dd001cf9619dc"/></record_update>]]></payload>
+<payload_hash>1020975376</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>007dfbf3dbd613003d1dd001cf9619cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed258820000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>03ac73b38ad61300bed40f055d87c5de</update_guid>
+<update_guid_history>03ac73b38ad61300bed40f055d87c5de:1020975376</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_83ac73b3dbd613003d1dd001cf9619d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>OCIO Products &amp; Services Catalogue - Container 1</name><order>1</order><sp_page display_value="copy_of_ocio_products_services_catalogue">07ac73b3dbd613003d1dd001cf9619d6</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>83ac73b3dbd613003d1dd001cf9619d8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>OCIO Products &amp; Services Catalogue - Container 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_83ac73b3dbd613003d1dd001cf9619d8</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:54</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>-1529224702</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>047dfbf3dbd613003d1dd001cf9619cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed2c4b80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>OCIO Products &amp; Services Catalogue - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>02ccb73355d613007bb10d771906a9aa</update_guid>
+<update_guid_history>02ccb73355d613007bb10d771906a9aa:-1529224702,cfac73b322d613003f0e0daf0163aad8:-1356622488</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_07ac73b3dbd613003d1dd001cf9619db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">0fac73b3dbd613003d1dd001cf9619d9</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>07ac73b3dbd613003d1dd001cf9619db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_07ac73b3dbd613003d1dd001cf9619db</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>1148447030</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>087dfbf3dbd613003d1dd001cf9619ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed258670000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>03ac73b321d61300cca1c4fff0fa4fdc</update_guid>
+<update_guid_history>03ac73b321d61300cca1c4fff0fa4fdc:1148447030</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_1fac73b3dbd613003d1dd001cf9619e6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Copy of OCIO Products &amp; Services Catalogue1 (1) - Container 3">d3ac73b3dbd613003d1dd001cf9619e5</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>1fac73b3dbd613003d1dd001cf9619e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_1fac73b3dbd613003d1dd001cf9619e6</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-1618597457</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>087dfbf3dbd613003d1dd001cf9619cd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed259100000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>1bac73b371d61300081a62fc6a6c74e7</update_guid>
+<update_guid_history>1bac73b371d61300081a62fc6a6c74e7:-1618597457</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_link_57ac73b3dbd613003d1dd001cf9619fd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="DELETE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;life-ring&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Need help with one of your products or services?&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;d7ac73b3dbd613003d1dd001cf9619ed&lt;/sp_column&gt;&lt;sp_page display_value="ocio_create_incident"&gt;c69506f6dbb113003d1dd001cf961946&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-02 04:47:26&lt;/sys_created_on&gt;&lt;sys_id&gt;57ac73b3dbd613003d1dd001cf9619fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_57ac73b3dbd613003d1dd001cf9619fd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-02 04:47:26&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=57ac73b3dbd613003d1dd001cf9619fd"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1529051001</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>0c7dfbf3dbd613003d1dd001cf9619cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed3bc780000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance with Link</type>
+<update_domain>global</update_domain>
+<update_guid>1d0dbf33dad6130046cec650858f1ec7</update_guid>
+<update_guid_history>1d0dbf33dad6130046cec650858f1ec7:-1529051001,97ac73b345d613005a04cfb0083104fe:-1768583405</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_d7ac73b3dbd613003d1dd001cf9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">1fac73b3dbd613003d1dd001cf9619e6</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>d7ac73b3dbd613003d1dd001cf9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_d7ac73b3dbd613003d1dd001cf9619ed</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1265876265</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>407dfbf3dbd613003d1dd001cf9619cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed2596a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>2</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>93ac73b331d6130054d289767c975dee</update_guid>
+<update_guid_history>93ac73b331d6130054d289767c975dee:-1265876265</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_17ac73b3dbd613003d1dd001cf9619e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Copy of OCIO Products &amp; Services Catalogue1 (1) - Container 2">cbac73b3dbd613003d1dd001cf9619de</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>17ac73b3dbd613003d1dd001cf9619e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_17ac73b3dbd613003d1dd001cf9619e0</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>1518183951</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>447dfbf3dbd613003d1dd001cf9619cd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed258ab0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>13ac73b341d613002f3157991bb771e1</update_guid>
+<update_guid_history>13ac73b341d613002f3157991bb771e1:1518183951</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_d7ac73b3dbd613003d1dd001cf9619fb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;&amp;#13;
+&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;d7ac73b3dbd613003d1dd001cf9619ed&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-02 04:47:26&lt;/sys_created_on&gt;&lt;sys_id&gt;d7ac73b3dbd613003d1dd001cf9619fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;How to order a service&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d7ac73b3dbd613003d1dd001cf9619fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-02 04:47:26&lt;/sys_updated_on&gt;&lt;title&gt;How to order a service&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;div class=\"panel panel-primary\"&gt;\n&lt;div class=\"panel-heading\"&gt;How to order a service&lt;/div&gt;\n&lt;div class=\"panel-body\"&gt;\n&lt;h1 class=\"number-icon\"&gt;①&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Find&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;Browse the catalogue or use the search bar to find the product or service you are looking for.&lt;/p&gt;\n&lt;h1 class=\"number-icon\"&gt;②&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Request&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;Click the \"Request\" button on the service you want, then fill out detailed information about the request.&lt;/p&gt;\n&lt;h1 class=\"number-icon\"&gt;③&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Add to Cart&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;After you've added the details to your service request, click the \"Add to Cart\" button.&lt;/p&gt;\n&lt;h1 class=\"number-icon\"&gt;④&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Check Out&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;When you're ready, click the \"Cart\" link in the toolbar and follow the checkout steps to complete your order.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;",
+		"displayValue": "&lt;div class=\"panel panel-primary\"&gt;\n&lt;div class=\"panel-heading\"&gt;How to order a service&lt;/div&gt;\n&lt;div class=\"panel-body\"&gt;\n&lt;h1 class=\"number-icon\"&gt;①&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Find&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;Browse the catalogue or use the search bar to find the product or service you are looking for.&lt;/p&gt;\n&lt;h1 class=\"number-icon\"&gt;②&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Request&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;Click the \"Request\" button on the service you want, then fill out detailed information about the request.&lt;/p&gt;\n&lt;h1 class=\"number-icon\"&gt;③&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Add to Cart&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;After you've added the details to your service request, click the \"Add to Cart\" button.&lt;/p&gt;\n&lt;h1 class=\"number-icon\"&gt;④&lt;/h1&gt;\n&lt;h4 class=\"number-heading\"&gt;Check Out&lt;/h4&gt;\n&lt;p class=\"number-content\"&gt;When you're ready, click the \"Cart\" link in the toolbar and follow the checkout steps to complete your order.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d7ac73b3dbd613003d1dd001cf9619fb"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>754363151</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>487dfbf3dbd613003d1dd001cf9619cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed2598e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>How to order a service</target_name>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1bac73b30ad6130073b014fe542c64fc</update_guid>
+<update_guid_history>1bac73b30ad6130073b014fe542c64fc:754363151</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_1fac73b3dbd613003d1dd001cf9619eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>5</order><roles/><short_description/><size>md</size><sp_column display_value="1">17ac73b3dbd613003d1dd001cf9619e8</sp_column><sp_widget/><sys_class_name>sp_instance</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>1fac73b3dbd613003d1dd001cf9619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_1fac73b3dbd613003d1dd001cf9619eb</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=1fac73b3dbd613003d1dd001cf9619eb"/></record_update>]]></payload>
+<payload_hash>484474091</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>4c7dfbf3dbd613003d1dd001cf9619cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed259570000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1fac73b3a0d613003daa2ef49f0603ec</update_guid>
+<update_guid_history>1fac73b3a0d613003daa2ef49f0603ec:484474091</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_0fac73b3dbd613003d1dd001cf9619d9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Copy of OCIO Products &amp; Services Catalogue1 (1) - Container 1">83ac73b3dbd613003d1dd001cf9619d8</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>0fac73b3dbd613003d1dd001cf9619d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_0fac73b3dbd613003d1dd001cf9619d9</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-1896098499</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>807dfbf3dbd613003d1dd001cf9619cd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed258560000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>0bac73b3b9d61300a54044cad99e00da</update_guid>
+<update_guid_history>0bac73b3b9d61300a54044cad99e00da:-1896098499</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_9fac73b3dbd613003d1dd001cf9619e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">17ac73b3dbd613003d1dd001cf9619e8</sp_column><sp_widget display_value="OCIO SC Browse Categories">b3f8561edb4213003d1dd001cf96194f</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>9fac73b3dbd613003d1dd001cf9619e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_9fac73b3dbd613003d1dd001cf9619e9</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=9fac73b3dbd613003d1dd001cf9619e9"/></record_update>]]></payload>
+<payload_hash>1332180411</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>847dfbf3dbd613003d1dd001cf9619cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed259400000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>13ac73b364d61300819c3e2c076201eb</update_guid>
+<update_guid_history>13ac73b364d61300819c3e2c076201eb:1332180411</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_d3ac73b3dbd613003d1dd001cf9619e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>OCIO Products &amp; Services Catalogue - Container 3</name><order>3</order><sp_page display_value="copy_of_ocio_products_services_catalogue">07ac73b3dbd613003d1dd001cf9619d6</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>d3ac73b3dbd613003d1dd001cf9619e5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>OCIO Products &amp; Services Catalogue - Container 3</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_d3ac73b3dbd613003d1dd001cf9619e5</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:54</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>1689729152</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>887dfbf3dbd613003d1dd001cf9619cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed2c4dc0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>OCIO Products &amp; Services Catalogue - Container 3</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>8eccb73310d61300472a56a6ff30e8ac</update_guid>
+<update_guid_history>8eccb73310d61300472a56a6ff30e8ac:1689729152,dfac73b31bd6130022ab6161b9468be5:2005281894</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_1fac73b3dbd613003d1dd001cf9619e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">17ac73b3dbd613003d1dd001cf9619e0</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>1fac73b3dbd613003d1dd001cf9619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_1fac73b3dbd613003d1dd001cf9619e1</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-537800516</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>8c7dfbf3dbd613003d1dd001cf9619ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed258bf0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>1bac73b37fd61300c5d87af2a49835e2</update_guid>
+<update_guid_history>1bac73b37fd61300c5d87af2a49835e2:-537800516</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_97ac73b3dbd613003d1dd001cf9619e3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1fac73b3dbd613003d1dd001cf9619e1&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-02 04:47:26&lt;/sys_created_on&gt;&lt;sys_id&gt;97ac73b3dbd613003d1dd001cf9619e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_97ac73b3dbd613003d1dd001cf9619e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-02 04:47:26&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h2&gt;Products &amp;amp; Services Catalogue&lt;/h2&gt;",
+		"displayValue": "&lt;h2&gt;Products &amp;amp; Services Catalogue&lt;/h2&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=97ac73b3dbd613003d1dd001cf9619e3"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1159822831</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>c07dfbf3dbd613003d1dd001cf9619cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed258df0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1bac73b33dd61300670191325ec68de4</update_guid>
+<update_guid_history>1bac73b33dd61300670191325ec68de4:1159822831</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_cbac73b3dbd613003d1dd001cf9619de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>ocio-page-header</class_name><container_class_name/><name>OCIO Products &amp; Services Catalogue - Container 2</name><order>2</order><sp_page display_value="copy_of_ocio_products_services_catalogue">07ac73b3dbd613003d1dd001cf9619d6</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>cbac73b3dbd613003d1dd001cf9619de</sys_id><sys_mod_count>1</sys_mod_count><sys_name>OCIO Products &amp; Services Catalogue - Container 2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_cbac73b3dbd613003d1dd001cf9619de</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:54</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>761129557</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>c47dfbf3dbd613003d1dd001cf9619cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed2c4cb0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>OCIO Products &amp; Services Catalogue - Container 2</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>c6ccb7335dd613007596a85f534e42ab</update_guid>
+<update_guid_history>c6ccb7335dd613007596a85f534e42ab:761129557,c7ac73b3ced613007917b7255f74b4df:1763003643</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_17ac73b3dbd613003d1dd001cf9619e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>9</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">1fac73b3dbd613003d1dd001cf9619e6</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>17ac73b3dbd613003d1dd001cf9619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_17ac73b3dbd613003d1dd001cf9619e8</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:26</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1292919281</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>c87dfbf3dbd613003d1dd001cf9619ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed259270000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>13ac73b321d613002f7e219c8b30f1e9</update_guid>
+<update_guid_history>13ac73b321d613002f7e219c8b30f1e9:-1292919281</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_07ac73b3dbd613003d1dd001cf9619d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css>&#13;
+</css><draft>false</draft><dynamic_title_structure>Products &amp; Services Catalogue</dynamic_title_structure><id>ocio_products_services_catalogue</id><internal>false</internal><public>false</public><roles/><short_description>Products &amp; Services Catalogue</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-02 04:47:26</sys_created_on><sys_id>07ac73b3dbd613003d1dd001cf9619d6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ocio_products_services_catalogue</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_07ac73b3dbd613003d1dd001cf9619d6</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-02 04:47:54</sys_updated_on><title>OCIO Products &amp; Services Catalogue</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=07ac73b3dbd613003d1dd001cf9619d6"/></record_update>]]></payload>
+<payload_hash>152422056</payload_hash>
+<remote_update_set display_value="OCIO SR Products and Service Catalogue Page">047dfbf3dbd613003d1dd001cf9619ca</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-02 04:50:46</sys_created_on>
+<sys_id>cc7dfbf3dbd613003d1dd001cf9619cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bed2c4fb0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-02 04:50:46</sys_updated_on>
+<table/>
+<target_name>ocio_products_services_catalogue</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>0accf3b39ed61300f00fbc1be00f8840</update_guid>
+<update_guid_history>0accf3b39ed61300f00fbc1be00f8840:152422056,87ac73b304d6130063128225918bb5d7:1785505937</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

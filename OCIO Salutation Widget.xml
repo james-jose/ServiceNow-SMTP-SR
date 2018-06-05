@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-05-31 19:02:47">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO Salutation Widget</description>
+<inserted/>
+<name>OCIO Salutation Widget</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d4577df7dbb113003d1dd001cf961937</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-05-31 19:02:47</sys_created_on>
+<sys_id>554da86fdb5213003d1dd001cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-05-31 19:02:47</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_f9b26ea4db9213003d1dd001cf961947</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="DELETE"><active>true</active><attributes/><cat_item display_value="Reset Voice Mail Password-ocio">9a09a392dba513003d1dd001cf96196d</cat_item><category/><choice_direction>down</choice_direction><choice_field>name</choice_field><choice_table>sys_user</choice_table><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>true</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>true</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>test</name><order/><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>test</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-05-22 19:54:47</sys_created_on><sys_id>f9b26ea4db9213003d1dd001cf961947</sys_id><sys_mod_count>2</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_f9b26ea4db9213003d1dd001cf961947</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-05-22 19:58:37</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=f9b26ea4db9213003d1dd001cf961947"/><fx_price action="delete_multiple" query="id=f9b26ea4db9213003d1dd001cf961947"/></record_update>]]></payload>
+<payload_hash>1806281581</payload_hash>
+<remote_update_set display_value="OCIO Salutation Widget">554da86fdb5213003d1dd001cf9619d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-05-31 19:02:47</sys_created_on>
+<sys_id>1d4da86fdb5213003d1dd001cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163896fe00b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-05-31 19:02:47</sys_updated_on>
+<table/>
+<target_name>test</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>e704aa681b9213000f95e284e1b76438</update_guid>
+<update_guid_history>e704aa681b9213000f95e284e1b76438:1806281581,9bb3e26840921300b273d68cd4ea99db:587710568,8f03ae28489213002524667d81780f55:-1944236382,dfd22aa403921300963b458b1c91e19e:-1502913284</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_c0236e20db9213003d1dd001cf961978</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="DELETE"><active>true</active><attributes/><cat_item display_value="Reset Voice Mail Password-ocio">9a09a392dba513003d1dd001cf96196d</cat_item><category/><choice_direction>down</choice_direction><choice_field>name</choice_field><choice_table>sys_user</choice_table><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>true</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>true</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>test</name><order/><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>test</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-05-22 19:56:45</sys_created_on><sys_id>c0236e20db9213003d1dd001cf961978</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_c0236e20db9213003d1dd001cf961978</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-05-22 19:56:45</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=c0236e20db9213003d1dd001cf961978"/><fx_price action="delete_multiple" query="id=c0236e20db9213003d1dd001cf961978"/></record_update>]]></payload>
+<payload_hash>1806281581</payload_hash>
+<remote_update_set display_value="OCIO Salutation Widget">554da86fdb5213003d1dd001cf9619d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-05-31 19:02:47</sys_created_on>
+<sys_id>594da86fdb5213003d1dd001cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163896e34020000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-05-31 19:02:47</sys_updated_on>
+<table/>
+<target_name>test</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>f0a366682c921300412db603fc6b19a0</update_guid>
+<update_guid_history>f0a366682c921300412db603fc6b19a0:1806281581,48532e2843921300a362a98b9cd954f7:2021598440</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_c087bdb3dbf113003d1dd001cf961915</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function() {
+  /* widget controller */
+  var c = this;
+	
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;ocio_salutation&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;OCIO Salutation&lt;/name&gt;&lt;option_schema&gt;[]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  /*options.title = options.title || gs.getMessage("Frequently requested services");*/
+	var d = new Date();
+var sGreeting='';
+/* hour is before noon */
+if ( d.getHours() &lt; 12 )
+{
+sGreeting = "Good morning";
+}
+else /* Hour is from noon to 5pm (actually to 5:59 pm) */
+if ( d.getHours() &gt;= 12 &amp;&amp; d.getHours() &lt;= 17 )
+{
+sGreeting = "Good afternoon";
+}
+else /* the hour is after 5pm, so it is between 6pm and midnight */
+if ( d.getHours() &gt; 17 &amp;&amp; d.getHours() &lt;= 24 )
+{
+sGreeting = "Good evening";
+}
+else /* the hour is not between 0 and 24, so something is wrong */
+{
+sGreeting = "Hello";
+}
+	
+	// Collect the User Info to Display Users First Name
+data.sysUserID = gs.getUserID();
+if (!data.sysUserID)
+data.sysUserID = gs.getUser().getID();
+var sysUserGR = new GlideRecord("sys_user");
+data.userExists = sysUserGR.get(data.sysUserID);
+if (data.userExists) {
+data.name = sGreeting +", "+ sysUserGR.getValue("first_name");
+} else {
+data.name = sGreeting +", "+ "User";
+}
+
+	
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-07 22:34:12&lt;/sys_created_on&gt;&lt;sys_id&gt;c087bdb3dbf113003d1dd001cf961915&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO Salutation&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_c087bdb3dbf113003d1dd001cf961915&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-25 20:13:59&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="row" &gt;
+  &lt;!--div class="col-sm-6"!--&gt;
+    &lt;div class="panel panel-primary" &gt;
+      &lt;div class="panel-heading" &gt;&lt;h3&gt;&lt;strong&gt;{{data.name}}&lt;/strong&gt;&lt;/h3&gt;
+        &lt;!--h4&gt;{{::options.title}}&lt;/h4&gt;
+        &lt;h4&gt;{{::options.description}}&lt;/h4 --&gt;
+      &lt;/div&gt;    
+   &lt;/div&gt;
+ &lt;/div&gt;  
+
+
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1183019513</payload_hash>
+<remote_update_set display_value="OCIO Salutation Widget">554da86fdb5213003d1dd001cf9619d1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-05-31 19:02:47</sys_created_on>
+<sys_id>dd4da86fdb5213003d1dd001cf9619d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16398efc2c90000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-05-31 19:02:47</sys_updated_on>
+<table/>
+<target_name>OCIO Salutation</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>b504ce2918921300c7b343a846af0000</update_guid>
+<update_guid_history>b504ce2918921300c7b343a846af0000:1183019513,1ec342690b921300640f6c17a0402abf:852907010,a545f6e0d8d213000a607dfd566e73fd:701775459,989476a0ecd2130037783bf721f013d6:689464334,843c2a6cab92130047704acfd61a3e13:-983958371,a60caa6c57921300b6ac0e4aaf38ea6f:-1192301963,42db6a686b9213001bffe1e4e070551b:-1810521495,25ab666c83921300e8db7fbe0d9dde18:1985635902,cf6b626c57921300b65b70ba4f5501ff:1621757277,d8bae268ee921300139b0f9f4c12c447:1154509604,92bf022cb552130048273e05f81efbf6:1559295779,196f4a6c91521300a7587fa089f55f35:844731577,9f5f8a2c64521300ae1d4b073a856ad8:-213257623,120fcae8835213003d96ccae7c413345:1221286575,ebce022c19521300b248cff3a708efef:420596073,275bf5eca2121300b27d6c5e501a12e5:832060229,b7d935e892121300f0df838b0414355e:-1405485798,6749fd2cef121300697da5a5be35d257:-907777056,8629f92c2c1213004de46a18a1980bc2:-564231349,4078396c62121300a9b614f17eace712:-155758643,15577d681a12130037de7f2814aab503:-1789633683,1927b56cf0121300c05cde1ad8c6261d:-47423999,69e539a0ce121300c2fc457682c91311:-999341295,3845b5e4fc121300ded65b846d7d0671:-214413060,4f63b1e47312130020bc0fc0098d1c40:1948833368,daa2b5e4d5121300a6e7494f11ea9667:703966973,9272ca3b46f11300793ebfab6f75de06:14785987,fc428eb37ef113005ef963359d14a5d8:962381919,9902c63bcbf1130092c2a144c4645146:1685054337,e581c23beaf113009375476e31f16332:-1491422172,a0f08ef7e7f113005e68d67f6b5ff56f:675410235,5090867738f1130021278b497b35848a:2070591356,5b2cf577bdf11300954eedd5fd17d89d:-691447250,2f0cb57739f11300e50d4abb6c4e0982:-233244343,12db3137bef11300caccd9d22608922c:-506604167,e15bfd3757f113002af0c5d22ff0c8e7:375907999,674b31ffd5b1130014b17d4f797de945:2106189506,55c8fd3326f113004e802ed7624fa20d:-401246825,c087bdb3e2f113002d778e901d69f117:-1317055005</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-03 22:58:24">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO Service Request Theme for the Service Portal</description>
+<inserted/>
+<name>OCIO SR Theme</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>0f9256f7dbd61300f72fe04a48961955</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 22:58:23</sys_created_on>
+<sys_id>a5ffb028db2e5300f72fe04a48961928</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 22:58:23</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_3186d6f7dbd61300f72fe04a4896198b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>ocioSR.css</name><source>local</source><sp_css display_value="ocioSR.css">ecf5927bdbd61300f72fe04a489619f9</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 21:21:09</sys_created_on><sys_id>3186d6f7dbd61300f72fe04a4896198b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ocioSR.css</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_include_3186d6f7dbd61300f72fe04a4896198b</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 21:22:03</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+<payload_hash>822527520</payload_hash>
+<remote_update_set display_value="OCIO SR Theme">a5ffb028db2e5300f72fe04a48961928</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 22:58:23</sys_created_on>
+<sys_id>21ffb028db2e5300f72fe04a48961929</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bd3a96060000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 22:58:23</sys_updated_on>
+<table/>
+<target_name>ocioSR.css</target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>f6b65a3bdcd613004c39b41620b644d6</update_guid>
+<update_guid_history>f6b65a3bdcd613004c39b41620b644d6:822527520,b186d6f76ed6130083006c017e9ee58c:-1947516534</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_ecf5927bdbd61300f72fe04a489619f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>.navbar-brand img {&#13;
+  max-height: 40px !important;&#13;
+}&#13;
+.navbar {&#13;
+  padding: 0 1em;&#13;
+}&#13;
+.ocio-home-banner {&#13;
+  padding: 8em 0;&#13;
+  background-position: top center !important;&#13;
+}&#13;
+.ocio-home-banner .btn, .ocio-home-banner input {&#13;
+  height: 3em;&#13;
+  line-height: 2.8;&#13;
+  font-size: 18px;&#13;
+  padding: 0 1em;&#13;
+  box-shadow: 5px 10px 20px #80808026;&#13;
+}&#13;
+input:focus {&#13;
+  border: 1px solid #003366;&#13;
+}&#13;
+h1, h2, h3, h4, h5, h6, p.ocio-subheading {&#13;
+  color: #003366&#13;
+}&#13;
+p.ocio-subheading {&#13;
+  font-size: 18px;&#13;
+  margin-bottom: 2em;&#13;
+}&#13;
+h1 {&#13;
+      margin-bottom: 0.5em;&#13;
+}&#13;
+.ocio-home-content {&#13;
+  margin-top: -7em;&#13;
+}&#13;
+.panel-primary {&#13;
+  border: none;&#13;
+  box-shadow: 5px 10px 20px #80808026;&#13;
+}&#13;
+.panel-body {&#13;
+  border: 1px solid #e8e8e8;&#13;
+  padding: 2em;&#13;
+}&#13;
+.item-short-desc {&#13;
+  margin-bottom: 1em;&#13;
+}&#13;
+.ocio-page-header h2 {&#13;
+  margin-bottom: 1em;&#13;
+    margin-top: 1.5em;&#13;
+}&#13;
+.number-icon {&#13;
+  display: block;&#13;
+  margin: 0;&#13;
+  float: left;&#13;
+    margin-right: 0.2em;&#13;
+    vertical-align: middle;&#13;
+}&#13;
+.number-heading {&#13;
+  margin-top: 0.5em;&#13;
+}&#13;
+.number-heading ~ .number-heading {&#13;
+  padding-top: 0.5em;&#13;
+}&#13;
+.number-content {&#13;
+  overflow:hidden;&#13;
+  margin-bottom: 2em;&#13;
+}</css><name>ocioSR.css</name><sys_class_name>sp_css</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 21:21:09</sys_created_on><sys_id>ecf5927bdbd61300f72fe04a489619f9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ocioSR.css</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_ecf5927bdbd61300f72fe04a489619f9</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 21:22:03</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>-471428744</payload_hash>
+<remote_update_set display_value="OCIO SR Theme">a5ffb028db2e5300f72fe04a48961928</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 22:58:23</sys_created_on>
+<sys_id>6dffb028db2e5300f72fe04a48961928</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bd3a96200000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 22:58:23</sys_updated_on>
+<table/>
+<target_name>ocioSR.css</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>fab65a3b16d61300b8b547c4acf952d7</update_guid>
+<update_guid_history>fab65a3b16d61300b8b547c4acf952d7:-471428744,b186d6f733d61300bf3ac94c0587d88d:-1860644722</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_theme_c9139af7dbd61300f72fe04a489619e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables>$sp-logo-margin-x: 		15px !default;&#13;
+$sp-tagline-color:		$text-color !default;&#13;
+$navbar-inverse-bg: 	#3a3f51 !default;&#13;
+$navbar-inverse-link-color: #bdc0c4 !default;&#13;
+$navbar-inverse-link-hover-color: #ffffff !default;&#13;
+$body-bg: 				#f0f3f4 !default;&#13;
+$dropdown-link-disabled-color: #ccc;</css_variables><footer/><footer_fixed>false</footer_fixed><header display_value="OCIO SR Header">320156bfdb9213003d1dd001cf9619ca</header><name>OCIO SR Theme</name><navbar_fixed>true</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 21:11:34</sys_created_on><sys_id>c9139af7dbd61300f72fe04a489619e2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>OCIO SR Theme</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_theme_c9139af7dbd61300f72fe04a489619e2</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 21:23:55</sys_updated_on></sp_theme></record_update>]]></payload>
+<payload_hash>-1934961228</payload_hash>
+<remote_update_set display_value="OCIO SR Theme">a5ffb028db2e5300f72fe04a48961928</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 22:58:23</sys_created_on>
+<sys_id>a5ffb028db2e5300f72fe04a48961929</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bd3c4b910000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 22:58:23</sys_updated_on>
+<table/>
+<target_name>OCIO SR Theme</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>56275a3bfdd61300f92654737e612502</update_guid>
+<update_guid_history>56275a3bfdd61300f92654737e612502:-1934961228,15549e3750d613004c0ea5f4986c6e3b:-1735204801</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_5d57d6f7dbd61300f72fe04a48961990</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order/><sp_css_include display_value="OCIO SR CSS">fc371af7dbd61300f72fe04a4896197f</sp_css_include><sp_theme display_value="OCIO SR Theme">c9139af7dbd61300f72fe04a489619e2</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 21:24:40</sys_created_on><sys_id>5d57d6f7dbd61300f72fe04a48961990</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO SR CSS.OCIO SR Theme</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_5d57d6f7dbd61300f72fe04a48961990</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 21:24:40</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>149257899</payload_hash>
+<remote_update_set display_value="OCIO SR Theme">a5ffb028db2e5300f72fe04a48961928</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 22:58:23</sys_created_on>
+<sys_id>a9ffb028db2e5300f72fe04a48961928</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bd3cfb920000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 22:58:23</sys_updated_on>
+<table/>
+<target_name>OCIO SR CSS.OCIO SR Theme</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>1557d6f71fd61300c79f993f9e3e8c92</update_guid>
+<update_guid_history>1557d6f71fd61300c79f993f9e3e8c92:149257899</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_fc371af7dbd61300f72fe04a4896197f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>OCIO SR CSS</name><source>local</source><sp_css display_value="ocioSR.css">ecf5927bdbd61300f72fe04a489619f9</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 21:24:40</sys_created_on><sys_id>fc371af7dbd61300f72fe04a4896197f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO SR CSS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_include_fc371af7dbd61300f72fe04a4896197f</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 21:24:40</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+<payload_hash>-1237775856</payload_hash>
+<remote_update_set display_value="OCIO SR Theme">a5ffb028db2e5300f72fe04a48961928</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-03 22:58:23</sys_created_on>
+<sys_id>e1ffb028db2e5300f72fe04a48961929</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163bd3cfb6e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-03 22:58:23</sys_updated_on>
+<table/>
+<target_name>OCIO SR CSS</target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>9157d6f786d61300a2b084a8de597190</update_guid>
+<update_guid_history>9157d6f786d61300a2b084a8de597190:-1237775856</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

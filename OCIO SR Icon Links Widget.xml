@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-05-31 18:40:45">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Widget with Icon Links  to navigate to  various pages</description>
+<inserted/>
+<name>OCIO SR Icon Links Widget</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>28ed5fb8db5213003d1dd001cf961976</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-05-31 18:40:45</sys_created_on>
+<sys_id>6a38606bdb5213003d1dd001cf961981</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-05-31 18:40:45</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_2f5f1bf8db5213003d1dd001cf96191e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function() {  /* widget controller */  var c = this;}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.panel {
+    margin-top: 2px; 
+}
+a.top_icon{
+   background-color: #f5f5f5;
+
+}
+.list-group-item {
+  padding: 15;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.iconlink a label,h2 {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+/* TOP ICON ---------- */
+
+a.top_icon {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+a.top_icon .fa {
+  display: block;
+  text-align: center;
+}
+
+/* CIRCLE ICON ---------- */
+
+a.circle_icon {
+  display: block;
+  padding: 20px 0px 20px 70px;
+  position: relative;
+}
+
+a.circle_icon .fa {
+  position:absolute;
+  left: 0px;
+  top: 10px;
+}
+
+/* COLOR BOX ---------- */
+
+a.color_box {
+  display: block;
+  position: relative;
+  padding: 20px 20px 20px 82px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+a.color_box .fa {
+  position:absolute;
+  left: 20px;
+  top: 20px;
+  width:42px;
+  text-align: center;
+}
+
+.icon-link-background-primary {
+  background-color: $brand-primary;
+}
+
+.icon-link-background-info {
+  background-color: $brand-info;
+}
+
+.icon-link-background-success {
+  background-color: $brand-success;
+}
+
+.icon-link-background-warning {
+  background-color: $brand-warning;
+}
+
+.icon-link-background-danger {
+  background-color: $brand-danger;
+}
+
+.icon-link-background-default {
+  background-color: $brand-primary;
+}
+
+.text-primary {
+  color: $brand-primary;
+  
+  &amp;amp;:hover {
+    color: darken($brand-primary, 20%);
+  }
+}
+
+.text-info {
+  color: $brand-info;
+  
+  &amp;amp;:hover {
+    color: darken($brand-info, 20%);
+  }
+}
+
+.text-success {
+  color: $brand-success;
+  
+  &amp;amp;:hover {
+    color: darken($brand-success, 20%);
+  }
+}
+
+.text-warning {
+  color: $brand-warning;
+  
+  &amp;amp;:hover {
+    color: darken($brand-warning, 20%);
+  }
+}
+
+.text-danger {
+  color: $brand-danger;
+  
+  &amp;amp;:hover {
+    color: darken($brand-danger, 20%);
+  }
+}
+
+.text-default {
+  color: $brand-primary;
+  
+  &amp;amp;:hover {
+    color: darken($brand-primary, 20%);
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;ocio_sr_icon_links&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;OCIO SR Icon Links&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    var options = [
+        {link_template: "Top Icon", title: "View my dashboard", short_description: "Access service request dashboard", page: "?id=ocio_dashboard"}
+        //,{link_template: "Top Icon", title: "Order a product or service", short_description: "Request new equipment, software or an IT service", glyph: "shopping-cart", page: "?id=ocio_products_services_catalogue"}
+			//,{link_template: "Top Icon", title: "Fix something", short_description: "Report equipment or services that are not working", glyph: "cogs", page: "?id=ocio_create_incident"}
+    ];
+
+	  data.icons1 = [];
+    for (var i in options) {
+			data.icons1[i] = options[i];
+    }
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-23 18:57:38&lt;/sys_created_on&gt;&lt;sys_id&gt;2f5f1bf8db5213003d1dd001cf96191e&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR Icon Links&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_2f5f1bf8db5213003d1dd001cf96191e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-24 22:49:38&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-primary"&gt;
+  &lt;div class="panel-heading"&gt;I want to...&lt;/div&gt;
+ 
+       &lt;div class="panel-body" ng-repeat="x in c.data.icons1"&gt;
+         &lt;div class="iconlink"&gt; 
+            &lt;!--// Top Icon --&gt;
+            &lt;a ng-if="::(x.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::x.page}}" class="top_icon {{::x.class_name}}" target="{{::x.target}}"&gt;
+               &lt;div class="m-b fa fa-{{::x.glyph}} fa-4x {{::options.class_name}} text-{{::options.color}}"&gt;&lt;/div&gt;
+               &lt;h4&gt;{{::x.title}}&lt;/h4&gt;
+               &lt;span class="text-muted"&gt;{{::x.short_description}}&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+       &lt;/div&gt;
+    &lt;/div&gt;    
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>260588986</payload_hash>
+<remote_update_set display_value="OCIO SR Icon Links Widget">6a38606bdb5213003d1dd001cf961981</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-05-31 18:40:45</sys_created_on>
+<sys_id>6e38606bdb5213003d1dd001cf961981</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1639457e7870000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-05-31 18:40:45</sys_updated_on>
+<table/>
+<target_name>OCIO SR Icon Links</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>801e991d40d213005c0b8b1aaf5cbedf</update_guid>
+<update_guid_history>801e991d40d213005c0b8b1aaf5cbedf:260588986,d396d8d9fa121300571f261ea85bd801:1887014738,84436bfcb45213009aaaf410a5ef0589:1759829604,ca9267fc055213007e6c0843ecbdd019:83243696,de42a3fc86521300468ae5fe3c67e632:-322473769,3841e7bc33521300f677eea6e9fd45f2:1047497878,e35f1b7ce252130036f5ede1e92b6525:-1506478879</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
