@@ -1,15 +1,15 @@
 # ServiceNow-SMTP-SR
 Updatesets for SMTP Service Request 
 
+Note: You might get error while transferring menu items with update set. Solution:  Just 'accept remote update' and continue
 
- 
- 
+For more details visit https://community.servicenow.com/community?id=community_question&sys_id=3af647e5db1cdbc01dcaf3231f9619f4 
  
   List
   of Update Set
  
  
-  Migration
+  
   Sequence
   Update Set Name
  
