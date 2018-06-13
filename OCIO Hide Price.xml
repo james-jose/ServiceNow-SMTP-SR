@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-08 23:03:36">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>SB-171 Portal: Product&amp;Services - list view - remove price</description>
+<inserted/>
+<name>OCIO  Hide Price</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>66ffa28edba21300f72fe04a48961925</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-08 23:03:36</sys_created_on>
+<sys_id>f2113e8edba21300f72fe04a48961940</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-08 23:03:36</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_f5dad5760a0a0b5b00f1e17dc02416c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>Never show prices=never,Show only non-zero prices=non_zero,Always show prices=always</choices><description>When to show prices and sub-totals on the service catalog cart (overrides sc_layout record settings):</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.sc.price.display</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>glide.maint</sys_created_by><sys_created_on>2009-08-07 17:14:35</sys_created_on><sys_id>f5dad5760a0a0b5b00f1e17dc02416c0</sys_id><sys_mod_count>6</sys_mod_count><sys_name>glide.sc.price.display</sys_name><sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">3a66f7b314a11300651763392430a4f2</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_f5dad5760a0a0b5b00f1e17dc02416c0</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-08 23:01:04</sys_updated_on><type>choicelist</type><value>never</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=f5dad5760a0a0b5b00f1e17dc02416c0"/></record_update>]]></payload>
+<payload_hash>2104708568</payload_hash>
+<remote_update_set display_value="OCIO  Hide Price">f2113e8edba21300f72fe04a48961940</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-08 23:03:36</sys_created_on>
+<sys_id>f6113e8edba21300f72fe04a48961940</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163e1a1c28d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-08 23:03:36</sys_updated_on>
+<table/>
+<target_name>glide.sc.price.display</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>e5803a8eeba21300f7a13999637edcb6</update_guid>
+<update_guid_history>e5803a8eeba21300f7a13999637edcb6:2104708568,e9ef264ed1a21300b2a080d0ce1dbda6:-678045022,f06a260adea213006be75f6a0122c607:2104708568,fc6a260a36a21300a8eac030cd7e6205:-678045022</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
