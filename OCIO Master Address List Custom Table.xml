@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-13 01:08:19">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<application_name>OCIO Master Address List Custom Table</application_name>
+<application_scope>x_215090_ocio_madr</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>GAL Update - List of value
+http://jira.im.gov.bc.ca/browse/SB-200</description>
+<inserted/>
+<name>OCIO Master Address List Custom Table</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>568d8e0fdbe213003d1dd001cf9619d6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>60043353db2613003d1dd001cf9619fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_d659710f4fe213006e76ff6f9310c7e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>OCIO Master Address List Imports</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_215090_ocio_madr_ocio</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d659710f4fe213006e76ff6f9310c7e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO Master Address List Imports</sys_name><sys_overrides/><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_app_module_d659710f4fe213006e76ff6f9310c7e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:55</sys_updated_on><timeline_page/><title>OCIO Master Address List Imports</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>78522118</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>2c043353db2613003d1dd001cf9619fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>5e59710f1be21300b190e86a581181e4</update_guid>
+<update_guid_history>5e59710f1be21300b190e86a581181e4:78522118</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_u_postalcode</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_postalcode" table="x_215090_ocio_madr_ocio"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=POSTALCODE,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>POSTALCODE</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_postalcode</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_215090_ocio_madr_ocio</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>d059fdcb4fe213006e76ff6f9310c7c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>POSTALCODE</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_dictionary_x_215090_ocio_madr_ocio_u_postalcode</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>16104762</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>30047353db2613003d1dd001cf961900</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports.POSTALCODE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e459fdcba3e213006e31a86d625599d2</update_guid>
+<update_guid_history>e459fdcba3e213006e31a86d625599d2:16104762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_9859fdcb4fe213006e76ff6f9310c7cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_215090_ocio_madr_ocio</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>9859fdcb4fe213006e76ff6f9310c7cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>ua_table_licensing_config_9859fdcb4fe213006e76ff6f9310c7cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>646433028</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>30047353db6613003d1dd001cf9619b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>x_215090_ocio_madr_ocio</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>9459fdcb37e213007cba9373d19a10cd</update_guid>
+<update_guid_history>9459fdcb37e213007cba9373d19a10cd:646433028</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_sequence</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_sequence" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Sequence&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_sequence&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;128&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:24:36&lt;/sys_created_on&gt;&lt;sys_id&gt;8427f58b4fe213006e76ff6f9310c70c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sequence&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_sequence&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:24:36&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1481407118</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>34043353db2613003d1dd001cf9619ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Sequence</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>f137398b0ce21300ff4fc9c9c93fec43</update_guid>
+<update_guid_history>f137398b0ce21300ff4fc9c9c93fec43:-1481407118</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_92a6f94b4fe213006e76ff6f9310c7c8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_madr_ocio_master_address_list_custom_table</description><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>92a6f94b4fe213006e76ff6f9310c7c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_security_acl_92a6f94b4fe213006e76ff6f9310c7c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1855457803</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>34047353db2613003d1dd001cf961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>52a6f94b3fe21300913f9ba4deb4efca</update_guid>
+<update_guid_history>52a6f94b3fe21300913f9ba4deb4efca:-1855457803</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_b1e69313db2613003d1dd001cf96191a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="OCIO Master Address List"&gt;fd69f10f4fe213006e76ff6f9310c741&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_postal&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_215090_ocio_madr_ocio&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-12 23:01:36&lt;/sys_created_on&gt;&lt;sys_id&gt;b1e69313db2613003d1dd001cf96191a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_postal&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_b1e69313db2613003d1dd001cf96191a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-12 23:01:36&lt;/sys_updated_on&gt;&lt;target_field&gt;u_postal&lt;/target_field&gt;&lt;target_table&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>454611579</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>34047353db6613003d1dd001cf9619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f63bada00000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>u_postal</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>e407d313282613006e5d0d3a96f36268</update_guid>
+<update_guid_history>e407d313282613006e5d0d3a96f36268:454611579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:22:11&lt;/sys_created_on&gt;&lt;sys_id&gt;aea6f94b4fe213006e76ff6f9310c7e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:22:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1538217191</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>38043353db2613003d1dd001cf9619fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>aea63d4bb7e21300d59a1a27655e1f05</update_guid>
+<update_guid_history>aea63d4bb7e21300d59a1a27655e1f05:1538217191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_street_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_street" label="Street" language="en" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"><sys_documentation action="INSERT_OR_UPDATE"><element>u_street</element><help/><hint/><label>Street</label><language>en</language><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><plural>Streets</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:52</sys_created_on><sys_id>d4d6fd4b4fe213006e76ff6f9310c7cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Street</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_street_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:52</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1502517509</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>38047353db2613003d1dd001cf961901</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Street</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>14d6fd4b49e213007628c4d79e7baed5</update_guid>
+<update_guid_history>14d6fd4b49e213007628c4d79e7baed5:-1502517509</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_eea6f94b4fe213006e76ff6f9310c7e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>eea6f94b4fe213006e76ff6f9310c7e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list_custom_table_user</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_security_acl display_value="x_215090_ocio_madr_ocio_master_address_list_custom_table">5ea6f94b4fe213006e76ff6f9310c7e0</sys_security_acl><sys_update_name>sys_security_acl_role_eea6f94b4fe213006e76ff6f9310c7e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><sys_user_role display_value="x_215090_ocio_madr.ocio_master_address_list_custom_table_user" name="x_215090_ocio_madr.ocio_master_address_list_custom_table_user">12a6b54b4fe213006e76ff6f9310c755</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-713393302</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>38047353db6613003d1dd001cf9619ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>2ea6f94b55e213005287605ca06714e5</update_guid>
+<update_guid_history>2ea6f94b55e213005287605ca06714e5:-713393302</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_city_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_city" label="City" language="en" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"><sys_documentation action="INSERT_OR_UPDATE"><element>u_city</element><help/><hint/><label>City</label><language>en</language><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><plural>Cities</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:23:17</sys_created_on><sys_id>6ee6718b4fe213006e76ff6f9310c70a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>City</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_city_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:23:17</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1846864658</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>3c047353db2613003d1dd001cf961900</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.City</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e2e6718b6ae213001ca85414d9ff7810</update_guid>
+<update_guid_history>e2e6718b6ae213001ca85414d9ff7810:-1846864658</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_d6a6f94b4fe213006e76ff6f9310c7b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_madr_ocio_master_address_list_custom_table</description><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>d6a6f94b4fe213006e76ff6f9310c7b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_security_acl_d6a6f94b4fe213006e76ff6f9310c7b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>903519809</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>3c047353db6613003d1dd001cf9619ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>dea6f94b76e21300cf8feca0403fd6b6</update_guid>
+<update_guid_history>dea6f94b76e21300cf8feca0403fd6b6:903519809</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_81b5b90b4fe213006e76ff6f9310c795</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_model>none</license_model><logo/><menu/><name>OCIO Master Address List Custom Table</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_215090_ocio_madr</scope><scoped_administration>false</scoped_administration><short_description/><source>x_215090_ocio_madr</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:18:00</sys_created_on><sys_id>81b5b90b4fe213006e76ff6f9310c795</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:18:00</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-1138974488</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>64043353db2613003d1dd001cf9619fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>OCIO Master Address List Custom Table</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>81b5fd0b2de21300aebce1b2610c918d</update_guid>
+<update_guid_history>81b5fd0b2de21300aebce1b2610c918d:-1138974488</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_province</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_province" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Province&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_province&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;2&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:23:42&lt;/sys_created_on&gt;&lt;sys_id&gt;2fe6b18b4fe213006e76ff6f9310c7a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Province&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_province&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:23:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1454329813</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>70043353db2613003d1dd001cf9619ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Province</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6007f18b2ce21300d7b10561fb7457b7</update_guid>
+<update_guid_history>6007f18b2ce21300d7b10561fb7457b7:1454329813</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_5ea6f94b4fe213006e76ff6f9310c7e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_madr_ocio_master_address_list_custom_table</description><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>5ea6f94b4fe213006e76ff6f9310c7e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_security_acl_5ea6f94b4fe213006e76ff6f9310c7e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1557544735</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>70047353db2613003d1dd001cf961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2ea6f94b3be21300ee710672f65e42e2</update_guid>
+<update_guid_history>2ea6f94b3be21300ee710672f65e42e2:1557544735</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_3889f5cb4fe213006e76ff6f9310c72b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="OCIO Master Address List"&gt;fd69f10f4fe213006e76ff6f9310c741&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_street&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_215090_ocio_madr_ocio&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:34:38&lt;/sys_created_on&gt;&lt;sys_id&gt;3889f5cb4fe213006e76ff6f9310c72b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_street&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_3889f5cb4fe213006e76ff6f9310c72b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:34:38&lt;/sys_updated_on&gt;&lt;target_field&gt;u_street&lt;/target_field&gt;&lt;target_table&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1595551555</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>70047353db6613003d1dd001cf9619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>u_street</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>3489f5cb22e213001ee05ea46030212c</update_guid>
+<update_guid_history>3489f5cb22e213001ee05ea46030212c:1595551555</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_6d96b94b4fe213006e76ff6f9310c7ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>OCIO Master Address List Custom Table</label><live_feed_enabled>false</live_feed_enabled><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>6d96b94b4fe213006e76ff6f9310c7ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO Master Address List Custom Table</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_db_object_6d96b94b4fe213006e76ff6f9310c7ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><update_access>false</update_access><user_role display_value="x_215090_ocio_madr.ocio_master_address_list_custom_table_user" name="x_215090_ocio_madr.ocio_master_address_list_custom_table_user">12a6b54b4fe213006e76ff6f9310c755</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1459432988</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>74043353db2613003d1dd001cf9619fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>aea63d4b09e21300bbb623c43cb63c08</update_guid>
+<update_guid_history>aea63d4b09e21300bbb623c43cb63c08:1459432988</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_sequence_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_sequence" label="Sequence" language="en" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"><sys_documentation action="INSERT_OR_UPDATE"><element>u_sequence</element><help/><hint/><label>Sequence</label><language>en</language><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><plural>Sequences</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:24:36</sys_created_on><sys_id>f137f14b4fe213006e76ff6f9310c774</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sequence</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_sequence_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:24:36</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-329085641</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>74047353db2613003d1dd001cf961901</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Sequence</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7d37398bbde21300b9b1f3699fb83144</update_guid>
+<update_guid_history>7d37398bbde21300b9b1f3699fb83144:-329085641</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d2a6f94b4fe213006e76ff6f9310c7b8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>d2a6f94b4fe213006e76ff6f9310c7b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list_custom_table_user</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_security_acl display_value="x_215090_ocio_madr_ocio_master_address_list_custom_table">d6a6f94b4fe213006e76ff6f9310c7b4</sys_security_acl><sys_update_name>sys_security_acl_role_d2a6f94b4fe213006e76ff6f9310c7b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><sys_user_role display_value="x_215090_ocio_madr.ocio_master_address_list_custom_table_user" name="x_215090_ocio_madr.ocio_master_address_list_custom_table_user">12a6b54b4fe213006e76ff6f9310c755</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-870595757</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>74047353db6613003d1dd001cf9619ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9ea6f94b2de21300e1cf31f426f7f6c6</update_guid>
+<update_guid_history>9ea6f94b2de21300e1cf31f426f7f6c6:-870595757</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_u_street</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_street" table="x_215090_ocio_madr_ocio"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=STREET,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>STREET</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_street</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>73</max_length><name>x_215090_ocio_madr_ocio</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>1059fdcb4fe213006e76ff6f9310c7c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>STREET</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_dictionary_x_215090_ocio_madr_ocio_u_street</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-810524507</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>78047353db2613003d1dd001cf961900</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports.STREET</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6859fdcb12e213004fbb408ec3d945d6</update_guid>
+<update_guid_history>6859fdcb12e213004fbb408ec3d945d6:-810524507</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_u_city</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_city" table="x_215090_ocio_madr_ocio"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=CITY,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>CITY</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_city</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_215090_ocio_madr_ocio</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>9059fdcb4fe213006e76ff6f9310c7c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CITY</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_dictionary_x_215090_ocio_madr_ocio_u_city</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-796313555</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>7c043353db2613003d1dd001cf9619ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports.CITY</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6c59fdcbe2e21300e5dbf54b04855ad3</update_guid>
+<update_guid_history>6c59fdcbe2e21300e5dbf54b04855ad3:-796313555</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_12a6b54b4fe213006e76ff6f9310c755</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_215090_ocio_madr.ocio_master_address_list_custom_table_user</name><scoped_admin>false</scoped_admin><suffix>ocio_master_address_list_custom_table_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>12a6b54b4fe213006e76ff6f9310c755</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr.ocio_master_address_list_custom_table_user</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_user_role_12a6b54b4fe213006e76ff6f9310c755</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-3885762</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>7c047353db6613003d1dd001cf9619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>x_215090_ocio_madr.ocio_master_address_list_custom_table_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>52a6f94b70e213001b10933d106548b0</update_guid>
+<update_guid_history>52a6f94b70e213001b10933d106548b0:-3885762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_1459fdcb4fe213006e76ff6f9310c7bd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>OCIO Master Address List Imports</label><live_feed_enabled>false</live_feed_enabled><name>x_215090_ocio_madr_ocio</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Import Set Row" name="sys_import_set_row">726d7166b92013006517ce7df7ee4610</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>1459fdcb4fe213006e76ff6f9310c7bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ocio Madr Ocio</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_db_object_1459fdcb4fe213006e76ff6f9310c7bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-272885399</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>b0043353db2613003d1dd001cf9619fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>a859fdcb7ee213004312d6d8041a8fd0</update_guid>
+<update_guid_history>a859fdcb7ee213004312d6d8041a8fd0:-272885399</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_province_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_province" label="Province" language="en" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"><sys_documentation action="INSERT_OR_UPDATE"><element>u_province</element><help/><hint/><label>Province</label><language>en</language><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><plural>Provinces</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:23:42</sys_created_on><sys_id>6407f18b4fe213006e76ff6f9310c7b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Province</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_province_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:23:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>293019349</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>b0047353db2613003d1dd001cf961901</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Province</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e807f18b90e213007c8e9c8561f62cb8</update_guid>
+<update_guid_history>e807f18b90e213007c8e9c8561f62cb8:293019349</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_96a6f94b4fe213006e76ff6f9310c7d1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>96a6f94b4fe213006e76ff6f9310c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list_custom_table_user</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_security_acl display_value="x_215090_ocio_madr_ocio_master_address_list_custom_table">16a6f94b4fe213006e76ff6f9310c7ce</sys_security_acl><sys_update_name>sys_security_acl_role_96a6f94b4fe213006e76ff6f9310c7d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><sys_user_role display_value="x_215090_ocio_madr.ocio_master_address_list_custom_table_user" name="x_215090_ocio_madr.ocio_master_address_list_custom_table_user">12a6b54b4fe213006e76ff6f9310c755</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-609240330</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>b0047353db6613003d1dd001cf9619ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9aa6f94b97e213009fcfefdae15ab5df</update_guid>
+<update_guid_history>9aa6f94b97e213009fcfefdae15ab5df:-609240330</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_u_sequence</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_sequence" table="x_215090_ocio_madr_ocio"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=Sequence,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Sequence</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_sequence</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_215090_ocio_madr_ocio</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>dc59fdcb4fe213006e76ff6f9310c7c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sequence</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_dictionary_x_215090_ocio_madr_ocio_u_sequence</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1807021981</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>b4047353db2613003d1dd001cf961900</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports.Sequence</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ec59fdcb21e21300d02c265a2d19d9d7</update_guid>
+<update_guid_history>ec59fdcb21e21300d02c265a2d19d9d7:-1807021981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="x_215090_ocio_madr_ocio"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_215090_ocio_madr_ocio</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>9059fdcb4fe213006e76ff6f9310c7c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_dictionary_x_215090_ocio_madr_ocio_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>435520143</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>b8043353db2613003d1dd001cf9619ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>9059fdcb3ee21300c58b22831a81eacf</update_guid>
+<update_guid_history>9059fdcb3ee21300c58b22831a81eacf:435520143</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_fd69f10f4fe213006e76ff6f9310c741</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;OCIO Master Address List&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_215090_ocio_madr_ocio&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:34:38&lt;/sys_created_on&gt;&lt;sys_id&gt;fd69f10f4fe213006e76ff6f9310c741&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO Master Address List&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_fd69f10f4fe213006e76ff6f9310c741&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:34:38&lt;/sys_updated_on&gt;&lt;target_table&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1768870028</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>b8047353db6613003d1dd001cf9619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>OCIO Master Address List</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>fc89f5cb8de21300ec35ced753544327</update_guid>
+<update_guid_history>fc89f5cb8de21300ec35ced753544327:-1768870028</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_postal</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_postal" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Postal&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_postal&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;7&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:24:07&lt;/sys_created_on&gt;&lt;sys_id&gt;b107758b4fe213006e76ff6f9310c704&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Postal&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_postal&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:24:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1483581062</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>bc043353db2613003d1dd001cf9619fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Postal</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b217394b03e21300a128a1ce42727caa</update_guid>
+<update_guid_history>b217394b03e21300a128a1ce42727caa:1483581062</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_16a6f94b4fe213006e76ff6f9310c7ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_madr_ocio_master_address_list_custom_table</description><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>16a6f94b4fe213006e76ff6f9310c7ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_security_acl_16a6f94b4fe213006e76ff6f9310c7ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-955757647</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>bc047353db2613003d1dd001cf961901</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>d2a6f94bb7e21300f1ad78ef9b21d6d0</update_guid>
+<update_guid_history>d2a6f94bb7e21300f1ad78ef9b21d6d0:-955757647</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_3489350f4fe213006e76ff6f9310c728</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="OCIO Master Address List"&gt;fd69f10f4fe213006e76ff6f9310c741&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_sequence&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_215090_ocio_madr_ocio&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:34:38&lt;/sys_created_on&gt;&lt;sys_id&gt;3489350f4fe213006e76ff6f9310c728&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_sequence&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_3489350f4fe213006e76ff6f9310c728&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:34:38&lt;/sys_updated_on&gt;&lt;target_field&gt;u_sequence&lt;/target_field&gt;&lt;target_table&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-379858107</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>bc047353db6613003d1dd001cf9619ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>u_sequence</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>3089350ff9e21300ea9b225085b55929</update_guid>
+<update_guid_history>3089350ff9e21300ea9b225085b55929:-379858107</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_1859fdcb4fe213006e76ff6f9310c7ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source"><sys_data_source action="INSERT_OR_UPDATE"><category/><connection_timeout>0</connection_timeout><connection_url>attachment://sys_data_source:1859fdcb4fe213006e76ff6f9310c7ae/master address list.xls</connection_url><connection_url_parameters/><csv_delimiter/><database_name/><database_port/><expand_node_children>false</expand_node_children><file_path>master address list.xls</file_path><file_retrieval_method>Attachment</file_retrieval_method><format>Excel</format><glide_keystore>false</glide_keystore><header_row>1</header_row><import_set_table_label/><import_set_table_name>x_215090_ocio_madr_ocio</import_set_table_name><instance_name/><jdbc_password/><jdbc_server/><jdbc_user_name/><jpath_root_node/><last_run_database_field/><last_run_datetime/><ldap_target/><maximum_rows/><mid_server/><name>master address list.xls (Uploaded)</name><oracle_port>1521</oracle_port><oracle_sid>orcl</oracle_sid><properties/><query>All Rows from Table</query><query_timeout>0</query_timeout><scp_authentication>Username and Password</scp_authentication><scp_password/><scp_port/><scp_server/><scp_user_name/><sheet_number>1</sheet_number><sql_statement/><ssh_keyfile_path/><sys_class_name>sys_data_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>1859fdcb4fe213006e76ff6f9310c7ae</sys_id><sys_mod_count>1</sys_mod_count><sys_name>master address list.xls (Uploaded)</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_data_source_1859fdcb4fe213006e76ff6f9310c7ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:55</sys_updated_on><table_name/><type>File</type><use_integrated_authentication>false</use_integrated_authentication><use_last_run_datetime>false</use_last_run_datetime><xpath_root_node/><zipped>false</zipped></sys_data_source></record_update>]]></payload>
+<payload_hash>-1410389603</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>ec043353db2613003d1dd001cf9619fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>master address list.xls (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>5259710ff0e213007912aef522af48e2</update_guid>
+<update_guid_history>5259710ff0e213007912aef522af48e2:-1410389603,d259710f6be213006dfa8fae27da89e1:1344578557</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_u_province</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_province" table="x_215090_ocio_madr_ocio"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=PROVINCE,edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>PROVINCE</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_province</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_215090_ocio_madr_ocio</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:33:47</sys_created_on><sys_id>5059fdcb4fe213006e76ff6f9310c7c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PROVINCE</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_dictionary_x_215090_ocio_madr_ocio_u_province</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:33:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1311214158</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>f0047353db2613003d1dd001cf961900</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio</table>
+<target_name>OCIO Master Address List Imports.PROVINCE</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e059fdcb47e21300d5063c3030da81d5</update_guid>
+<update_guid_history>e059fdcb47e21300d5063c3030da81d5:-1311214158</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_aea63d4b4fe213006e76ff6f9310c702</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>aea63d4b4fe213006e76ff6f9310c702</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>ua_table_licensing_config_aea63d4b4fe213006e76ff6f9310c702</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>144710286</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>f0047353db6613003d1dd001cf9619b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>eea63d4b5ee213001ceef90eb833f303</update_guid>
+<update_guid_history>eea63d4b5ee213001ceef90eb833f303:144710286</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_street</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_street" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Street&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_street&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;256&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:22:51&lt;/sys_created_on&gt;&lt;sys_id&gt;57b6bd4b4fe213006e76ff6f9310c7d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Street&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_street&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:22:51&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1532146458</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>f4043353db2613003d1dd001cf9619ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Street</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>98d6fd4b20e213005bb05fa783edaed3</update_guid>
+<update_guid_history>98d6fd4b20e213005bb05fa783edaed3:1532146458</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_f089f5cb4fe213006e76ff6f9310c729</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="OCIO Master Address List"&gt;fd69f10f4fe213006e76ff6f9310c741&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_province&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_215090_ocio_madr_ocio&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:34:38&lt;/sys_created_on&gt;&lt;sys_id&gt;f089f5cb4fe213006e76ff6f9310c729&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_province&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_f089f5cb4fe213006e76ff6f9310c729&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:34:38&lt;/sys_updated_on&gt;&lt;target_field&gt;u_province&lt;/target_field&gt;&lt;target_table&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1075581674</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>f4047353db6613003d1dd001cf9619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>u_province</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>7489f5cbd5e21300f8784cba941f132a</update_guid>
+<update_guid_history>7489f5cbd5e21300f8784cba941f132a:-1075581674</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_city</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_city" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;City&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_city&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;128&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:23:17&lt;/sys_created_on&gt;&lt;sys_id&gt;69d6318b4fe213006e76ff6f9310c7d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;City&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_city&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:23:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>677164422</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>f8043353db2613003d1dd001cf9619fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.City</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6ae6718b1ae21300b22e5c855bafed0e</update_guid>
+<update_guid_history>6ae6718b1ae21300b22e5c855bafed0e:677164422</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="OCIO Master Address List Custom Table" language="en" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>OCIO Master Address List Custom Table</label><language>en</language><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><plural>OCIO Master Address List Custom Tables</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>2aa6f94b4fe213006e76ff6f9310c7f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO Master Address List Custom Table</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-707457259</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>f8047353db2613003d1dd001cf961901</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e6a63d4ba5e21300aa5d4a601e8a2707</update_guid>
+<update_guid_history>e6a63d4ba5e21300aa5d4a601e8a2707:-707457259</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_3489350f4fe213006e76ff6f9310c726</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="OCIO Master Address List"&gt;fd69f10f4fe213006e76ff6f9310c741&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_city&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_215090_ocio_madr_ocio&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 21:34:38&lt;/sys_created_on&gt;&lt;sys_id&gt;3489350f4fe213006e76ff6f9310c726&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_city&lt;/sys_name&gt;&lt;sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO Master Address List Custom Table"&gt;81b5b90b4fe213006e76ff6f9310c795&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_3489350f4fe213006e76ff6f9310c726&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 21:34:38&lt;/sys_updated_on&gt;&lt;target_field&gt;u_city&lt;/target_field&gt;&lt;target_table&gt;x_215090_ocio_madr_ocio_master_address_list_custom_table&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-930181477</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>f8047353db6613003d1dd001cf9619ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table/>
+<target_name>u_city</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>3089350ffee213009f7a77ffbfa86827</update_guid>
+<update_guid_history>3089350ffee213009f7a77ffbfa86827:-930181477</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_postal_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_postal" label="Postal" language="en" table="x_215090_ocio_madr_ocio_master_address_list_custom_table"><sys_documentation action="INSERT_OR_UPDATE"><element>u_postal</element><help/><hint/><label>Postal</label><language>en</language><name>x_215090_ocio_madr_ocio_master_address_list_custom_table</name><plural>Postals</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:24:07</sys_created_on><sys_id>b617394b4fe213006e76ff6f9310c7a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Postal</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_madr_ocio_master_address_list_custom_table_u_postal_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:24:07</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1085548683</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>fc047353db2613003d1dd001cf961900</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>OCIO Master Address List Custom Table.Postal</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f217758be6e213001a64a241430747ef</update_guid>
+<update_guid_history>f217758be6e213001a64a241430747ef:1085548683</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_16a6f94b4fe213006e76ff6f9310c7cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 21:22:11</sys_created_on><sys_id>16a6f94b4fe213006e76ff6f9310c7cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list_custom_table_user</sys_name><sys_package display_value="OCIO Master Address List Custom Table" source="x_215090_ocio_madr">81b5b90b4fe213006e76ff6f9310c795</sys_package><sys_policy/><sys_scope display_value="OCIO Master Address List Custom Table">81b5b90b4fe213006e76ff6f9310c795</sys_scope><sys_security_acl display_value="x_215090_ocio_madr_ocio_master_address_list_custom_table">92a6f94b4fe213006e76ff6f9310c7c8</sys_security_acl><sys_update_name>sys_security_acl_role_16a6f94b4fe213006e76ff6f9310c7cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 21:22:11</sys_updated_on><sys_user_role display_value="x_215090_ocio_madr.ocio_master_address_list_custom_table_user" name="x_215090_ocio_madr.ocio_master_address_list_custom_table_user">12a6b54b4fe213006e76ff6f9310c755</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-75308407</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table">60043353db2613003d1dd001cf9619fd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:08:19</sys_created_on>
+<sys_id>fc047353db6613003d1dd001cf9619ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f115c9980000000</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:08:19</sys_updated_on>
+<table>x_215090_ocio_madr_ocio_master_address_list_custom_table</table>
+<target_name>x_215090_ocio_madr_ocio_master_address_list_custom_table.x_215090_ocio_madr.ocio_master_address_list</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>485875cb25e21300b64e68dbce9da855</update_guid>
+<update_guid_history>485875cb25e21300b64e68dbce9da855:-75308407,52a6f94b1fe21300dc5b58d56569dacd:979542653</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

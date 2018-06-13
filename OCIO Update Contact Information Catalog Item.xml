@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-13 01:34:15">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO Update Contact Information Catalog Item
+http://jira.im.gov.bc.ca/browse/SB-155</description>
+<inserted/>
+<name>OCIO Update Contact Information Catalog Item</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>0c48bf53db261300f72fe04a489619fa</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>90f9ff53db261300f72fe04a4896199f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_0b844e074f2613006e76ff6f9310c7d7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter2</name><order>800</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>0b844e074f2613006e76ff6f9310c7d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_0b844e074f2613006e76ff6f9310c7d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>20</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=0b844e074f2613006e76ff6f9310c7d7"/><fx_price action="delete_multiple" query="id=0b844e074f2613006e76ff6f9310c7d7"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>0b844e074f2613006e76ff6f9310c7d7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>03844e074f2613006e76ff6f9310c7d9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>0b844e074f2613006e76ff6f9310c7d7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>c7844e074f2613006e76ff6f9310c7d8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-436451603</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>10f9b7d3db261300f72fe04a489619f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8ad0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>cb844e07b126130096a1a3b833c6c1db</update_guid>
+<update_guid_history>cb844e07b126130096a1a3b833c6c1db:-436451603,0d87f353212613001c6a90744fe9d3ec:-1541834739,cb844e07b126130096a1a3b833c6c1db:-436451603</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_b6844e074f2613006e76ff6f9310c7b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_assistant</name><order>1900</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Assistant</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>b6844e074f2613006e76ff6f9310c7b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assistant</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_b6844e074f2613006e76ff6f9310c7b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=b6844e074f2613006e76ff6f9310c7b5"/><fx_price action="delete_multiple" query="id=b6844e074f2613006e76ff6f9310c7b5"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>b6844e074f2613006e76ff6f9310c7b5</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>ba844e074f2613006e76ff6f9310c7b7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>b6844e074f2613006e76ff6f9310c7b5</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>72844e074f2613006e76ff6f9310c7b7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-839450113</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>10f9b7d3db261300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8b40000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Assistant</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>76844e0732261300325e66b705a7f7ba</update_guid>
+<update_guid_history>76844e0732261300325e66b705a7f7ba:-839450113,a9873753bc261300be5d50bf0f9ce78b:2073398367,76844e0732261300325e66b705a7f7ba:-839450113</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_9b848e074f2613006e76ff6f9310c722</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>false</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_notify_req_for</name><order>300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Notify Requested For</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9b848e074f2613006e76ff6f9310c722</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notify Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_9b848e074f2613006e76ff6f9310c722</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>7</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=9b848e074f2613006e76ff6f9310c722"/><fx_price action="delete_multiple" query="id=9b848e074f2613006e76ff6f9310c722"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>9b848e074f2613006e76ff6f9310c722</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>17848e074f2613006e76ff6f9310c724</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>9b848e074f2613006e76ff6f9310c722</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>db848e074f2613006e76ff6f9310c723</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1513912865</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>14f9b7d3db261300f72fe04a489619f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a87d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Notify Requested For</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>5b848e071826130047dc79184c63d227</update_guid>
+<update_guid_history>5b848e071826130047dc79184c63d227:-1513912865,a1873753752613003cf244b80ed3f26a:593869119,5b848e071826130047dc79184c63d227:-1513912865</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_f28446834f2613006e76ff6f9310c788</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_both&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category display_value="User Accounts"&gt;1ef67db7db961300f72fe04a489619ce&lt;/category&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &amp;#39;Helvetica Neue&amp;#39;, Arial; font-size: 13px;"&gt;The Global Address List (GAL) is the BC Government directory and contains your contact information.&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &amp;#39;Helvetica Neue&amp;#39;, Arial; font-size: 13px;"&gt;Complete the Information fields below. If your address is not listed or is incomplete, please call the Service Desk.&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;meta&gt;Suggested&lt;/meta&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Update Contact Information&lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=f28446834f2613006e76ff6f9310c788&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;4deda47edb1113003d1dd001cf9619b2&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;short_description&gt;Update GAL info and set up security profile&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;f28446834f2613006e76ff6f9310c788&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Contact Information&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_f28446834f2613006e76ff6f9310c788&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-13 01:31:57&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow display_value=" OCIO Service Request Item"&gt;77a0da0bdb5113003d1dd001cf9619af&lt;/workflow&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f28446834f2613006e76ff6f9310c788"/&gt;&lt;fx_price action="delete_multiple" query="id=f28446834f2613006e76ff6f9310c788"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;f28446834f2613006e76ff6f9310c788&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;be8446834f2613006e76ff6f9310c788&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;f28446834f2613006e76ff6f9310c788&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:50&lt;/sys_created_on&gt;&lt;sys_id&gt;3a8446834f2613006e76ff6f9310c789&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>9539819</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>14f9b7d3db261300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c557fd0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Update Contact Information</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>cf69b3d3d9261300bd18263edf142842</update_guid>
+<update_guid_history>cf69b3d3d9261300bd18263edf142842:9539819,806f82cfb1e21300b99aee2f39a23f4f:1508652649,01a48a079c26130067bd4d94419f4a8f:705895484,be844e073a2613009a90db28ac1258b3:816379386</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_67848e074f2613006e76ff6f9310c768</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</catalog_item><catalog_variable>IO:9b848e074f2613006e76ff6f9310c716</catalog_variable><disabled>true</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:53</sys_created_on><sys_id>67848e074f2613006e76ff6f9310c768</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_requested_by</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_67848e074f2613006e76ff6f9310c768</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:53</sys_updated_on><table/><ui_policy display_value="Make Requested By Readonly">6b848e074f2613006e76ff6f9310c765</ui_policy><variable>u_requested_by</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>1130327687</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>14f9ff53db261300f72fe04a489619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8770000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>u_requested_by</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>a3848e07ea261300ca5ac6c64df7b16a</update_guid>
+<update_guid_history>a3848e07ea261300ca5ac6c64df7b16a:1130327687,0187f3533d2613004922c24d1f1ea6c9:145605327,a3848e07ea261300ca5ac6c64df7b16a:1130327687</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_83844e074f2613006e76ff6f9310c7e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_business_phone</name><order>1700</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Business Phone</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>83844e074f2613006e76ff6f9310c7e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Business Phone</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_83844e074f2613006e76ff6f9310c7e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=83844e074f2613006e76ff6f9310c7e8"/><fx_price action="delete_multiple" query="id=83844e074f2613006e76ff6f9310c7e8"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>83844e074f2613006e76ff6f9310c7e8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>0f844e074f2613006e76ff6f9310c7e9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>83844e074f2613006e76ff6f9310c7e8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>c3844e074f2613006e76ff6f9310c7e9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-669657162</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>18f9b7d3db261300f72fe04a489619f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a88b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Business Phone</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4f844e07012613008f2762c330df2eec</update_guid>
+<update_guid_history>4f844e07012613008f2762c330df2eec:-669657162,9987375396261300d1ce819c24a70f48:175449592,4f844e07012613008f2762c330df2eec:-669657162</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_be8446834f2613006e76ff6f9310c78a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</sc_cat_item><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>be8446834f2613006e76ff6f9310c78a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO Catalog.Copy of Update Contact Information 2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_be8446834f2613006e76ff6f9310c78a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>618156480</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>18f9b7d3db261300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8930000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>OCIO Catalog.Copy of Update Contact Information 2</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>ba84468365261300943792e55157cc8c</update_guid>
+<update_guid_history>ba84468365261300943792e55157cc8c:618156480,b5873753cf26130000a964d53c851fcb:-138761479,ba84468365261300943792e55157cc8c:618156480</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_67848e074f2613006e76ff6f9310c746</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Copy of Update Contact Information 2"&gt;f28446834f2613006e76ff6f9310c788&lt;/cat_item&gt;&lt;cat_variable&gt;IO:83844e074f2613006e76ff6f9310c7e8&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Validate Biz Phone With Extension&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Validate Business Number to the format: ### ###-#### ext. ###
+ * A user might type without () for the AREA code, and formatted typed phone number in (###) ###-#### ext. ###.
+ * http://jira.im.gov.bc.ca/browse/SB-155
+ * Copyright to BC Public Service, OCIO
+ * History
+ * Updated by Munhwan Gim on 6 June 2018: Initial implementation
+ **/
+function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '' || oldValue == newValue) {
+		return;
+	}
+
+    var formControlName = 'u_business_phone';	
+	var invalidMsg = 'Please enter 10 digit phone number followed by "ext." and 3 digit extension.';
+		
+   // Allows formats of ### ###-#### OR ### ###-#### ext ####
+   //var phonenoPattern = /^(((\d{3})\s{1}?(\d{3})-{1}(\d{4}))((\s{1}ext\s{1}\d{4})?))$/;	
+   var phonenoPattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})[-.]?(ext)?([0-9]{3})?$/;
+	
+	newValue = newValue.replace(/[^0-9]/g, '');
+	var digits = newValue.length;
+	if (newValue.match(phonenoPattern))
+	{
+		var code = '';
+        
+		var area = newValue.substring(0, 3);
+		var prefix = newValue.substring(3, 6);
+		var line = newValue.substring(6, 10);
+		var extNumber = newValue.substring(10, 13);
+		if (newValue.length == 10){
+			g_form.setValue(formControlName, '(' + area + ') ' + prefix + '-' + line);
+		} else {
+			g_form.setValue(formControlName, '(' + area + ') ' + prefix + '-' + line + ' ext. ' + extNumber);
+		}
+		g_form.hideFieldMsg(formControlName);	 
+	}	
+	else
+	{
+		g_form.setValue(formControlName, oldValue);
+		g_form.showFieldMsg(formControlName, invalidMsg, "error");
+		return false;
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;67848e074f2613006e76ff6f9310c746&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Biz Phone With Extension&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_67848e074f2613006e76ff6f9310c746&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>417852542</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>18f9ff53db261300f72fe04a489619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8850000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Validate Biz Phone With Extension</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>e7848e07f4261300f256c3c81e2aa948</update_guid>
+<update_guid_history>e7848e07f4261300f256c3c81e2aa948:417852542,4987f3530e261300d14e48025fb78ab5:1230930085,e7848e07f4261300f256c3c81e2aa948:417852542</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_2b848e074f2613006e76ff6f9310c740</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter3</name><order>1600</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:53</sys_created_on><sys_id>2b848e074f2613006e76ff6f9310c740</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter3</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_2b848e074f2613006e76ff6f9310c740</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:53</sys_updated_on><table/><tooltip/><type>24</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=2b848e074f2613006e76ff6f9310c740"/><fx_price action="delete_multiple" query="id=2b848e074f2613006e76ff6f9310c740"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>2b848e074f2613006e76ff6f9310c740</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:53</sys_created_on><sys_id>23848e074f2613006e76ff6f9310c742</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:53</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>2b848e074f2613006e76ff6f9310c740</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:53</sys_created_on><sys_id>e7848e074f2613006e76ff6f9310c741</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:53</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-869251552</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>1cf9b7d3db261300f72fe04a489619f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8a00000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>a3848e07f126130021daf1ec9ad8a045</update_guid>
+<update_guid_history>a3848e07f126130021daf1ec9ad8a045:-869251552,15873753f226130050d8b972fb0f380e:2035640930,a3848e07f126130021daf1ec9ad8a045:-869251552</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_cf844e074f2613006e76ff6f9310c7ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>javascript:gs.getUserID()</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requested_for</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested For</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>cf844e074f2613006e76ff6f9310c7ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_cf844e074f2613006e76ff6f9310c7ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=cf844e074f2613006e76ff6f9310c7ed"/><fx_price action="delete_multiple" query="id=cf844e074f2613006e76ff6f9310c7ed"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>cf844e074f2613006e76ff6f9310c7ed</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>c7844e074f2613006e76ff6f9310c7ef</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>cf844e074f2613006e76ff6f9310c7ed</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>8f844e074f2613006e76ff6f9310c7ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>200107134</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>1cf9b7d3db261300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8a60000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Requested For</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>8b844e07c1261300b992d027245581f2</update_guid>
+<update_guid_history>8b844e07c1261300b992d027245581f2:200107134,b187375386261300403682b7a5c063ad:485141246,8b844e07c1261300b992d027245581f2:200107134</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_9b848e074f2613006e76ff6f9310c716</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>javascript:gs.getUserID()</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requested_by</name><order>600</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested By</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9b848e074f2613006e76ff6f9310c716</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested By</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_9b848e074f2613006e76ff6f9310c716</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=9b848e074f2613006e76ff6f9310c716"/><fx_price action="delete_multiple" query="id=9b848e074f2613006e76ff6f9310c716"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>9b848e074f2613006e76ff6f9310c716</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>17848e074f2613006e76ff6f9310c718</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>9b848e074f2613006e76ff6f9310c716</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>db848e074f2613006e76ff6f9310c717</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-406537952</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>50f9b7d3db261300f72fe04a489619f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8eb0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Requested By</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>5b848e0735261300587ca02eef025e1b</update_guid>
+<update_guid_history>5b848e0735261300587ca02eef025e1b:-406537952,2d8737530126130023c5cdd0d7aea261:-1037397278,5b848e0735261300587ca02eef025e1b:-406537952</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_fe8446834f2613006e76ff6f9310c78d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Update Contact Information">f28446834f2613006e76ff6f9310c788</sc_cat_item><sc_category display_value="">9cb6f9b7db961300f72fe04a48961976</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>fe8446834f2613006e76ff6f9310c78d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Permissions.Copy of Update Contact Information 2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_fe8446834f2613006e76ff6f9310c78d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1744466410</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>50f9b7d3db261300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8f20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>User Permissions.Copy of Update Contact Information 2</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>446f82cf48e213006152066199f72148</update_guid>
+<update_guid_history>446f82cf48e213006152066199f72148:1744466410,72844e07272613009e46c78ab945d2b1:255955895</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_6b848e074f2613006e76ff6f9310c765</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions/&gt;&lt;catalog_item display_value="Copy of Update Contact Information 2"&gt;f28446834f2613006e76ff6f9310c788&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Requested By Readonly&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6b848e074f2613006e76ff6f9310c765&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Requested By Readonly&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_6b848e074f2613006e76ff6f9310c765&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1226589530</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>50f9ff53db261300f72fe04a489619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8e50000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Make Requested By Readonly</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>e3848e078f2613000d6ccb53ba9d0c67</update_guid>
+<update_guid_history>e3848e078f2613000d6ccb53ba9d0c67:-1226589530,8d87f35388261300f8c20b1410d73fcb:-687369353,e3848e078f2613000d6ccb53ba9d0c67:-1226589530</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_5f848e074f2613006e76ff6f9310c710</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_department</name><order>1400</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Department</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>5f848e074f2613006e76ff6f9310c710</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Department</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_5f848e074f2613006e76ff6f9310c710</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=5f848e074f2613006e76ff6f9310c710"/><fx_price action="delete_multiple" query="id=5f848e074f2613006e76ff6f9310c710"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>5f848e074f2613006e76ff6f9310c710</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>57848e074f2613006e76ff6f9310c712</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>5f848e074f2613006e76ff6f9310c710</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>1f848e074f2613006e76ff6f9310c711</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-913727914</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>54f9b7d3db261300f72fe04a489619f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8ba0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Department</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>1b848e07142613009feae2f29190df15</update_guid>
+<update_guid_history>1b848e07142613009feae2f29190df15:-913727914,15873753102613005da39eb862df3e40:180034904,1b848e07142613009feae2f29190df15:-913727914</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_db848e074f2613006e76ff6f9310c734</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_postal_code</name><order>1300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Postal Code</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>db848e074f2613006e76ff6f9310c734</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Postal Code</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_db848e074f2613006e76ff6f9310c734</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=db848e074f2613006e76ff6f9310c734"/><fx_price action="delete_multiple" query="id=db848e074f2613006e76ff6f9310c734"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>db848e074f2613006e76ff6f9310c734</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>d3848e074f2613006e76ff6f9310c736</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>db848e074f2613006e76ff6f9310c734</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9b848e074f2613006e76ff6f9310c735</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>56285914</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>54f9b7d3db261300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8c30000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Postal Code</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>1b848e07012613008f9d63c54b1c3639</update_guid>
+<update_guid_history>1b848e07012613008f9d63c54b1c3639:56285914,35873753fd26130059b4cf8dc6da8cc6:2089919418,1b848e07012613008f9d63c54b1c3639:56285914</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_361c0697db6213003d1dd001cf96192c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Update Contact Information"&gt;f28446834f2613006e76ff6f9310c788&lt;/cat_item&gt;&lt;cat_variable&gt;IO:db848e074f2613006e76ff6f9310c728&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Set Postalcode on Address Selected&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+* Set Postalcode
+*
+* http://jira.im.gov.bc.ca/browse/SB-155
+* Copyright to BC Public Service, OCIO
+* History
+* Updated by Munhwan Gim on 11 June 2018: Initial implementation
+**/
+function onChange(control, oldValue, newValue, isLoading) {
+
+	if (isLoading || newValue == '' || newValue == oldValue) {
+		return;
+	}
+
+	var postalCodeCtrlName = 'u_postal_code';
+	var _addressTableName = 'x_215090_ocio_madr_ocio_master_address_list_custom_table';
+	var streetSelected = newValue;
+
+	g_form.clearValue(postalCodeCtrlName);
+
+	// Execute Script Include to set the Street Options
+	var ga = new GlideAjax('OCIOMasterAddressList');
+	ga.addParam('sysparm_name', 'getPostalcodeByStreet');
+	ga.addParam('sysparm_streetVal', streetSelected);
+	ga.addParam('sysparm_addressTable', _addressTableName);
+	ga.getXMLAnswer(callback);
+
+	function callback(answer) {
+
+		if (answer) {
+			console.log('!!!Show Postalcode');
+			console.log(answer);
+
+			var postalCode = answer;
+			g_form.setValue(postalCodeCtrlName, postalCode);
+		}
+	}   
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-12 17:35:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;361c0697db6213003d1dd001cf96192c&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Postalcode on Address Selected&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_361c0697db6213003d1dd001cf96192c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-12 22:40:57&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-348021004</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>54f9ff53db261300f72fe04a489619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a9170000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Set Postalcode on Address Selected</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>0a429f5b27e21300bd2cd37d2e67ab49</update_guid>
+<update_guid_history>0a429f5b27e21300bd2cd37d2e67ab49:-348021004,0987f35343261300c54563f53c35baaf:1562757437,0a429f5b27e21300bd2cd37d2e67ab49:-348021004,9fce0a97f7621300657612f1ad5f57ea:-2110056587,c19eced7e26213003981e7eadad39cce:-1048838445,ff0e82d7fb62130024fc9e68acc44fdf:-1842613573,8b6d06d75c621300c04fd4c2a0a33fa6:-811865354,d93dca9724621300adef1b1f0b25da6d:1597784515,8c6c0a9776621300257a92787fe297e1:1203534180</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_0f844e074f2613006e76ff6f9310c7f3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>true</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_additional_Information</name><order>2300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Additional Information</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>0f844e074f2613006e76ff6f9310c7f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Additional Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_0f844e074f2613006e76ff6f9310c7f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=0f844e074f2613006e76ff6f9310c7f3"/><fx_price action="delete_multiple" query="id=0f844e074f2613006e76ff6f9310c7f3"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>0f844e074f2613006e76ff6f9310c7f3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>87844e074f2613006e76ff6f9310c7f5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>0f844e074f2613006e76ff6f9310c7f3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>4f844e074f2613006e76ff6f9310c7f4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-523206359</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>58f9b7d3db261300f72fe04a489619f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8ca0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Additional Information</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4b844e07172613008718f8d89bb4caf8</update_guid>
+<update_guid_history>4b844e07172613008718f8d89bb4caf8:-523206359,9d8737538b261300be073ea4564f2d05:2137791627,4b844e07172613008718f8d89bb4caf8:-523206359</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_cb844e074f2613006e76ff6f9310c7f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table>x_215090_ocio_madr_ocio_master_address_list_custom_table</lookup_table><lookup_unique>true</lookup_unique><lookup_value>u_city</lookup_value><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_city</name><order>1100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>City</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>cb844e074f2613006e76ff6f9310c7f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>City</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_cb844e074f2613006e76ff6f9310c7f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>18</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=cb844e074f2613006e76ff6f9310c7f9"/><fx_price action="delete_multiple" query="id=cb844e074f2613006e76ff6f9310c7f9"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>cb844e074f2613006e76ff6f9310c7f9</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>c3844e074f2613006e76ff6f9310c7fb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>cb844e074f2613006e76ff6f9310c7f9</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>8b844e074f2613006e76ff6f9310c7fa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1152074998</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>58f9b7d3db261300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8d10000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>City</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>87844e074e261300d3d40a9b94b02ffe</update_guid>
+<update_guid_history>87844e074e261300d3d40a9b94b02ffe:1152074998,3d873753d6261300a597426514e777a4:-1023731658,87844e074e261300d3d40a9b94b02ffe:1152074998</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_9f848e074f2613006e76ff6f9310c70a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>true</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>2down</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_request_details</name><order>900</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Request Details</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9f848e074f2613006e76ff6f9310c70a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_9f848e074f2613006e76ff6f9310c70a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=9f848e074f2613006e76ff6f9310c70a"/><fx_price action="delete_multiple" query="id=9f848e074f2613006e76ff6f9310c70a"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>9f848e074f2613006e76ff6f9310c70a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>1b848e074f2613006e76ff6f9310c70c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>9f848e074f2613006e76ff6f9310c70a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>df848e074f2613006e76ff6f9310c70b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1927133478</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>5cf9b7d3db261300f72fe04a489619f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8df0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Request Details</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>db848e07182613004ef9dbf76bc1c30f</update_guid>
+<update_guid_history>db848e07182613004ef9dbf76bc1c30f:1927133478,258737537a2613002275970d997a3f83:104848358,db848e07182613004ef9dbf76bc1c30f:1927133478</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_07848e074f2613006e76ff6f9310c705</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter5</name><order>2500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>07848e074f2613006e76ff6f9310c705</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter5</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_07848e074f2613006e76ff6f9310c705</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>20</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=07848e074f2613006e76ff6f9310c705"/><fx_price action="delete_multiple" query="id=07848e074f2613006e76ff6f9310c705"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>07848e074f2613006e76ff6f9310c705</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>1f848e074f2613006e76ff6f9310c706</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>07848e074f2613006e76ff6f9310c705</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>d3848e074f2613006e76ff6f9310c706</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1805107710</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>5cf9ff53db261300f72fe04a489619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8d80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>1f848e076b261300e65748383df45109</update_guid>
+<update_guid_history>1f848e076b261300e65748383df45109:1805107710,4587f353ec26130002d98061d6b8bfe4:1606274240,1f848e076b261300e65748383df45109:1805107710</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_4f844e074f2613006e76ff6f9310c7dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_comments</name><order>2400</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Comments</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>4f844e074f2613006e76ff6f9310c7dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_4f844e074f2613006e76ff6f9310c7dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>2</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=4f844e074f2613006e76ff6f9310c7dc"/><fx_price action="delete_multiple" query="id=4f844e074f2613006e76ff6f9310c7dc"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>4f844e074f2613006e76ff6f9310c7dc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>c7844e074f2613006e76ff6f9310c7de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>4f844e074f2613006e76ff6f9310c7dc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>8f844e074f2613006e76ff6f9310c7dd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1097919023</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>90f9b7d3db261300f72fe04a489619f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a7fa0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Comments</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>47844e071e261300ce8d19937acc59e1</update_guid>
+<update_guid_history>47844e071e261300ce8d19937acc59e1:-1097919023,9d87375380261300eafd3f3d26947637:226325939,47844e071e261300ce8d19937acc59e1:-1097919023</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_db848e074f2613006e76ff6f9310c728</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table>x_215090_ocio_madr_ocio_master_address_list_custom_table</lookup_table><lookup_unique>true</lookup_unique><lookup_value>u_street</lookup_value><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_address</name><order>1200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Address</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>db848e074f2613006e76ff6f9310c728</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Address</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_db848e074f2613006e76ff6f9310c728</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>18</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=db848e074f2613006e76ff6f9310c728"/><fx_price action="delete_multiple" query="id=db848e074f2613006e76ff6f9310c728"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>db848e074f2613006e76ff6f9310c728</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>d3848e074f2613006e76ff6f9310c72a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>db848e074f2613006e76ff6f9310c728</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9b848e074f2613006e76ff6f9310c729</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1876359568</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>90f9b7d3db261300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a80f0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Address</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>1b848e0715261300138213cc604be22d</update_guid>
+<update_guid_history>1b848e0715261300138213cc604be22d:-1876359568,bd8737533e2613008f21aa430dc162bd:-749577742,1b848e0715261300138213cc604be22d:-1876359568</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_2f848e074f2613006e76ff6f9310c74f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Update Contact Information"&gt;f28446834f2613006e76ff6f9310c788&lt;/cat_item&gt;&lt;cat_variable&gt;IO:36844e074f2613006e76ff6f9310c7c1&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Validate Fax Number&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Validate Fax Number to the format: ### ###-####
+ * A user might type without () for the AREA code, and formatted typed phone number in (###) ###-####.
+ * http://jira.im.gov.bc.ca/browse/SB-155
+ * Copyright to BC Public Service, OCIO
+ * History
+ * Updated by Munhwan Gim on 6 June 2018: Initial implementation
+ **/
+function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '' || oldValue == newValue) {
+		return;
+	}
+
+	var formControlName = 'u_fax_number';	
+	var invalidMsg = 'Please enter 10 digit phone number';
+	var phonenoPattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+
+	newValue = newValue.replace(/[^0-9]/g, '');
+	var digits = newValue.length;
+	if (newValue.match(phonenoPattern))
+	{
+		var code = '';
+
+		var area = newValue.substring(0, 3);
+		var prefix = newValue.substring(3, 6);
+		var line = newValue.substring(6);
+		g_form.setValue(formControlName, '(' + area + ') ' + prefix + '-' + line);
+		g_form.hideFieldMsg(formControlName);	 
+	}	
+	else
+	{
+		g_form.setValue(formControlName, oldValue);
+		g_form.showFieldMsg(formControlName, invalidMsg, "error");
+		return false;
+	}
+
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2f848e074f2613006e76ff6f9310c74f&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Fax Number&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_2f848e074f2613006e76ff6f9310c74f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-12 17:21:04&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2072301317</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>90f9ff53db261300f72fe04a489619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a90a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Validate Fax Number</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>941902533062130074132f5a6efac133</update_guid>
+<update_guid_history>941902533062130074132f5a6efac133:-2072301317,f487f35316261300054e1b8a0f112ba9:-482900388,941902533062130074132f5a6efac133:-2072301317,5af88a53c96213006b2e1c54e6d8a4a6:-295842641,afe69b0b07a6130053042a0562785842:-852377692,ac5693c7f2a61300e95f10a1ab6a509e:742640952,502597c701a613001d52e56288f77832:-77271880,45445f4777a61300ef8302da0d50919f:1163468742,df15ae8b2326130018d19c041029cdf6:528456422,dfc11e039a2613009f091c7fed2ef34d:-724107567,1aa0decf03e21300f6a9dec007596cc3:1249140033,2f848e07f0261300dea9afdccb156751:2071899105</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_0f844e074f2613006e76ff6f9310c7c6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_office</name><order>1500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Office</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>0f844e074f2613006e76ff6f9310c7c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_0f844e074f2613006e76ff6f9310c7c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=0f844e074f2613006e76ff6f9310c7c6"/><fx_price action="delete_multiple" query="id=0f844e074f2613006e76ff6f9310c7c6"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>0f844e074f2613006e76ff6f9310c7c6</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>87844e074f2613006e76ff6f9310c7c8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>0f844e074f2613006e76ff6f9310c7c6</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>4f844e074f2613006e76ff6f9310c7c7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1320552619</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>94f9b7d3db261300f72fe04a489619f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a81b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Office</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>07844e076f261300f994593181231dcb</update_guid>
+<update_guid_history>07844e076f261300f994593181231dcb:1320552619,1987f353e62613009f155f9b8f67c0fd:-1667918387,07844e076f261300f994593181231dcb:1320552619</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_c7844e074f2613006e76ff6f9310c7e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>false</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_notify_me</name><order>700</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Notify Me</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>c7844e074f2613006e76ff6f9310c7e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notify Me</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_c7844e074f2613006e76ff6f9310c7e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>7</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=c7844e074f2613006e76ff6f9310c7e2"/><fx_price action="delete_multiple" query="id=c7844e074f2613006e76ff6f9310c7e2"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>c7844e074f2613006e76ff6f9310c7e2</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>cf844e074f2613006e76ff6f9310c7e3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>c7844e074f2613006e76ff6f9310c7e2</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>87844e074f2613006e76ff6f9310c7e3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-853972713</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>94f9b7d3db261300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8220000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Notify Me</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>03844e0779261300220c328134b1efe7</update_guid>
+<update_guid_history>03844e0779261300220c328134b1efe7:-853972713,b587375369261300cdb2374da93b859c:-1006653255,03844e0779261300220c328134b1efe7:-853972713</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_9b848e074f2613006e76ff6f9310c73a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter</name><order>500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9b848e074f2613006e76ff6f9310c73a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_9b848e074f2613006e76ff6f9310c73a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>24</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=9b848e074f2613006e76ff6f9310c73a"/><fx_price action="delete_multiple" query="id=9b848e074f2613006e76ff6f9310c73a"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>9b848e074f2613006e76ff6f9310c73a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>17848e074f2613006e76ff6f9310c73c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>9b848e074f2613006e76ff6f9310c73a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>db848e074f2613006e76ff6f9310c73b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-404817872</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>98f9b7d3db261300f72fe04a489619f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8300000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>a7848e075b261300cdd9c0bcd4197b3f</update_guid>
+<update_guid_history>a7848e075b261300cdd9c0bcd4197b3f:-404817872,ad87375379261300023b639c9997997a:-2010898800,a7848e075b261300cdd9c0bcd4197b3f:-404817872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_e3848e074f2613006e76ff6f9310c76b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions/&gt;&lt;catalog_item display_value="Copy of Update Contact Information 2"&gt;f28446834f2613006e76ff6f9310c788&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Organization Readonly&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e3848e074f2613006e76ff6f9310c76b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Organization Readonly&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_e3848e074f2613006e76ff6f9310c76b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1336479130</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>98f9ff53db261300f72fe04a489619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8290000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Make Organization Readonly</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>6f848e073e261300d9f1be18e982d96c</update_guid>
+<update_guid_history>6f848e073e261300d9f1be18e982d96c:-1336479130,8987f3530426130024eb812f52b06ad7:-797258953,6f848e073e261300d9f1be18e982d96c:-1336479130</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_8f844e074f2613006e76ff6f9310c7d1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_title</name><order>1000</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Title</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>8f844e074f2613006e76ff6f9310c7d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Title</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_8f844e074f2613006e76ff6f9310c7d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=8f844e074f2613006e76ff6f9310c7d1"/><fx_price action="delete_multiple" query="id=8f844e074f2613006e76ff6f9310c7d1"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>8f844e074f2613006e76ff6f9310c7d1</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>0b844e074f2613006e76ff6f9310c7d3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>8f844e074f2613006e76ff6f9310c7d1</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>cf844e074f2613006e76ff6f9310c7d2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1052093958</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>9cf9b7d3db261300f72fe04a489619f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a83d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Title</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>87844e0729261300ce6a92f5029ad3d6</update_guid>
+<update_guid_history>87844e0729261300ce6a92f5029ad3d6:-1052093958,a5873753ba2613000d69f4619797e759:860488858,87844e0729261300ce6a92f5029ad3d6:-1052093958</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_c86f82cfdbe213003d1dd001cf961949</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Update Contact Information">f28446834f2613006e76ff6f9310c788</sc_cat_item><sc_category display_value="">4e1abc62db5213003d1dd001cf961981</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-11 23:10:10</sys_created_on><sys_id>c86f82cfdbe213003d1dd001cf961949</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Accounts.Update Contact Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_c86f82cfdbe213003d1dd001cf961949</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-11 23:10:10</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1984717939</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>9cf9b7d3db261300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c5578c0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>User Accounts.Update Contact Information</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>c769b3d34d2613002bb1e741b4e9e730</update_guid>
+<update_guid_history>c769b3d34d2613002bb1e741b4e9e730:1984717939,c86f82cfa4e21300c83e49f7b9f09d4b:1970278922</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_e7848e074f2613006e76ff6f9310c762</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Copy of Update Contact Information 2"&gt;f28446834f2613006e76ff6f9310c788&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Set Default Fields From Current User&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Set Default values using the current logged-In User
+ * http://jira.im.gov.bc.ca/browse/SB-155
+ * Copyright to BC Public Service, OCIO
+ * History
+ * Updated by Munhwan Gim on 7 June 2018: Initial implementation
+ **/
+function onLoad() {
+   
+	var userID = g_user.userID;
+	var userName = g_user.userName;
+	var bizPhoneFieldName = 'phone';
+	var oldPhone = g_form.getValue('u_business_phone');
+	
+	//debugger;
+	console.log('User Fullname: ' + g_user.getFullName());
+	
+	// ToDo. Why gr.get() does not work?
+	//var grUser = new GlideRecord('sys_user');
+	//grUser.get(userID);
+    //var title = gr.title;
+	//console.log('--- Logged In User Title: ' + title);
+	
+	var gr = new GlideRecord('sys_user');
+	gr.addQuery('sys_id', userID);
+	gr.setLimit(1);
+	gr.query(recUser);
+	
+	function recUser(rec){
+		
+		console.log(rec);
+		
+		//Must be one record
+		while (rec.next()) {
+			
+			// Is this the correct way?
+			var rsCB = rec.recordSet[0];
+			g_form.setValue('u_organization', rsCB.company.displayvalue);
+		    //var refCompany = g_form.getReference('u_organization', cbSetCompany);
+			
+			g_form.setValue('u_title', rec.title);
+			
+			//Special care!
+			//g_form.setValue('u_city', rec.location); // reference, dropdownlist
+			g_form.setValue('u_address', rec.street); // dropdownlist
+			g_form.setValue('u_postal_code', rec.zip);
+			
+			g_form.setValue('u_business_phone', rec.phone);
+			g_form.setValue('u_mobile_phone', rec.mobile_phone);
+			
+			g_form.setValue('u_department', rec.u_ad_department);
+			g_form.setValue('u_office', rec.u_delivery_office);
+			
+			// Not there yet on sys_user table
+			g_form.setValue('u_assistant', rec.u_assitant);
+			g_form.setValue('u_fax_number', rec.u_fax);
+			g_form.setValue('u_pager', rec.u_pager); 
+			g_form.setValue('u_fax_number', rec.u_assitant);
+		}
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e7848e074f2613006e76ff6f9310c762&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Default Fields From Current User&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_e7848e074f2613006e76ff6f9310c762&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2053840075</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>9cf9ff53db261300f72fe04a489619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8370000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Set Default Fields From Current User</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>e7848e07c1261300934d8c92f066e964</update_guid>
+<update_guid_history>e7848e07c1261300934d8c92f066e964:-2053840075,c987f353ce261300c0fe333b0f9a1fc1:1448514716,e7848e07c1261300934d8c92f066e964:-2053840075</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_0b844e074f2613006e76ff6f9310c7ff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter4</name><order>2200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>0b844e074f2613006e76ff6f9310c7ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter4</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_0b844e074f2613006e76ff6f9310c7ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>20</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=0b844e074f2613006e76ff6f9310c7ff"/><fx_price action="delete_multiple" query="id=0b844e074f2613006e76ff6f9310c7ff"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>0b844e074f2613006e76ff6f9310c7ff</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>83848e074f2613006e76ff6f9310c701</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>0b844e074f2613006e76ff6f9310c7ff</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>4b848e074f2613006e76ff6f9310c700</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>219469633</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d0f9b7d3db261300f72fe04a489619f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8420000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>83848e07272613005d46678c8a61a704</update_guid>
+<update_guid_history>83848e07272613005d46678c8a61a704:219469633,9187f353d5261300d4ebd94e7a9e47f5:-1944638973,83848e07272613005d46678c8a61a704:219469633</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_ba844e074f2613006e76ff6f9310c7bb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>true</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>2down</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requester_information</name><order>100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requester Information</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>ba844e074f2613006e76ff6f9310c7bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requester Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_ba844e074f2613006e76ff6f9310c7bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=ba844e074f2613006e76ff6f9310c7bb"/><fx_price action="delete_multiple" query="id=ba844e074f2613006e76ff6f9310c7bb"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>ba844e074f2613006e76ff6f9310c7bb</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>36844e074f2613006e76ff6f9310c7bd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>ba844e074f2613006e76ff6f9310c7bb</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>fa844e074f2613006e76ff6f9310c7bc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-550413451</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d0f9b7d3db261300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8480000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Requester Information</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>b2844e07d62613007bd9453a74a7edc0</update_guid>
+<update_guid_history>b2844e07d62613007bd9453a74a7edc0:-550413451,2187375390261300d7add71c5ff16094:-2135154795,b2844e07d62613007bd9453a74a7edc0:-550413451</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_9b848e074f2613006e76ff6f9310c72e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_pager</name><order>2100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Pager</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9b848e074f2613006e76ff6f9310c72e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pager</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_9b848e074f2613006e76ff6f9310c72e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=9b848e074f2613006e76ff6f9310c72e"/><fx_price action="delete_multiple" query="id=9b848e074f2613006e76ff6f9310c72e"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>9b848e074f2613006e76ff6f9310c72e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>17848e074f2613006e76ff6f9310c730</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>9b848e074f2613006e76ff6f9310c72e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>db848e074f2613006e76ff6f9310c72f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1046172633</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d4f9b7d3db261300f72fe04a489619f6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8550000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Pager</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>5b848e07cb2613009170a067a511b933</update_guid>
+<update_guid_history>5b848e07cb2613009170a067a511b933:1046172633,29873753642613001a3e65fe5d160b72:529761945,5b848e07cb2613009170a067a511b933:1046172633</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_706326864f2613006e76ff6f9310c778</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.OCIOMasterAddressList&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;BC Public Service, OCIO. Ajax Server side functions to populate Street per City.&lt;/description&gt;&lt;name&gt;OCIOMasterAddressList&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Server Class for GlideAjax call 
+ * 
+ * JiRA: BS-155
+ * Copyright to BC Public Service, OCIO
+ * Last Updated by Munhwan Gim on 9 June 2018
+ */
+var OCIOMasterAddressList = Class.create();
+OCIOMasterAddressList.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	// Return list of street per City by Querying against custom lookup table
+	// Input param: city value
+	// Custom Table
+	getStreets: function() {
+	 
+		var myUserObject = gs.getUser();		
+	    var citySelected = this.getParameter('sysparm_cityVal');
+		var addressTableName = this.getParameter('sysparm_addressTable');
+		
+		var gr = new GlideRecord(addressTableName);
+		gr.addQuery('u_city', citySelected);
+		gr.orderBy('u_sequence');
+		gr.query();
+		
+		var listStates = [];
+		while (gr.next()) {
+			
+		    var streetObj = {};
+			streetObj.value = gr.u_street.getDisplayValue();
+			streetObj.label = gr.u_street.getDisplayValue();
+			streetObj.selected = true;
+			
+			listStates.push(streetObj);
+		}
+		
+		var response = JSON.stringify(listStates);
+		
+		return response;
+	},
+	
+	// Return Postal coder based on selected Street by Querying against custom lookup table
+	// Input param: street value
+	// Custom Table
+	getPostalcodeByStreet: function() {
+	 
+		var myUserObject = gs.getUser();		
+	    var streetSelected = this.getParameter('sysparm_streetVal');
+		var addressTableName = this.getParameter('sysparm_addressTable');
+				
+		var gr = new GlideRecord(addressTableName);
+		gr.addQuery('u_street', streetSelected);
+		gr.query();
+		
+		var postalCode = '';
+		
+		while (gr.next()) {
+			gs.info(gr.u_postal);
+			postalCode = gr.u_postal;
+		}
+		
+		return postalCode;
+	},
+    type: 'OCIOMasterAddressList'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-08 22:06:45&lt;/sys_created_on&gt;&lt;sys_id&gt;706326864f2613006e76ff6f9310c778&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIOMasterAddressList&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_706326864f2613006e76ff6f9310c778&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-12 22:36:20&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1459123132</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d4f9b7d3db261300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a9110000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>OCIOMasterAddressList</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>66319f5b9ee2130025d086d9238b5114</update_guid>
+<update_guid_history>66319f5b9ee2130025d086d9238b5114:-1459123132,358737534c2613004ce24f5da3adcbda:876047544,66319f5b9ee2130025d086d9238b5114:-1459123132,4890129b38621300150719ec40575a90:640098036,ee00da5b9c6213003ab8114f43502f44:-2102832289,210cc2d3ca62130023c7b98c1d08278e:616131285,5e0aca93466213006e4aac5a8a37d690:-1928888410,07150e07672613000149d1777db72dcf:-1089355292,e0400e43a02613006e0cf47c08adeae1:512145776,c85d4e0fb7e21300a8c407f6314e8f67:153429052,61760d76b76213005cc8af1a18907c1b:962843696,3a16cd363162130010647178478df1a6:342128016,98a5cd367e621300068b7b2736ef2fc9:-550417604,4845cd36d46213005bc400b398d04c92:2059210741,b0a481f2db621300f32b30711c8d504b:-800912535,ba24c1365162130042908ec610aafa9f:705063716,6233cdb2bb621300fce162f9b0f6f572:-397981692,a0ffb4721062130044a826631e713303:-938564298,6afc70fef1221300dbb471349deff6ef:-119758355,f90fec76a5221300fbb2ce71704146e1:-684622625,4d0a202a4a6253001798b88da72dd377:-1060963425,09a82ca6426253005a37b2d57ccda65d:1215595482,1d976ca24e62530006808204c6623b69:-605228663,aca0a4a2e56253005d913ad87b355a92:802769792,319f90eeb1225300e00154e02b2c6117:1063833771,7ad37e022c661300c0d5f29f4f9ca234:1833874024,db937202c46613000305d9a6b0e702ec:-2038572959,70e2bace34261300108b38deabd6f7c7:361677807,e8c27202eb661300a8ab911185a875f3:2029681663,2d627a8e25261300506aee0ebdc899d0:-55096712,01707a8efa261300453a73fa724b4507:-1732557217,5a852e866f261300b14f837673e3156c:-534295005,0614268679261300a2247b81036ae17d:1088313055</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_27848e074f2613006e76ff6f9310c75f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Copy of Update Contact Information 2"&gt;f28446834f2613006e76ff6f9310c788&lt;/cat_item&gt;&lt;cat_variable&gt;IO:87844e074f2613006e76ff6f9310c7cc&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Validate Mobile Phone Number&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Validate Mobile Phone Number to the format: ### ###-####
+ * A user might type without () for the AREA code, and formatted typed phone number in (###) ###-####.
+ * http://jira.im.gov.bc.ca/browse/SB-155
+ * Copyright to BC Public Service, OCIO
+ * History
+ * Updated by Munhwan Gim on 6 June 2018: Initial implementation
+ **/
+function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '' || oldValue == newValue) {
+		return;
+	}
+
+    var formControlName = 'u_mobile_phone';	
+	var invalidMsg = 'Please enter 10 digit phone number';
+	var phonenoPattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+	
+	newValue = newValue.replace(/[^0-9]/g, '');
+	var digits = newValue.length;
+	if (newValue.match(phonenoPattern))
+	{
+		var code = '';
+
+		var area = newValue.substring(0, 3);
+		var prefix = newValue.substring(3, 6);
+		var line = newValue.substring(6);
+		g_form.setValue(formControlName, '(' + area + ') ' + prefix + '-' + line);
+		g_form.hideFieldMsg(formControlName);	 
+	}	
+	else
+	{
+		g_form.setValue(formControlName, oldValue);
+		g_form.showFieldMsg(formControlName, invalidMsg, "error");
+		return false;
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;27848e074f2613006e76ff6f9310c75f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Mobile Phone Number&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_27848e074f2613006e76ff6f9310c75f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1760359143</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d4f9ff53db261300f72fe04a4896199f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8990000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Validate Mobile Phone Number</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>a7848e072a261300d5c99b373b1fff61</update_guid>
+<update_guid_history>a7848e072a261300d5c99b373b1fff61:-1760359143,7087f353222613003bf448c84068099d:2076587154,a7848e072a261300d5c99b373b1fff61:-1760359143</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_ef848e074f2613006e76ff6f9310c76d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</catalog_item><catalog_variable>IO:db848e074f2613006e76ff6f9310c71c</catalog_variable><disabled>true</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:53</sys_created_on><sys_id>ef848e074f2613006e76ff6f9310c76d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_organization</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_ef848e074f2613006e76ff6f9310c76d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:53</sys_updated_on><table/><ui_policy display_value="Make Organization Readonly">e3848e074f2613006e76ff6f9310c76b</ui_policy><variable>u_organization</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-1671424860</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d4f9ff53db261300f72fe04a489619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a84f0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>u_organization</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>ab848e0791261300ea03f895a8fc776f</update_guid>
+<update_guid_history>ab848e0791261300ea03f895a8fc776f:-1671424860,0987f353a1261300947f8ab6535535d2:-711520525,ab848e0791261300ea03f895a8fc776f:-1671424860</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_87844e074f2613006e76ff6f9310c7cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_mobile_phone</name><order>1800</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Mobile Phone</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>87844e074f2613006e76ff6f9310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mobile Phone</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_87844e074f2613006e76ff6f9310c7cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=87844e074f2613006e76ff6f9310c7cc"/><fx_price action="delete_multiple" query="id=87844e074f2613006e76ff6f9310c7cc"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>87844e074f2613006e76ff6f9310c7cc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>8f844e074f2613006e76ff6f9310c7cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>87844e074f2613006e76ff6f9310c7cc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:51</sys_created_on><sys_id>47844e074f2613006e76ff6f9310c7cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:51</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-432852909</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d8f9b7d3db261300f72fe04a489619f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8650000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Mobile Phone</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>0f844e07c7261300ec793532dcb478d0</update_guid>
+<update_guid_history>0f844e07c7261300ec793532dcb478d0:-432852909,11873753c426130032dfb2689717d551:-287042187,0f844e07c7261300ec793532dcb478d0:-432852909</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_0769b3d3db261300f72fe04a4896193e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Update Contact Information">f28446834f2613006e76ff6f9310c788</sc_cat_item><sc_category display_value="User Accounts">1ef67db7db961300f72fe04a489619ce</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-13 01:31:58</sys_created_on><sys_id>0769b3d3db261300f72fe04a4896193e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Accounts.Update Contact Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_0769b3d3db261300f72fe04a4896193e</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-13 01:31:58</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>966896328</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d8f9b7d3db261300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c557c80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>User Accounts.Update Contact Information</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>c369b3d3b8261300173dec5e81502240</update_guid>
+<update_guid_history>c369b3d3b8261300173dec5e81502240:966896328</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_6b848e074f2613006e76ff6f9310c74c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Copy of Update Contact Information 2"&gt;f28446834f2613006e76ff6f9310c788&lt;/cat_item&gt;&lt;cat_variable&gt;IO:cb844e074f2613006e76ff6f9310c7f9&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Populate Street List&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Populate the cascaded Street Options against the selected City
+ *
+ * http://jira.im.gov.bc.ca/browse/SB-155
+ * Copyright to BC Public Service, OCIO
+ * History
+ * Updated by Munhwan Gim on 11 June 2018: Initial implementation
+ **/
+function onChange(control, oldValue, newValue, isLoading) {
+	
+	//debugger;
+   if (isLoading || newValue == '' || newValue == oldValue) {
+      return;
+   }
+   	
+   // ToDo.. Is there any better way to get the custom table name?
+   var addressCtrlName = 'u_address';
+   var postalCodeCtrlName = 'u_postal_code';
+   var _addressTableName = 'x_215090_ocio_madr_ocio_master_address_list_custom_table';
+   var citySelected = newValue;
+	
+   // Clear Street and Postal code
+	if (newValue !== oldValue) {
+		g_form.clearValue(postalCodeCtrlName);
+		g_form.clearOptions(addressCtrlName);
+	}
+
+	// Execute Script Include to set the Street Options
+	var ga = new GlideAjax('OCIOMasterAddressList');
+	ga.addParam('sysparm_name', 'getStreets');
+	ga.addParam('sysparm_cityVal', citySelected);
+	ga.addParam('sysparm_addressTable', _addressTableName);
+	ga.getXMLAnswer(streetCallback);
+	
+	function streetCallback(answer) {
+				
+		if (answer) {
+			// Set up Street Datasource
+			var objList = JSON.parse(answer);
+			var selected = 0;
+			
+			for (var i = 0; i &lt; objList.length; i++ ) {
+				var obj = objList[i];
+				g_form.addOption(addressCtrlName, obj.value, obj.label);
+				if (obj.selected) {
+					selected = i;
+				}
+			}
+			g_form.setValue(addressCtrlName, objList[selected].value, objList[selected].label);
+		}
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6b848e074f2613006e76ff6f9310c74c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Street List&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_6b848e074f2613006e76ff6f9310c74c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-11 22:22:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-870124392</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>d8f9ff53db261300f72fe04a489619a0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a85e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Populate Street List</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>eb848e072c261300cd8283235ccc0d4e</update_guid>
+<update_guid_history>eb848e072c261300cd8283235ccc0d4e:-870124392,8987f353ea261300c9ff85d4da466fbb:-263546305,eb848e072c261300cd8283235ccc0d4e:-870124392</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_36844e074f2613006e76ff6f9310c7c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_fax_number</name><order>2000</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Fax Number</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>36844e074f2613006e76ff6f9310c7c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fax Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_36844e074f2613006e76ff6f9310c7c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=36844e074f2613006e76ff6f9310c7c1"/><fx_price action="delete_multiple" query="id=36844e074f2613006e76ff6f9310c7c1"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>36844e074f2613006e76ff6f9310c7c1</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>3e844e074f2613006e76ff6f9310c7c2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>36844e074f2613006e76ff6f9310c7c1</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:50</sys_created_on><sys_id>f2844e074f2613006e76ff6f9310c7c2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:50</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1631875778</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>dcf9b7d3db261300f72fe04a489619f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a86b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Fax Number</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>ba844e07752613001fcbd57e8c0135c5</update_guid>
+<update_guid_history>ba844e07752613001fcbd57e8c0135c5:1631875778,51873753d7261300ed5352719a29f123:-1885123420,ba844e07752613001fcbd57e8c0135c5:1631875778</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_db848e074f2613006e76ff6f9310c71c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Update Contact Information 2">f28446834f2613006e76ff6f9310c788</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>(DF)Ministry of Citizen Service</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_organization</name><order>400</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested For Organization</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>db848e074f2613006e76ff6f9310c71c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested For Organization</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_db848e074f2613006e76ff6f9310c71c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=db848e074f2613006e76ff6f9310c71c"/><fx_price action="delete_multiple" query="id=db848e074f2613006e76ff6f9310c71c"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>db848e074f2613006e76ff6f9310c71c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>d3848e074f2613006e76ff6f9310c71e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>db848e074f2613006e76ff6f9310c71c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2018-06-11 22:22:52</sys_created_on><sys_id>9b848e074f2613006e76ff6f9310c71d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-06-11 22:22:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1680107413</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>dcf9b7d3db261300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a8710000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Requested For Organization</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>1b848e075f2613004544668db2375e21</update_guid>
+<update_guid_history>1b848e075f2613004544668db2375e21:-1680107413,398737530f2613003b9ea672fcd68ab5:-1437220885,1b848e075f2613004544668db2375e21:-1680107413</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_2b848e074f2613006e76ff6f9310c749</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Update Contact Information"&gt;f28446834f2613006e76ff6f9310c788&lt;/cat_item&gt;&lt;cat_variable&gt;IO:9b848e074f2613006e76ff6f9310c72e&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Validate Pager&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Validate Pager to the format: ### ###-####
+ * A user might type without () for the AREA code, and formatted typed phone number in (###) ###-####.
+ * http://jira.im.gov.bc.ca/browse/SB-155
+ * Copyright to BC Public Service, OCIO
+ * History
+ * Updated by Munhwan Gim on 6 June 2018: Initial implementation
+ **/
+function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '' || oldValue == newValue) {
+		return;
+	}
+
+    var formControlName = 'u_pager';	
+	var invalidMsg = 'Please enter 10 digit phone number';
+	var phonenoPattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+	
+	newValue = newValue.replace(/[^0-9]/g, '');
+	var digits = newValue.length;
+	if (newValue.match(phonenoPattern))
+	{
+		var code = '';
+
+		var area = newValue.substring(0, 3);
+		var prefix = newValue.substring(3, 6);
+		var line = newValue.substring(6);
+		g_form.setValue(formControlName, '(' + area + ') ' + prefix + '-' + line);
+		g_form.hideFieldMsg(formControlName);	 
+	}	
+	else
+	{
+		g_form.setValue(formControlName, oldValue);
+		g_form.showFieldMsg(formControlName, invalidMsg, "error");
+		return false;
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-11 22:22:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2b848e074f2613006e76ff6f9310c749&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Pager&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_2b848e074f2613006e76ff6f9310c749&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-12 17:19:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-845396379</payload_hash>
+<remote_update_set display_value="OCIO Update Contact Information Catalog Item">90f9ff53db261300f72fe04a4896199f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-13 01:34:14</sys_created_on>
+<sys_id>dcf9ff53db261300f72fe04a4896199f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>163f6c0a9040000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-13 01:34:14</sys_updated_on>
+<table/>
+<target_name>Validate Pager</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>faa8c653246213001ce262da1dc27c30</update_guid>
+<update_guid_history>faa8c653246213001ce262da1dc27c30:-845396379,b487f353b52613003abdc1aea63f1da3:-2052448540,faa8c653246213001ce262da1dc27c30:-845396379,34166acbf02613003d64e3d22f55e374:-1090878110,2b848e0757261300e5cac598034cd14b:-1876186651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
