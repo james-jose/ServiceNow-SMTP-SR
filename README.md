@@ -1,5 +1,5 @@
 # ServiceNow-SMTP-SR
-Updatesets for SMTP Service Request 
+List of Updatesets for SMTP Service Request 
 
 Note: You might get error while transferring menu items with update set. Solution:  Just 'accept remote update' and continue
 
@@ -90,15 +90,25 @@ For more details visit https://community.servicenow.com/community?id=community_q
  
  
   17
-  OCIO  Mysc Portal
- 
- 
+  OCIO  Mysc Portal 
    
-   
- 
- 
   18
   OCIO  SR Service Under Construction
  
+  19
+  OCIO SR Home Page v02
 
-
+  20
+  OCIO  Mysc Portal v01
+  
+  21
+  OCIO Hide Price
+  
+  22
+  OCIO Phones Category, Sub category and Reset Voice Mail Password  Catalog item
+  
+  23
+  OCIO Master Address List Custom Table
+  
+  24
+  OCIO Update Contact Information Catalog Item
