@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-21 16:45:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>SB-206 Create KB article of UC PIN Change Doc &amp; Link in VM PW Reset Item. 
+Created new KB (Service Request) and two categories (Ordering Information and  How do I...)</description>
+<inserted/>
+<name>OCIO SR KnowledgeBase and Categories</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>97a59816dbfa1300f72fe04a4896194b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-21 16:45:41</sys_created_on>
+<sys_id>3d479816dbfa1300f72fe04a489619ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-21 16:45:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_base_0949cdc6dbf21300f72fe04a48961989</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_base"><kb_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><approval_description/><card_color/><data_policy/><description>Service Request knowledge articles.</description><disable_category_editing>false</disable_category_editing><disable_commenting>false</disable_commenting><disable_suggesting>false</disable_suggesting><enable_socialqa>true</enable_socialqa><icon/><kb_managers/><kb_version>3</kb_version><mandatory_fields/><order/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><question_annotation/><retire_workflow display_value="Knowledge - Instant Retire">3d18ef12c30031000096dfdc64d3aeb6</retire_workflow><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-21 01:48:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0949cdc6dbf21300f72fe04a48961989</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-21 01:48:18</sys_updated_on><table>kb_knowledge</table><template/><title>Service Request</title><workflow display_value="Knowledge - Instant Publish">fbe441019f112100d8f8700c267fcf1a</workflow></kb_knowledge_base><sys_translated_text action="delete_multiple" query="documentkey=0949cdc6dbf21300f72fe04a48961989"/></record_update>]]></payload>
+<payload_hash>-164417760</payload_hash>
+<remote_update_set display_value="OCIO SR KnowledgeBase and Categories">3d479816dbfa1300f72fe04a489619ae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-21 16:45:41</sys_created_on>
+<sys_id>3d479816dbfa1300f72fe04a489619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164233a70b30000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-21 16:45:41</sys_updated_on>
+<table>kb_knowledge</table>
+<target_name>Service Request</target_name>
+<type>Knowledge Base</type>
+<update_domain>global</update_domain>
+<update_guid>6cb65c56ddfa1300ee452e0d71ee4c1d</update_guid>
+<update_guid_history>6cb65c56ddfa1300ee452e0d71ee4c1d:-164417760</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_category_173acd0edb361300f72fe04a48961938</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_category"><kb_category action="INSERT_OR_UPDATE"><active>true</active><full_category>Ordering Information</full_category><label>Ordering Information</label><parent_id>0949cdc6dbf21300f72fe04a48961989</parent_id><parent_table>kb_knowledge_base</parent_table><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-21 01:50:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>173acd0edb361300f72fe04a48961938</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-21 01:50:31</sys_updated_on><value/></kb_category><sys_translated_text action="delete_multiple" query="documentkey=173acd0edb361300f72fe04a48961938"/></record_update>]]></payload>
+<payload_hash>-688025440</payload_hash>
+<remote_update_set display_value="OCIO SR KnowledgeBase and Categories">3d479816dbfa1300f72fe04a489619ae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-21 16:45:41</sys_created_on>
+<sys_id>71479816dbfa1300f72fe04a489619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164233b03a60000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-21 16:45:41</sys_updated_on>
+<table/>
+<target_name>Ordering Information</target_name>
+<type>Knowledge Category</type>
+<update_domain>global</update_domain>
+<update_guid>b5d658169afa1300a4e62751345126a7</update_guid>
+<update_guid_history>b5d658169afa1300a4e62751345126a7:-688025440</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_category_3e7a050edb361300f72fe04a48961947</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_category"><kb_category action="INSERT_OR_UPDATE"><active>true</active><full_category>How do I...</full_category><label>How do I...</label><parent_id>0949cdc6dbf21300f72fe04a48961989</parent_id><parent_table>kb_knowledge_base</parent_table><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-21 01:51:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3e7a050edb361300f72fe04a48961947</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-21 01:51:00</sys_updated_on><value/></kb_category><sys_translated_text action="delete_multiple" query="documentkey=3e7a050edb361300f72fe04a48961947"/></record_update>]]></payload>
+<payload_hash>-895959538</payload_hash>
+<remote_update_set display_value="OCIO SR KnowledgeBase and Categories">3d479816dbfa1300f72fe04a489619ae</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-21 16:45:41</sys_created_on>
+<sys_id>79479816dbfa1300f72fe04a489619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164233b2b620000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-21 16:45:41</sys_updated_on>
+<table/>
+<target_name>How do I...</target_name>
+<type>Knowledge Category</type>
+<update_domain>global</update_domain>
+<update_guid>94e61096a2fa13009fbccd321d07a00c</update_guid>
+<update_guid_history>94e61096a2fa13009fbccd321d07a00c:-895959538</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
