@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-07-04 22:47:33">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>SR Helper Utilities created to fix Best Practice Violations
+Code Violation Fixes recommended by BPE
+http://jira.im.gov.bc.ca/browse/SB-256
+
+Copyright to BC Public Service, OCIO, Service Request Project</description>
+<inserted/>
+<name>OCIO_SR_HelperUtils</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>10edc0dedb4713003d1dd001cf9619c6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-07-04 22:47:32</sys_created_on>
+<sys_id>0dc6a022db0713003d1dd001cf9619fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-07-04 22:47:32</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_c0cec8dedb4713003d1dd001cf96197b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.OCIO_SR_HelperUtils&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;OCIO SR Helper Utilities&amp;#13;
+Code Violation Fixes recommended by BPE&amp;#13;
+http://jira.im.gov.bc.ca/browse/SB-256&amp;#13;
+&amp;#13;
+Copyright to BC Public Service, OCIO, Service Request Project&lt;/description&gt;&lt;name&gt;OCIO_SR_HelperUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Return User by ID for Service Catalog Item - Update Contact Information
+ *
+ * JiRA: SB-256
+ * Copyright to BC Public Service, OCIO, Service Request
+ * Last Updated by Munhwan Gim on 29 June 2018
+ */
+var OCIO_SR_HelperUtils = Class.create();
+OCIO_SR_HelperUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	USER_TABLE_NAME: 'sys_user',
+	
+	initialize : function(request, responseXML, gc) {
+		AbstractAjaxProcessor.prototype.initialize.call(this, request, responseXML, gc);
+	},
+	
+	ajaxFtn_getUserById: function() {
+		var srcSysId = this.getParameter('sysparm_src_sysid');
+		var companyId = '';
+		var companyName = '';
+		
+		var grUser = new GlideRecord(this.USER_TABLE_NAME);
+		grUser.addQuery('sys_id', srcSysId);
+		grUser.setLimit(1);
+		grUser.query();
+		
+		if (grUser.next()) {
+			companyId = grUser.getValue('company');
+		}
+		else {
+			gs.error('Invalid source user sysid provided = ' + srcSysId);
+		}
+		
+		if (companyId != '') {
+			companyName = this._getCompanyNameById(companyId);
+		}
+		
+		var uObj = {
+			"company": companyName,
+			"title": this._getFieldValue(grUser, 'title'),
+			"city": this._getFieldValue(grUser, 'city'),
+			"street": this._getFieldValue(grUser, 'street'),
+			"zip": this._getFieldValue(grUser, 'zip'),
+			"phone": this._getFieldValue(grUser, 'phone'),
+			"mobile_phone": this._getFieldValue(grUser, 'mobile_phone'),
+			"u_ad_department": this._getFieldValue(grUser, 'u_ad_department'),
+			"u_delivery_office": this._getFieldValue(grUser, 'u_delivery_office'),
+			"u_assitant": this._getFieldValue(grUser, 'u_assitant'),
+			"u_fax": this._getFieldValue(grUser, 'u_fax'),
+			"u_pager": this._getFieldValue(grUser, 'u_pager')
+		};
+		
+		return JSON.stringify(uObj);
+	},
+	
+	_getFieldValue: function( gr, valObj ) {
+		return gr.getValue(valObj) == null ? '' : gr.getValue(valObj);
+	},
+	
+	_getCompanyNameById: function(id) {
+		var grCompany = new GlideRecord('core_company');
+		grCompany.get(id);
+		return grCompany.getDisplayValue();
+	},
+	
+	type: 'OCIO_SR_HelperUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-04 02:26:48&lt;/sys_created_on&gt;&lt;sys_id&gt;c0cec8dedb4713003d1dd001cf96197b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO_SR_HelperUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c0cec8dedb4713003d1dd001cf96197b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-04 02:26:48&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>833107445</payload_hash>
+<remote_update_set display_value="OCIO_SR_HelperUtils">0dc6a022db0713003d1dd001cf9619fc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-07-04 22:47:32</sys_created_on>
+<sys_id>01c6a022db0713003d1dd001cf9619fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164631d178d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-07-04 22:47:32</sys_updated_on>
+<table/>
+<target_name>OCIO_SR_HelperUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>cf5fc89eb647130078dfc21c3a7f4d29</update_guid>
+<update_guid_history>cf5fc89eb647130078dfc21c3a7f4d29:833107445</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

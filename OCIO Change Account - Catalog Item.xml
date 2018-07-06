@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-28 05:12:57">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>SB-249  OCIO Change Account - Catalog Item</description>
+<inserted/>
+<name>OCIO Change Account - Catalog Item</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>69b93998db471300f72fe04a489619f8</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:56</sys_created_on>
+<sys_id>9adb311cdb471300f72fe04a489619db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:56</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_74527d94db8713003d1dd001cf96194c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions/&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;50&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Requested By Readonly&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;74527d94db8713003d1dd001cf96194c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Requested By Readonly&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_74527d94db8713003d1dd001cf96194c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-480210795</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>12db311cdb471300f72fe04a489619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680460000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Make Requested By Readonly</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>bc527d94f0871300be615d9559fc7e4d</update_guid>
+<update_guid_history>bc527d94f0871300be615d9559fc7e4d:-480210795</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_64527d94db8713003d1dd001cf961914</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>None</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>true</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_hold</name><order>1000</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Hold</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>64527d94db8713003d1dd001cf961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hold</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_64527d94db8713003d1dd001cf961914</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=64527d94db8713003d1dd001cf961914"/><fx_price action="delete_multiple" query="id=64527d94db8713003d1dd001cf961914"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>64527d94db8713003d1dd001cf961914</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>6c527d94db8713003d1dd001cf961915</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>64527d94db8713003d1dd001cf961914</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>24527d94db8713003d1dd001cf961915</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1936746371</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>12dbf51cdb471300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fe80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Hold</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>24527d9495871300e66a64e0b42f6f19</update_guid>
+<update_guid_history>24527d9495871300e66a64e0b42f6f19:1936746371</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_8452b994db8713003d1dd001cf9619fb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_both&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category display_value="Changes to Existing Accounts"&gt;1ef67db7db961300f72fe04a489619ce&lt;/category&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;Change Employment Status or expiry date or hold status.&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Change Account&lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=8452b994db8713003d1dd001cf9619fb&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;4deda47edb1113003d1dd001cf9619b2&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;short_description&gt;Change Employment Status or expiry date or hold status.&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:17&lt;/sys_created_on&gt;&lt;sys_id&gt;8452b994db8713003d1dd001cf9619fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Account&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_8452b994db8713003d1dd001cf9619fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 05:04:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow display_value=" OCIO Service Request Item"&gt;77a0da0bdb5113003d1dd001cf9619af&lt;/workflow&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8452b994db8713003d1dd001cf9619fb"/&gt;&lt;fx_price action="delete_multiple" query="id=8452b994db8713003d1dd001cf9619fb"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;8452b994db8713003d1dd001cf9619fb&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:17&lt;/sys_created_on&gt;&lt;sys_id&gt;c852b994db8713003d1dd001cf9619fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;8452b994db8713003d1dd001cf9619fb&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:17&lt;/sys_created_on&gt;&lt;sys_id&gt;8852b994db8713003d1dd001cf9619fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1085139045</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>12dbf51cdb471300f72fe04a489619fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c7a1560000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Change Account</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>27f9f1d81347130039778443f5cc0fbb</update_guid>
+<update_guid_history>27f9f1d81347130039778443f5cc0fbb:1085139045,bc82f15857471300b89642c05b3e210c:-131697369,58523d94c88713006d01eadc1669b8c6:-1949634207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_54523d94db8713003d1dd001cf9619d3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter3</name><order>1600</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>54523d94db8713003d1dd001cf9619d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter3</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_54523d94db8713003d1dd001cf9619d3</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>20</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=54523d94db8713003d1dd001cf9619d3"/><fx_price action="delete_multiple" query="id=54523d94db8713003d1dd001cf9619d3"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>54523d94db8713003d1dd001cf9619d3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>5c523d94db8713003d1dd001cf9619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>54523d94db8713003d1dd001cf9619d3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>14523d94db8713003d1dd001cf9619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1165956763</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>16dbf51cdb471300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fa80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>58523d945e871300026d1b8f127dead7</update_guid>
+<update_guid_history>58523d945e871300026d1b8f127dead7:1165956763</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_ac527d94db8713003d1dd001cf96191f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>100</order><question display_value="I want to...">24523d94db8713003d1dd001cf9619f8</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>ac527d94db8713003d1dd001cf96191f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Employment Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_ac527d94db8713003d1dd001cf96191f</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Change Employment Status</text><value>u_employment_status</value></question_choice><fx_price action="delete_multiple" query="id=ac527d94db8713003d1dd001cf96191f"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>ac527d94db8713003d1dd001cf96191f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>e0527d94db8713003d1dd001cf961921</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>ac527d94db8713003d1dd001cf96191f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a8527d94db8713003d1dd001cf961920</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>2062020228</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>16dbf51cdb471300f72fe04a489619fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67ff30000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Change Employment Status</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>a4527d947a87130022b1ee1a87c24222</update_guid>
+<update_guid_history>a4527d947a87130022b1ee1a87c24222:2062020228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_bc527d94db8713003d1dd001cf961957</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:dc523d94db8713003d1dd001cf9619e2</catalog_variable><disabled>ignore</disabled><field/><mandatory>true</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:20</sys_created_on><sys_id>bc527d94db8713003d1dd001cf961957</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_account_expiry_date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_bc527d94db8713003d1dd001cf961957</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:20</sys_updated_on><table/><ui_policy display_value="Make Account Expiry Date Mandatory">78527d94db8713003d1dd001cf961955</ui_policy><variable>u_account_expiry_date</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-127553894</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>1adb311cdb471300f72fe04a489619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680620000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_account_expiry_date</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>fc527d9483871300cd179f1fc87dc565</update_guid>
+<update_guid_history>fc527d9483871300cd179f1fc87dc565:-127553894</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_20527d94db8713003d1dd001cf961909</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_organization</name><order>250</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested For Organization</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>20527d94db8713003d1dd001cf961909</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested For Organization</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_20527d94db8713003d1dd001cf961909</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=20527d94db8713003d1dd001cf961909"/><fx_price action="delete_multiple" query="id=20527d94db8713003d1dd001cf961909"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>20527d94db8713003d1dd001cf961909</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>28527d94db8713003d1dd001cf96190a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>20527d94db8713003d1dd001cf961909</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>ec527d94db8713003d1dd001cf961909</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1081262934</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>1adbf51cdb471300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fdd0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Requested For Organization</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>6c527d943787130046313f82c9bd000d</update_guid>
+<update_guid_history>6c527d943787130046313f82c9bd000d:-1081262934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_64527d94db8713003d1dd001cf961926</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>200</order><question display_value="I want to...">24523d94db8713003d1dd001cf9619f8</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>64527d94db8713003d1dd001cf961926</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Account Expiry Date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_64527d94db8713003d1dd001cf961926</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Change Account Expiry Date</text><value>u_account_expiry_date</value></question_choice><fx_price action="delete_multiple" query="id=64527d94db8713003d1dd001cf961926"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>64527d94db8713003d1dd001cf961926</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a4527d94db8713003d1dd001cf961927</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>64527d94db8713003d1dd001cf961926</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>6c527d94db8713003d1dd001cf961926</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-41485502</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>1adbf51cdb471300f72fe04a489619fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67ffd0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Change Account Expiry Date</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>a4527d94eb871300c0f31c4b5e877328</update_guid>
+<update_guid_history>a4527d94eb871300c0f31c4b5e877328:-41485502</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_78527d94db8713003d1dd001cf96196d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:dc523d94db8713003d1dd001cf9619e2</catalog_variable><disabled>true</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:20</sys_created_on><sys_id>78527d94db8713003d1dd001cf96196d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_account_expiry_date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_78527d94db8713003d1dd001cf96196d</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:20</sys_updated_on><table/><ui_policy display_value="Make Expiry Date Read only and None">34527d94db8713003d1dd001cf96196b</ui_policy><variable>u_account_expiry_date</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-821534577</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>1edb311cdb471300f72fe04a489619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680770000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_account_expiry_date</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>f0527d94f887130086b55c416313c46f</update_guid>
+<update_guid_history>f0527d94f887130086b55c416313c46f:-821534577</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_98523d94db8713003d1dd001cf9619dd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>javascript:gs.getUserID()</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requested_by</name><order>300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested By</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>98523d94db8713003d1dd001cf9619dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested By</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_98523d94db8713003d1dd001cf9619dd</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=98523d94db8713003d1dd001cf9619dd"/><fx_price action="delete_multiple" query="id=98523d94db8713003d1dd001cf9619dd"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>98523d94db8713003d1dd001cf9619dd</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>90523d94db8713003d1dd001cf9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>98523d94db8713003d1dd001cf9619dd</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>58523d94db8713003d1dd001cf9619de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1208018108</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>1edbf51cdb471300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fb20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Requested By</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>d0523d945d87130020750789b448d6e2</update_guid>
+<update_guid_history>d0523d945d87130020750789b448d6e2:1208018108</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_f8527d94db8713003d1dd001cf961947</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:24523d94db8713003d1dd001cf9619f8!=u_hold_status^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;500&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide Hold&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f8527d94db8713003d1dd001cf961947&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Hold&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_f8527d94db8713003d1dd001cf961947&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1199769300</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>52db311cdb471300f72fe04a489619df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c6803c0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Hide Hold</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>34527d9422871300da7109ccb420d449</update_guid>
+<update_guid_history>34527d9422871300da7109ccb420d449:1199769300</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_2c523d94db8713003d1dd001cf9619fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>false</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_notify_me</name><order>400</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Notify Me</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>2c523d94db8713003d1dd001cf9619fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notify Me</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_2c523d94db8713003d1dd001cf9619fd</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>7</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=2c523d94db8713003d1dd001cf9619fd"/><fx_price action="delete_multiple" query="id=2c523d94db8713003d1dd001cf9619fd"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>2c523d94db8713003d1dd001cf9619fd</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>24523d94db8713003d1dd001cf9619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>2c523d94db8713003d1dd001cf9619fd</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>e8523d94db8713003d1dd001cf9619fe</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>776340921</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>52dbf51cdb471300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fd20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Notify Me</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>68527d94db8713006b14160ba684fc02</update_guid>
+<update_guid_history>68527d94db8713006b14160ba684fc02:776340921</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_a4527d94db8713003d1dd001cf96192f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>200</order><question display_value="Employment Type">68527d94db8713003d1dd001cf96190e</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a4527d94db8713003d1dd001cf96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Temporary</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_a4527d94db8713003d1dd001cf96192f</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Temporary</text><value>u_et_temporary</value></question_choice><fx_price action="delete_multiple" query="id=a4527d94db8713003d1dd001cf96192f"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>a4527d94db8713003d1dd001cf96192f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>e4527d94db8713003d1dd001cf961930</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>a4527d94db8713003d1dd001cf96192f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>ac527d94db8713003d1dd001cf96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1199459740</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>52dbf51cdb471300f72fe04a489619fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c6800d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Temporary</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>f4527d944b871300380f750764ec7431</update_guid>
+<update_guid_history>f4527d944b871300380f750764ec7431:-1199459740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_b8527d94db8713003d1dd001cf96194e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:98523d94db8713003d1dd001cf9619dd</catalog_variable><disabled>true</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:20</sys_created_on><sys_id>b8527d94db8713003d1dd001cf96194e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_requested_by</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_b8527d94db8713003d1dd001cf96194e</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:20</sys_updated_on><table/><ui_policy display_value="Make Requested By Readonly">74527d94db8713003d1dd001cf96194c</ui_policy><variable>u_requested_by</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>1673637522</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>56db311cdb471300f72fe04a489619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c6804b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_requested_by</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>34527d94048713006a033b93788e4b50</update_guid>
+<update_guid_history>34527d94048713006a033b93788e4b50:1673637522</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_10523d94db8713003d1dd001cf9619ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>true</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_additional_Information</name><order>1200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Additional Information</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>10523d94db8713003d1dd001cf9619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Additional Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_10523d94db8713003d1dd001cf9619ce</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=10523d94db8713003d1dd001cf9619ce"/><fx_price action="delete_multiple" query="id=10523d94db8713003d1dd001cf9619ce"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>10523d94db8713003d1dd001cf9619ce</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>98523d94db8713003d1dd001cf9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>10523d94db8713003d1dd001cf9619ce</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>50523d94db8713003d1dd001cf9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-2077495992</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>56dbf51cdb471300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fa30000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Additional Information</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>58523d945e8713006b213f8856f966d2</update_guid>
+<update_guid_history>58523d945e8713006b213f8856f966d2:-2077495992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_64527d94db8713003d1dd001cf961923</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>300</order><question display_value="I want to...">24523d94db8713003d1dd001cf9619f8</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>64527d94db8713003d1dd001cf961923</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Hold Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_64527d94db8713003d1dd001cf961923</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Change Hold Status</text><value>u_hold_status</value></question_choice><fx_price action="delete_multiple" query="id=64527d94db8713003d1dd001cf961923"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>64527d94db8713003d1dd001cf961923</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a4527d94db8713003d1dd001cf961924</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>64527d94db8713003d1dd001cf961923</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>6c527d94db8713003d1dd001cf961923</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1713163125</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>56dbf51cdb471300f72fe04a489619fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67ff80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Change Hold Status</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>a4527d94dd8713003e58d9d17ea37625</update_guid>
+<update_guid_history>a4527d94dd8713003e58d9d17ea37625:1713163125</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_34527d94db8713003d1dd001cf961953</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:68527d94db8713003d1dd001cf96190e</catalog_variable><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:20</sys_created_on><sys_id>34527d94db8713003d1dd001cf961953</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_employment_type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_34527d94db8713003d1dd001cf961953</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:20</sys_updated_on><table/><ui_policy display_value="Hide Employment Type">fc527d94db8713003d1dd001cf961950</ui_policy><variable>u_employment_type</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>1372177846</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>5adb311cdb471300f72fe04a489619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680570000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_employment_type</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>bc527d944087130058978be71f2b0454</update_guid>
+<update_guid_history>bc527d944087130058978be71f2b0454:1372177846</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_94523d94db8713003d1dd001cf9619e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_comments</name><order>1500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Comments</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>94523d94db8713003d1dd001cf9619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_94523d94db8713003d1dd001cf9619e8</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>2</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=94523d94db8713003d1dd001cf9619e8"/><fx_price action="delete_multiple" query="id=94523d94db8713003d1dd001cf9619e8"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>94523d94db8713003d1dd001cf9619e8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>9c523d94db8713003d1dd001cf9619e9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>94523d94db8713003d1dd001cf9619e8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>54523d94db8713003d1dd001cf9619e9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1228775822</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>5adbf51cdb471300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fbd0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Comments</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>dc523d9422871300ed68981490f5e4ec</update_guid>
+<update_guid_history>dc523d9422871300ed68981490f5e4ec:1228775822</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_6ff9f1d8db471300f72fe04a489619b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Change Account">8452b994db8713003d1dd001cf9619fb</sc_cat_item><sc_category display_value="Changes to Existing Accounts">1ef67db7db961300f72fe04a489619ce</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 05:04:50</sys_created_on><sys_id>6ff9f1d8db471300f72fe04a489619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Changes to Existing Accounts.Change Account</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_6ff9f1d8db471300f72fe04a489619b4</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 05:04:50</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-665393779</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>5adbf51cdb471300f72fe04a489619fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c7a0f60000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Changes to Existing Accounts.Change Account</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>6ff9f1d8724713009f31e8bb4a1db7b6</update_guid>
+<update_guid_history>6ff9f1d8724713009f31e8bb4a1db7b6:-665393779</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_74527d94db8713003d1dd001cf96193e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:24523d94db8713003d1dd001cf9619f8=u_hold_status^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;150&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide Account Expiry Date&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;74527d94db8713003d1dd001cf96193e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Account Expiry Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_74527d94db8713003d1dd001cf96193e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>614601648</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>5edb311cdb471300f72fe04a489619dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680270000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Hide Account Expiry Date</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>bc527d94bc8713003d8825c5eb89073f</update_guid>
+<update_guid_history>bc527d94bc8713003d8825c5eb89073f:614601648</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_64527d94db8713003d1dd001cf961903</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>false</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_notify_req_for</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Notify Requested For</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>64527d94db8713003d1dd001cf961903</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notify Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_64527d94db8713003d1dd001cf961903</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>7</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=64527d94db8713003d1dd001cf961903"/><fx_price action="delete_multiple" query="id=64527d94db8713003d1dd001cf961903"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>64527d94db8713003d1dd001cf961903</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>ec527d94db8713003d1dd001cf961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>64527d94db8713003d1dd001cf961903</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>a4527d94db8713003d1dd001cf961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1897420769</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>5edbf51cdb471300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fd70000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Notify Requested For</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>24527d94b9871300155b3c617a0f7108</update_guid>
+<update_guid_history>24527d94b9871300155b3c617a0f7108:1897420769</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_f4527d94db8713003d1dd001cf961938</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>200</order><question display_value="Hold">64527d94db8713003d1dd001cf961914</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>f4527d94db8713003d1dd001cf961938</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Remove Hold</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_f4527d94db8713003d1dd001cf961938</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Remove Hold</text><value>Remove</value></question_choice><fx_price action="delete_multiple" query="id=f4527d94db8713003d1dd001cf961938"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>f4527d94db8713003d1dd001cf961938</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>38527d94db8713003d1dd001cf961939</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>f4527d94db8713003d1dd001cf961938</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>fc527d94db8713003d1dd001cf961938</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>719266646</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>5edbf51cdb471300f72fe04a489619fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c6801d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Remove Hold</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>38527d9475871300e90ff2ee492dd43a</update_guid>
+<update_guid_history>38527d9475871300e90ff2ee492dd43a:719266646</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_b8527d94db8713003d1dd001cf961940</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:dc523d94db8713003d1dd001cf9619e2</catalog_variable><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>b8527d94db8713003d1dd001cf961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_account_expiry_date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_b8527d94db8713003d1dd001cf961940</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table/><ui_policy display_value="Hide Account Expiry Date">74527d94db8713003d1dd001cf96193e</ui_policy><variable>u_account_expiry_date</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-604078130</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>92db311cdb471300f72fe04a489619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c6802c0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_account_expiry_date</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>b4527d94de871300b90100f926b6cc42</update_guid>
+<update_guid_history>b4527d94de871300b90100f926b6cc42:-604078130</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_fc527d94db8713003d1dd001cf961950</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:24523d94db8713003d1dd001cf9619f8!=u_employment_status^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;200&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide Employment Type&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fc527d94db8713003d1dd001cf961950&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Employment Type&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_fc527d94db8713003d1dd001cf961950&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1521376000</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>92dbf51cdb471300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680510000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Hide Employment Type</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>38527d94e08713006840f0ec26751a52</update_guid>
+<update_guid_history>38527d94e08713006840f0ec26751a52:1521376000</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_dc523d94db8713003d1dd001cf9619e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_account_expiry_date</name><order>900</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Account Expiry Date</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>dc523d94db8713003d1dd001cf9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Account Expiry Date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_dc523d94db8713003d1dd001cf9619e2</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>9</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=dc523d94db8713003d1dd001cf9619e2"/><fx_price action="delete_multiple" query="id=dc523d94db8713003d1dd001cf9619e2"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>dc523d94db8713003d1dd001cf9619e2</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>58523d94db8713003d1dd001cf9619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>dc523d94db8713003d1dd001cf9619e2</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>10523d94db8713003d1dd001cf9619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-2079456310</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>92dbf51cdb471300f72fe04a489619fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fb80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Account Expiry Date</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>98523d94658713006982d181dbe0b2e7</update_guid>
+<update_guid_history>98523d94658713006982d181dbe0b2e7:-2079456310</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_30527d94db8713003d1dd001cf96194a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:64527d94db8713003d1dd001cf961914</catalog_variable><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:20</sys_created_on><sys_id>30527d94db8713003d1dd001cf96194a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hold</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_30527d94db8713003d1dd001cf96194a</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:20</sys_updated_on><table/><ui_policy display_value="Hide Hold">f8527d94db8713003d1dd001cf961947</ui_policy><variable>u_hold</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>1737106758</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>96db311cdb471300f72fe04a489619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680410000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_hold</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>b8527d94d6871300335579986cdb884b</update_guid>
+<update_guid_history>b8527d94d6871300335579986cdb884b:1737106758</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_90523d94db8713003d1dd001cf9619f3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter</name><order>550</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>90523d94db8713003d1dd001cf9619f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_90523d94db8713003d1dd001cf9619f3</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>20</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=90523d94db8713003d1dd001cf9619f3"/><fx_price action="delete_multiple" query="id=90523d94db8713003d1dd001cf9619f3"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>90523d94db8713003d1dd001cf9619f3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>98523d94db8713003d1dd001cf9619f4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>90523d94db8713003d1dd001cf9619f3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>50523d94db8713003d1dd001cf9619f4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-925296952</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>96dbf51cdb471300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fc70000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>28523d942687130026821fe8d111f9f7</update_guid>
+<update_guid_history>28523d942687130026821fe8d111f9f7:-925296952</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_5452f994db8713003d1dd001cf961902</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Change Account">8452b994db8713003d1dd001cf9619fb</sc_cat_item><sc_category display_value="">4e1abc62db5213003d1dd001cf961981</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>5452f994db8713003d1dd001cf961902</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Changes to Existing Accounts.Copy of Change Account-Draft</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_5452f994db8713003d1dd001cf961902</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-184173792</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>96dbf51cdb471300f72fe04a489619fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c7a0a70000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Changes to Existing Accounts.Copy of Change Account-Draft</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>e7f9f1d8274713008e2eca8de4d6adb3</update_guid>
+<update_guid_history>e7f9f1d8274713008e2eca8de4d6adb3:-184173792,dc523d94a2871300151d317e30cee5c3:-808299097</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_70527d94db8713003d1dd001cf961943</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:24523d94db8713003d1dd001cf9619f8=u_hold_status^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;600&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	  g_form.setValue('u_hold', '');
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Hold Mandatory and None&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;70527d94db8713003d1dd001cf961943&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Hold Mandatory and None&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_70527d94db8713003d1dd001cf961943&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1147527126</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>9adb311cdb471300f72fe04a489619dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680310000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Make Hold Mandatory and None</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>b8527d9437871300f9a0cc5fae541044</update_guid>
+<update_guid_history>b8527d9437871300f9a0cc5fae541044:-1147527126</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_5c523d94db8713003d1dd001cf9619c7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>javascript:gs.getUserID()</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requested_for</name><order>100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested For</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>5c523d94db8713003d1dd001cf9619c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_5c523d94db8713003d1dd001cf9619c7</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=5c523d94db8713003d1dd001cf9619c7"/><fx_price action="delete_multiple" query="id=5c523d94db8713003d1dd001cf9619c7"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>5c523d94db8713003d1dd001cf9619c7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>d0523d94db8713003d1dd001cf9619ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>5c523d94db8713003d1dd001cf9619c7</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>98523d94db8713003d1dd001cf9619c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>2067832670</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>9adbf51cdb471300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67f9d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Requested For</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>10523d9495871300bc6789e13551efcd</update_guid>
+<update_guid_history>10523d9495871300bc6789e13551efcd:2067832670</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_b4527d94db8713003d1dd001cf961935</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>100</order><question display_value="Hold">64527d94db8713003d1dd001cf961914</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>b4527d94db8713003d1dd001cf961935</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Add Hold</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_b4527d94db8713003d1dd001cf961935</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Add Hold</text><value>Add</value></question_choice><fx_price action="delete_multiple" query="id=b4527d94db8713003d1dd001cf961935"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>b4527d94db8713003d1dd001cf961935</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>f4527d94db8713003d1dd001cf961936</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>b4527d94db8713003d1dd001cf961935</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>bc527d94db8713003d1dd001cf961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1355305768</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>9adbf51cdb471300f72fe04a489619fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680180000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Add Hold</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>38527d94ce8713002959da0b22526837</update_guid>
+<update_guid_history>38527d94ce8713002959da0b22526837:1355305768</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_b8527d94db8713003d1dd001cf961966</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions/&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Organization Readonly&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b8527d94db8713003d1dd001cf961966&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Organization Readonly&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_b8527d94db8713003d1dd001cf961966&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>673785381</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>9edb311cdb471300f72fe04a489619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680670000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Make Organization Readonly</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>f0527d945d8713008c56671a4baa5f68</update_guid>
+<update_guid_history>f0527d945d8713008c56671a4baa5f68:673785381</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_24523d94db8713003d1dd001cf9619f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>Change employment status</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>true</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_i_want_to</name><order>700</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>I want to...</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>24523d94db8713003d1dd001cf9619f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>I want to...</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_24523d94db8713003d1dd001cf9619f8</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=24523d94db8713003d1dd001cf9619f8"/><fx_price action="delete_multiple" query="id=24523d94db8713003d1dd001cf9619f8"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>24523d94db8713003d1dd001cf9619f8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>ac523d94db8713003d1dd001cf9619f9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>24523d94db8713003d1dd001cf9619f8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>64523d94db8713003d1dd001cf9619f9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1181805771</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>9edbf51cdb471300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fcd0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>I want to...</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>20523d94ef87130075eeb32a6be003fd</update_guid>
+<update_guid_history>20523d94ef87130075eeb32a6be003fd:1181805771</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_a4527d94db8713003d1dd001cf96192c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>300</order><question display_value="Employment Type">68527d94db8713003d1dd001cf96190e</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a4527d94db8713003d1dd001cf96192c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Auxiliary</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_a4527d94db8713003d1dd001cf96192c</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Auxiliary</text><value>u_et_auxiliary</value></question_choice><fx_price action="delete_multiple" query="id=a4527d94db8713003d1dd001cf96192c"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>a4527d94db8713003d1dd001cf96192c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>e4527d94db8713003d1dd001cf96192d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>a4527d94db8713003d1dd001cf96192c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>ac527d94db8713003d1dd001cf96192c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1051149512</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>9edbf51cdb471300f72fe04a489619fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680070000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Auxiliary</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>e4527d94fd871300bfc54d6fa2bd022e</update_guid>
+<update_guid_history>e4527d94fd871300bfc54d6fa2bd022e:-1051149512</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_78527d94db8713003d1dd001cf961955</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:24523d94db8713003d1dd001cf9619f8=u_account_expiry_date^ORIO:68527d94db8713003d1dd001cf96190e=u_et_temporary^ORIO:68527d94db8713003d1dd001cf96190e=u_et_auxiliary^ORIO:68527d94db8713003d1dd001cf96190e=u_et_contractor^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;400&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Account Expiry Date Mandatory&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;78527d94db8713003d1dd001cf961955&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Account Expiry Date Mandatory&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_78527d94db8713003d1dd001cf961955&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>385249288</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>d2db311cdb471300f72fe04a489619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c6805c0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Make Account Expiry Date Mandatory</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>b0527d9485871300ce143f060756b857</update_guid>
+<update_guid_history>b0527d9485871300ce143f060756b857:385249288</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_68527d94db8713003d1dd001cf96190e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>true</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_employment_type</name><order>800</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Employment Type</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>68527d94db8713003d1dd001cf96190e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employment Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_68527d94db8713003d1dd001cf96190e</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=68527d94db8713003d1dd001cf96190e"/><fx_price action="delete_multiple" query="id=68527d94db8713003d1dd001cf96190e"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>68527d94db8713003d1dd001cf96190e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>e0527d94db8713003d1dd001cf961910</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>68527d94db8713003d1dd001cf96190e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a8527d94db8713003d1dd001cf96190f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>460274693</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>d2dbf51cdb471300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fe20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Employment Type</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>68527d94d3871300850865b073352213</update_guid>
+<update_guid_history>68527d94d3871300850865b073352213:460274693</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_0452b994db8713003d1dd001cf9619ff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</sc_cat_item><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:17</sys_created_on><sys_id>0452b994db8713003d1dd001cf9619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OCIO Catalog.Copy of Change Account-Draft</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_0452b994db8713003d1dd001cf9619ff</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:17</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>-1928225047</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>d2dbf51cdb471300f72fe04a489619fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67f810000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>OCIO Catalog.Copy of Change Account-Draft</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>9452f9948787130045110c08286f6c01</update_guid>
+<update_guid_history>9452f9948787130045110c08286f6c01:-1928225047</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_34527d94db8713003d1dd001cf96196b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:68527d94db8713003d1dd001cf96190e=u_et_permanent^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;175&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+    g_form.setValue('u_account_expiry_date', '');
+	//u_account_expiry_date = '';
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make Expiry Date Read only and None&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;34527d94db8713003d1dd001cf96196b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Expiry Date Read only and None&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_34527d94db8713003d1dd001cf96196b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>739419068</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>d6db311cdb471300f72fe04a489619dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680720000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Make Expiry Date Read only and None</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>7c527d945d87130090c0ec5cd36a376c</update_guid>
+<update_guid_history>7c527d945d87130090c0ec5cd36a376c:739419068</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_54523d94db8713003d1dd001cf9619d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>true</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>2down</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requester_information</name><order>10</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requester Information</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>54523d94db8713003d1dd001cf9619d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requester Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_54523d94db8713003d1dd001cf9619d8</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=54523d94db8713003d1dd001cf9619d8"/><fx_price action="delete_multiple" query="id=54523d94db8713003d1dd001cf9619d8"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>54523d94db8713003d1dd001cf9619d8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>dc523d94db8713003d1dd001cf9619d9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>54523d94db8713003d1dd001cf9619d8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>94523d94db8713003d1dd001cf9619d9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>159243732</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>d6dbf51cdb471300f72fe04a489619f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fad0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Requester Information</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>9c523d94408713008523cb3017a90adc</update_guid>
+<update_guid_history>9c523d94408713008523cb3017a90adc:159243732</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_b4527d94db8713003d1dd001cf961932</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>400</order><question display_value="Employment Type">68527d94db8713003d1dd001cf96190e</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>b4527d94db8713003d1dd001cf961932</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Contractor</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_b4527d94db8713003d1dd001cf961932</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Contractor</text><value>u_et_contractor</value></question_choice><fx_price action="delete_multiple" query="id=b4527d94db8713003d1dd001cf961932"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>b4527d94db8713003d1dd001cf961932</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>f4527d94db8713003d1dd001cf961933</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>b4527d94db8713003d1dd001cf961932</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>bc527d94db8713003d1dd001cf961932</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1106279058</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>d6dbf51cdb471300f72fe04a489619fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680130000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Contractor</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>f4527d94648713009fc0c774b1c14134</update_guid>
+<update_guid_history>f4527d94648713009fc0c774b1c14134:-1106279058</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_fc527d94db8713003d1dd001cf961968</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:20527d94db8713003d1dd001cf961909</catalog_variable><disabled>true</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:20</sys_created_on><sys_id>fc527d94db8713003d1dd001cf961968</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_organization</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_fc527d94db8713003d1dd001cf961968</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:20</sys_updated_on><table/><ui_policy display_value="Make Organization Readonly">b8527d94db8713003d1dd001cf961966</ui_policy><variable>u_organization</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-951668980</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>dadb311cdb471300f72fe04a489619de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c6806d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_organization</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>78527d94738713009f8fc0c2d7b0b76a</update_guid>
+<update_guid_history>78527d94738713009f8fc0c2d7b0b76a:-951668980</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_20527d94db8713003d1dd001cf96191a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>formatter2</name><order>1100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>20527d94db8713003d1dd001cf96191a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>formatter2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_20527d94db8713003d1dd001cf96191a</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table/><tooltip/><type>20</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=20527d94db8713003d1dd001cf96191a"/><fx_price action="delete_multiple" query="id=20527d94db8713003d1dd001cf96191a"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>20527d94db8713003d1dd001cf96191a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a8527d94db8713003d1dd001cf96191b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>20527d94db8713003d1dd001cf96191a</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>60527d94db8713003d1dd001cf96191b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>609679840</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>dadbf51cdb471300f72fe04a489619f7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c67fed0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>ac527d946487130093c1d88b1c03161e</update_guid>
+<update_guid_history>ac527d946487130093c1d88b1c03161e:609679840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_64527d94db8713003d1dd001cf961929</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>100</order><question display_value="Employment Type">68527d94db8713003d1dd001cf96190e</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>64527d94db8713003d1dd001cf961929</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Permanent</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_64527d94db8713003d1dd001cf961929</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><text>Permanent</text><value>u_et_permanent</value></question_choice><fx_price action="delete_multiple" query="id=64527d94db8713003d1dd001cf961929"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>64527d94db8713003d1dd001cf961929</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>a4527d94db8713003d1dd001cf96192a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>64527d94db8713003d1dd001cf961929</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>6c527d94db8713003d1dd001cf961929</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1134528894</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>dadbf51cdb471300f72fe04a489619fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680020000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Permanent</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>e4527d94f987130028fc9f07e1f1302b</update_guid>
+<update_guid_history>e4527d94f987130028fc9f07e1f1302b:-1134528894</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_34527d94db8713003d1dd001cf96193b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Copy of Change Account-Draft"&gt;8452b994db8713003d1dd001cf9619fb&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Set Default Fields From Current User&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Set Default values using the current logged-In User
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-47  27-Jun-2018  James Jose      Initial implementation
+ *
+ **/
+/*function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }*/
+function onLoad() {
+
+   //Set organization based on the user
+	var userID = g_user.userID;
+	var userName = g_user.userName;
+	
+	
+	//debugger;
+	console.log('User Fullname: ' + g_user.getFullName());
+		
+	var gr = new GlideRecord('sys_user');
+	gr.addQuery('sys_id', userID);
+	gr.setLimit(1);
+	gr.query(recUser);
+	
+	function recUser(rec){
+		
+		console.log(rec);
+		
+		//Must be one record
+		while (rec.next()) {
+			
+			// Is this the correct way?
+			var rsCB = rec.recordSet[0];
+			g_form.setValue('u_organization', rsCB.company.displayvalue);
+		    
+		}
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-28 04:31:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;34527d94db8713003d1dd001cf96193b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Default Fields From Current User&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_34527d94db8713003d1dd001cf96193b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 04:31:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-539626427</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:56</sys_created_on>
+<sys_id>dedb311cdb471300f72fe04a489619db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680220000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:56</sys_updated_on>
+<table/>
+<target_name>Set Default Fields From Current User</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>38527d9487871300d95ed1e533ae813d</update_guid>
+<update_guid_history>38527d9487871300d95ed1e533ae813d:-539626427</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_b4527d94db8713003d1dd001cf961945</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Change Account-Draft">8452b994db8713003d1dd001cf9619fb</catalog_item><catalog_variable>IO:64527d94db8713003d1dd001cf961914</catalog_variable><disabled>ignore</disabled><field/><mandatory>true</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:19</sys_created_on><sys_id>b4527d94db8713003d1dd001cf961945</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hold</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_b4527d94db8713003d1dd001cf961945</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:19</sys_updated_on><table/><ui_policy display_value="Make Hold Mandatory and None">70527d94db8713003d1dd001cf961943</ui_policy><variable>u_hold</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-1876323046</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>dedb311cdb471300f72fe04a489619dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444c680370000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>u_hold</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>30527d94e1871300e527d44886ccbc47</update_guid>
+<update_guid_history>30527d94e1871300e527d44886ccbc47:-1876323046</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_d8523d94db8713003d1dd001cf9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Change Account">8452b994db8713003d1dd001cf9619fb</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>true</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag/><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_request_details</name><order>600</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Request Details</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>true</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>d8523d94db8713003d1dd001cf9619ed</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_d8523d94db8713003d1dd001cf9619ed</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 05:09:06</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=d8523d94db8713003d1dd001cf9619ed"/><fx_price action="delete_multiple" query="id=d8523d94db8713003d1dd001cf9619ed"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>d8523d94db8713003d1dd001cf9619ed</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>54523d94db8713003d1dd001cf9619ef</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>d8523d94db8713003d1dd001cf9619ed</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 04:31:18</sys_created_on><sys_id>1c523d94db8713003d1dd001cf9619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 04:31:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1647209865</payload_hash>
+<remote_update_set display_value="OCIO Change Account - Catalog Item">9adb311cdb471300f72fe04a489619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:12:57</sys_created_on>
+<sys_id>dedbf51cdb471300f72fe04a489619f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444cb870f0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:12:57</sys_updated_on>
+<table/>
+<target_name>Request Details</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>82fa311c3a471300d2bc0a42232e2c1f</update_guid>
+<update_guid_history>82fa311c3a471300d2bc0a42232e2c1f:1647209865,94523d943e871300c73eb6bee12d43f2:-1692614497</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

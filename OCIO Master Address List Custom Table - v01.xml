@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-07-04 23:35:31">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO Master Address List Custom Table - v01 : Modified script Include to list default address as --None-- in  Address list of value
+SB-155  Initial implementation
+SB-239  Modified script so that when City (catalog variable) is changed, address is listed as -None- </description>
+<inserted/>
+<name>OCIO Master Address List Custom Table - v01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e51c2822db0713003d1dd001cf9619cf</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-07-04 23:35:31</sys_created_on>
+<sys_id>bfb1fc66db0713003d1dd001cf961964</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-07-04 23:35:31</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_706326864f2613006e76ff6f9310c778</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.OCIOMasterAddressList&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;BC Public Service, OCIO. Ajax Server side functions to populate Street per City.&lt;/description&gt;&lt;name&gt;OCIOMasterAddressList&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Server Class for GlideAjax call 
+ * 
+ * Set Default values using the current logged-In User
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-155 9-Jun-2018  Munhwan Gim      Initial implementation
+ * SB-239 4-Jul-2018  James Jose       When City (catalog variable) is changed, address should be blank  
+ **/
+var OCIOMasterAddressList = Class.create();
+OCIOMasterAddressList.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	// Return list of street per City by Querying against custom lookup table
+	// Input param: city value
+	// Custom Table
+	getStreets: function() {
+	 
+		var myUserObject = gs.getUser();		
+	    var citySelected = this.getParameter('sysparm_cityVal');
+		var addressTableName = this.getParameter('sysparm_addressTable');
+		
+		var gr = new GlideRecord(addressTableName);
+		gr.addQuery('u_city', citySelected);
+		gr.orderBy('u_sequence');
+		gr.query();
+		
+		var listStates = [];
+		listStates.push({value: '', label: '--None--'});
+		while (gr.next()) {
+			
+		    var streetObj = {};
+			streetObj.value = gr.u_street.getDisplayValue();
+			streetObj.label = gr.u_street.getDisplayValue();
+			streetObj.selected = true;
+			
+			listStates.push(streetObj);
+		}
+		
+		var response = JSON.stringify(listStates);
+		
+		return response;
+	},
+	
+	// Return Postal coder based on selected Street by Querying against custom lookup table
+	// Input param: street value
+	// Custom Table
+	getPostalcodeByStreet: function() {
+	 
+		var myUserObject = gs.getUser();		
+	    var streetSelected = this.getParameter('sysparm_streetVal');
+		var addressTableName = this.getParameter('sysparm_addressTable');
+				
+		var gr = new GlideRecord(addressTableName);
+		gr.addQuery('u_street', streetSelected);
+		gr.query();
+		
+		var postalCode = '';
+		
+		while (gr.next()) {
+			gs.info(gr.u_postal);
+			postalCode = gr.u_postal;
+		}
+		
+		return postalCode;
+	},
+    type: 'OCIOMasterAddressList'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-08 22:06:45&lt;/sys_created_on&gt;&lt;sys_id&gt;706326864f2613006e76ff6f9310c778&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIOMasterAddressList&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_706326864f2613006e76ff6f9310c778&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-04 23:29:02&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2026682214</payload_hash>
+<remote_update_set display_value="OCIO Master Address List Custom Table - v01">bfb1fc66db0713003d1dd001cf961964</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-07-04 23:35:31</sys_created_on>
+<sys_id>b3b1fc66db0713003d1dd001cf961965</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16467a0b6140000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-07-04 23:35:31</sys_updated_on>
+<table/>
+<target_name>OCIOMasterAddressList</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>70403c6639071300f449185cfef2fa14</update_guid>
+<update_guid_history>70403c6639071300f449185cfef2fa14:2026682214,4fce28e2b7071300aec60ce77e279493:5875535,66319f5b9ee2130025d086d9238b5114:-1459123132,4890129b38621300150719ec40575a90:640098036,ee00da5b9c6213003ab8114f43502f44:-2102832289,210cc2d3ca62130023c7b98c1d08278e:616131285,5e0aca93466213006e4aac5a8a37d690:-1928888410,07150e07672613000149d1777db72dcf:-1089355292,e0400e43a02613006e0cf47c08adeae1:512145776,c85d4e0fb7e21300a8c407f6314e8f67:153429052,61760d76b76213005cc8af1a18907c1b:962843696,3a16cd363162130010647178478df1a6:342128016,98a5cd367e621300068b7b2736ef2fc9:-550417604,4845cd36d46213005bc400b398d04c92:2059210741,b0a481f2db621300f32b30711c8d504b:-800912535,ba24c1365162130042908ec610aafa9f:705063716,6233cdb2bb621300fce162f9b0f6f572:-397981692,a0ffb4721062130044a826631e713303:-938564298,6afc70fef1221300dbb471349deff6ef:-119758355,f90fec76a5221300fbb2ce71704146e1:-684622625,4d0a202a4a6253001798b88da72dd377:-1060963425,09a82ca6426253005a37b2d57ccda65d:1215595482,1d976ca24e62530006808204c6623b69:-605228663,aca0a4a2e56253005d913ad87b355a92:802769792,319f90eeb1225300e00154e02b2c6117:1063833771,7ad37e022c661300c0d5f29f4f9ca234:1833874024,db937202c46613000305d9a6b0e702ec:-2038572959,70e2bace34261300108b38deabd6f7c7:361677807,e8c27202eb661300a8ab911185a875f3:2029681663,2d627a8e25261300506aee0ebdc899d0:-55096712,01707a8efa261300453a73fa724b4507:-1732557217,5a852e866f261300b14f837673e3156c:-534295005,0614268679261300a2247b81036ae17d:1088313055</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

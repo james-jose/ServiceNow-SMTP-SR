@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-07-05 03:38:43">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO Access_IBM_GALupdate  - Fulfillment Group</description>
+<inserted/>
+<name>OCIO Access_IBM_GALupdate  - Fulfillment Group</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6d072da6db471300f72fe04a48961955</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-07-05 03:38:42</sys_created_on>
+<sys_id>ca69616adb471300f72fe04a4896197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-07-05 03:38:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_3077e16adb471300f72fe04a489619e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>IBM_GALupdate Fulfillment Group </description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>Access_IBM_GALupdate </name><parent/><roles/><source/><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-05 03:31:03</sys_created_on><sys_id>3077e16adb471300f72fe04a489619e7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-05 03:31:03</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>471524907</payload_hash>
+<remote_update_set display_value="OCIO Access_IBM_GALupdate  - Fulfillment Group">ca69616adb471300f72fe04a4896197a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-07-05 03:38:42</sys_created_on>
+<sys_id>0269616adb471300f72fe04a4896197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16468844c450000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-07-05 03:38:42</sys_updated_on>
+<table/>
+<target_name>Access_IBM_GALupdate </target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>d229ed6a7b471300d7880a42d73c26d7</update_guid>
+<update_guid_history>d229ed6a7b471300d7880a42d73c26d7:471524907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-06-28 05:45:32">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>SB-90 - OCIO Categories and Sub categories 
+SB-216 - Update Traditional Desk Phones Category Description</description>
+<inserted/>
+<name>OCIO Categories and Sub categories - v01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>4a118cb6dbfa5300f72fe04a489619c3</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2f434210db871300f72fe04a4896192b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_01f9883edbfa5300f72fe04a489619a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Telephone conferencing services.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Phones">8647bd77db961300f72fe04a489619e8</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:04:43</sys_created_on><sys_id>01f9883edbfa5300f72fe04a489619a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conferencing</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_01f9883edbfa5300f72fe04a489619a7</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:04:43</sys_updated_on><title>Conferencing</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=01f9883edbfa5300f72fe04a489619a7"/></record_update>]]></payload>
+<payload_hash>-1619283685</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>23434210db871300f72fe04a4896192c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b07ba080000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Conferencing</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>9d0acc3e62fa530099cee5712969d566</update_guid>
+<update_guid_history>9d0acc3e62fa530099cee5712969d566:-1619283685</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_7fb9c83edbfa5300f72fe04a489619c5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Phones">8647bd77db961300f72fe04a489619e8</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:03:41</sys_created_on><sys_id>7fb9c83edbfa5300f72fe04a489619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Phone Consulting</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_7fb9c83edbfa5300f72fe04a489619c5</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:03:41</sys_updated_on><title>Phone Consulting</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=7fb9c83edbfa5300f72fe04a489619c5"/></record_update>]]></payload>
+<payload_hash>-1891047226</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>23434210db871300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b06c43a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Phone Consulting</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>bdc94c3e5ffa5300914bb549cafd4139</update_guid>
+<update_guid_history>bdc94c3e5ffa5300914bb549cafd4139:-1891047226</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_eb668c7adbfa5300f72fe04a48961990</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Enterprise Applications &amp; Security">e22604badbfa5300f72fe04a4896194c</parent><roles/><sc_catalog/><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:49:18</sys_created_on><sys_id>eb668c7adbfa5300f72fe04a48961990</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Applications</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_eb668c7adbfa5300f72fe04a48961990</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:49:18</sys_updated_on><title>Applications</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=eb668c7adbfa5300f72fe04a48961990"/></record_update>]]></payload>
+<payload_hash>-746828502</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>23434210db871300f72fe04a48961932</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af99c510000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Applications</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>97760cba7ffa5300e2b32fc7c6112600</update_guid>
+<update_guid_history>97760cba7ffa5300e2b32fc7c6112600:-746828502</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_f1acc8bedbfa5300f72fe04a48961932</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Workstations &amp; Devices">429bc87edbfa5300f72fe04a48961947</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:16:21</sys_created_on><sys_id>f1acc8bedbfa5300f72fe04a48961932</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workstation Permissions</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_f1acc8bedbfa5300f72fe04a48961932</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:16:21</sys_updated_on><title>Workstation Permissions</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=f1acc8bedbfa5300f72fe04a48961932"/></record_update>]]></payload>
+<payload_hash>824693896</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>23434610db871300f72fe04a48961922</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b125ea20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Workstation Permissions</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>23acc8be05fa5300087ef9864103bc3b</update_guid>
+<update_guid_history>23acc8be05fa5300087ef9864103bc3b:824693896</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_90ed40fedbfa5300f72fe04a489619ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Applications">eb668c7adbfa5300f72fe04a48961990</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:21:35</sys_created_on><sys_id>90ed40fedbfa5300f72fe04a489619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Applications.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_90ed40fedbfa5300f72fe04a489619ce</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:21:35</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1885896989</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>23434610db871300f72fe04a48961925</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b172a0d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Applications.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>14ed40fe72fa530035436869cecf5bd0</update_guid>
+<update_guid_history>14ed40fe72fa530035436869cecf5bd0:-1885896989</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_50588cbadbfa5300f72fe04a4896198b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Hosting">249744fadbfa5300f72fe04a489619fe</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:57:24</sys_created_on><sys_id>50588cbadbfa5300f72fe04a4896198b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hosting Consulting</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_50588cbadbfa5300f72fe04a4896198b</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:57:24</sys_updated_on><title>Hosting Consulting</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=50588cbadbfa5300f72fe04a4896198b"/></record_update>]]></payload>
+<payload_hash>1763761933</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>27434210db871300f72fe04a4896192e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0106dc0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Hosting Consulting</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>4658ccfae6fa5300c9d608888668fb3d</update_guid>
+<update_guid_history>4658ccfae6fa5300c9d608888668fb3d:1763761933</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_cf24847adbfa5300f72fe04a48961943</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Client access service, Wi-LAN, domain name registration, and data network consulting.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:39:47</sys_created_on><sys_id>cf24847adbfa5300f72fe04a48961943</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Data Network</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_cf24847adbfa5300f72fe04a48961943</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:50:11</sys_updated_on><title>Data Network</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=cf24847adbfa5300f72fe04a48961943"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>2089</size_bytes><size_compressed>1063</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:39:54</sys_created_on><sys_id>2554047adbfa5300f72fe04a48961936</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:39:54</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>cf24847adbfa5300f72fe04a48961943</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="2554047adbfa5300f72fe04a48961936">2554047adbfa5300f72fe04a48961936</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:39:54</sys_created_on><sys_id>6554047adbfa5300f72fe04a48961936</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>lVVbixs3FH5OIP9Bnbw0IGkkzd1ZNzRJCYEUCi55LbOy1jEZj81ovPam9L/3O2c83i20gWJb0pzLd26fxjdvzrtO3Ichbvf9MrHaJCL0fr/e9ptlchzvVJ28+enF85sflBIfQh+GdtwPC/Hzen8bxMeuO8aRRcI5bbSVYvX5g/jlfNgPo/itO27Ux15oFn6egixEqY0Rb4/bbi3MKyGUIvx4v3mahk1ePH8mtutl8ql9CMMfNhFItI8L75fJl3E8LNLUD6Edt/fB73e7fR/1ftikfXw5W64fLQ/HoWP12qehC7vQjzFFkHS23fZfo28P4epxOp30LJyA212Ih9aHmM7y2XlY3/3D75Sxh22aJjUudU7BQsWHfmzP6kmCEV0+4Hd1ngU67o+DD3dACboPY/r+9/dXpTJ6Pa6vGPebf4vtjDEpdNxFtvyu1QXs3KG0/yyFtTBdJuZwTsTDZb/fhtPbPUmFEQ19OWgcHzq0M/TtbRfUbeu/bob9sV8v+nASV9PXHHrBjV0mhyHEMNyHhAlBAGJ8oKGM4TymPkZSPNNxNH/ebbtu8dKYLCvL13/BPGV7ctwIMLKP6N4OnnTs2jH8aKRqCqez0tn6FQPdHNrxi/BdG9EdgCYCdPu1KCXZ5V4VupBGWSNzXdBmjTcyg9DqWpa6JLmsddapXDfSluRjYWrwy7DWkJe0I9YzrzKGK3UFf6ca7YDlOmULnSubeUu+UFUwzHgvtPOGsPGzqqGP51BGNZJFsonYZUMfb5ER8kPAHNoMcPaTg6JBMVMGFr6OkpMFEsuQe8MV5ZQRKipwBpq2yMpAQotXDn454uYK3UP+De1eUQPQHSc5fxi7WBCSm77ROjU9Q8nhDfy4HaqYkTqKwLG84+IboFVzFrT7gquCSa5IbDNV6bKzOdLLdeUVvXMM4zru67Q3U0TUZCUPx07faO00LHTbepoGPyt+JpHKUVSFXBzPKKfq0I2c7SpvuK9O0ojRVt4zXV3qm4bvoGkU5YQkKVPMTdN4Ki4wnwpDajUXyAOVPGOsTfzOsFEQ2iepZB42eIJGUnBOEcTVNU2ZJlYjC6ISTa4gInbgcMkllBcEKsMxmWkAzHY0muxps2ZVEiP5Msj5VnwT0wUpL5wirqLNyKPCWkbFB4WjZx6jxZwIRKuCdOwqZwzAoa6Sro6jPCQ3HmtBSDgoHEFB0jFtQCpVUORVCTV7ygsCsCrgV/8TbFURl9hNzv6AyjGNBqzzRCFD7Lny6JFbj1ySxB02VfYJpVYZWTCQnBEpT3gZUwM94+lPlK9kxdexYaZXCs9R0QwtVubYu4oupaWxVAXNkEHkFQ7QdPmMo/dXTvyURLISax0VHxQfa3rAWq9wmy4O8ur6LUnpRZpueMUfBPa/AfCPYtIpCAAA</data><length>1404</length><position>1</position><sys_attachment display_value="icon" sys_id="2554047adbfa5300f72fe04a48961936">2554047adbfa5300f72fe04a48961936</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:39:54</sys_created_on><sys_id>e554047adbfa5300f72fe04a48961936</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>53354324</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>27434210db871300f72fe04a48961931</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afa69f00000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Data Network</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>5cb68cbaf5fa5300a971a8b10faec7e4</update_guid>
+<update_guid_history>5cb68cbaf5fa5300a971a8b10faec7e4:53354324,e554047a78fa530076e10ee47fd64e39:357294273,4c54807aa0fa53008478298ec04155e3:-1542477181</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_768c04bedbfa5300f72fe04a4896191f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Software">a86c08bedbfa5300f72fe04a489619d0</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:15:46</sys_created_on><sys_id>768c04bedbfa5300f72fe04a4896191f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Software.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_768c04bedbfa5300f72fe04a4896191f</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:15:46</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1976081937</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>27434610db871300f72fe04a48961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b11d4500000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Software.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>b68c04bebbfa5300d8cc559896ed2421</update_guid>
+<update_guid_history>b68c04bebbfa5300d8cc559896ed2421:1976081937</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_f8384cfadbfa5300f72fe04a4896196c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="BC Secure Access Gateway">7d18c8fadbfa5300f72fe04a4896196b</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:56:47</sys_created_on><sys_id>f8384cfadbfa5300f72fe04a4896196c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BC Secure Access Gateway.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_f8384cfadbfa5300f72fe04a4896196c</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:56:47</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-308572484</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>27434610db871300f72fe04a48961927</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b00732b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>BC Secure Access Gateway.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>3c384cfac2fa5300807a7af4e171866e</update_guid>
+<update_guid_history>3c384cfac2fa5300807a7af4e171866e:-308572484</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_2bca407edbfa5300f72fe04a489619de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Managed print service (MSP) and print queues.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:08:32</sys_created_on><sys_id>2bca407edbfa5300f72fe04a489619de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Printing Services</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_2bca407edbfa5300f72fe04a489619de</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:08:32</sys_updated_on><title>Printing Services</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=2bca407edbfa5300f72fe04a489619de"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>1651</size_bytes><size_compressed>783</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:08:42</sys_created_on><sys_id>d7ea807edbfa5300f72fe04a489619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:08:42</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>2bca407edbfa5300f72fe04a489619de</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="d7ea807edbfa5300f72fe04a489619a9">d7ea807edbfa5300f72fe04a489619a9</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:08:42</sys_created_on><sys_id>1bea807edbfa5300f72fe04a489619a9</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>hVRbb5swFH5upf4Hj72skm1sQwikzaq1nZpKmzRpU18nCi5BJYCwQ5JO++87Npe1yboKxcDn813OgXB+sV0VqJWNyqty7nDKHCTLpErzMps7a/1AQufi48nx+TtC0I0sZRPrqpmhT2l1L9FtUayVthASgjLKMfp+d4M+b+uq0ehbsc7IbYmoBe86kxkKKGPocp0XKWKnCBFi9FWbPY/BnZPjI5Snc+dLvJPNT+4gCFqqWZLMnaXW9cx1k0bGOm9lUq1WValo1WRuqd4PlenfynrdFHY7TVxZyJUstXLBxB1q8/JRJXEtR8Zms6ED2AnHK6nqOJHKHfCB3KQPL3gbzzJ4FEUuE64QBCqI2pU63pJnARVMuYbfSB4Aqqp1k8gHUJG0lNq9/nE9bhJGU52OGm32L2/BGHNhz07RVv63qhfbFtDaq63YXSidO6zeOmjXn9tcbi4rgyKGpgIFvjVVelfAOGUZ3xeS3MfJY9ZU6zKdlXKDxtIzaz2zg507dSOVbFrp2BfCCCC9Mw9Fy612E6XMxhFVmv16yIti9p4xzwuCs99Q7tp6Q8wQvJGlgumtgGkui1jLDwyTaCKoFwgenlqh8zrWS5QUsYLpgKiD4HX7Khg2dX5CPOphRgIs6BTWoA0XwSEo/IRhAwKAA3MswzY8wDyRWCYOiAVJAAGOWhIuw/2NlhhNY0SsiTmWJITafXQh2BPqAgfUNx7wToOUwIxGsAqIzA3ReF3xEOqmVGAewq6l4IELMgGOpgxUAnagYnsEkFiAAGTzmJQ9SoQ5FhwGZD4CbFxBxJgnBG6hlNMQd6tofTNOawXcXsP0fuVDEg5M38Q0mXCfDVJOoImpb55Oz8SWiUWXcIgMCX3r27cyJD9IPAlB1EwmshMMWn7QK0z5IOedrTfDF9SQI+r3bdKuUWHbBAXKFTd5AId70B6PJWdvxRvKu3EuhGcfJHhGnSd+edknGWJxxibjpF7PtBTBWzlsb/tZuhydCd67HsyfHNf8Jd3MrvCpgfMfWb1x33MGAAA=</data><length>1032</length><position>1</position><sys_attachment display_value="icon" sys_id="d7ea807edbfa5300f72fe04a489619a9">d7ea807edbfa5300f72fe04a489619a9</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:08:42</sys_created_on><sys_id>9bea807edbfa5300f72fe04a489619a9</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>1227120292</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2b434210db871300f72fe04a4896192d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0b5cd20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Printing Services</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>5fea807e40fa5300a4c7c2c648dcbdac</update_guid>
+<update_guid_history>5fea807e40fa5300a4c7c2c648dcbdac:1227120292,c9ea007e87fa5300fd535091349dd84a:-919621669</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_a9b3407adbfa5300f72fe04a4896190b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Set up a new email account, login credentials (IDIR), contact information (GAL), and remote access. Add the account to groups, file drives (H, shared), and distribution lists.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Accounts &amp; Access">c216f5b7db961300f72fe04a489619dc</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:37:33</sys_created_on><sys_id>a9b3407adbfa5300f72fe04a4896190b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Account Set-Up</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_a9b3407adbfa5300f72fe04a4896190b</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:37:33</sys_updated_on><title>New Account Set-Up</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=a9b3407adbfa5300f72fe04a4896190b"/></record_update>]]></payload>
+<payload_hash>-1416831245</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2b434210db871300f72fe04a48961930</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aeed8720000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>New Account Set-Up</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>8bc3807a35fa5300d43689924665f1de</update_guid>
+<update_guid_history>8bc3807a35fa5300d43689924665f1de:-1416831245</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_302780fadbfa5300f72fe04a48961910</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="File Integrity Monitoring">c01700fadbfa5300f72fe04a4896197d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:52:08</sys_created_on><sys_id>302780fadbfa5300f72fe04a48961910</sys_id><sys_mod_count>0</sys_mod_count><sys_name>File Integrity Monitoring.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_302780fadbfa5300f72fe04a48961910</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:52:08</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1184239033</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2b434610db871300f72fe04a48961923</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afc31170000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>File Integrity Monitoring.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>302780faf8fa53006b06acb683cda512</update_guid>
+<update_guid_history>302780faf8fa53006b06acb683cda512:-1184239033</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_dfe889a4db6e5300f72fe04a489619af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Under construction 1">5fe7cd64db6e5300f72fe04a4896195f</sc_cat_item><sc_category display_value="Cancel Account">9cb6f9b7db961300f72fe04a48961976</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-03 23:37:33</sys_created_on><sys_id>dfe889a4db6e5300f72fe04a489619af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Permissions.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_dfe889a4db6e5300f72fe04a489619af</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-03 23:37:33</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1202276190</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2b434610db871300f72fe04a48961926</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aec7a5d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>User Permissions.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>dd330c3ab6fa53000f85ddd0aa37dbfd</update_guid>
+<update_guid_history>dd330c3ab6fa53000f85ddd0aa37dbfd:1202276190,1fe889a4846e5300ec6388eb9dae30b1:1957860595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_1c4780fadbfa5300f72fe04a489619d9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Enterprise Applications &amp; Security">e22604badbfa5300f72fe04a4896194c</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:52:45</sys_created_on><sys_id>1c4780fadbfa5300f72fe04a489619d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SharePoint</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_1c4780fadbfa5300f72fe04a489619d9</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:52:45</sys_updated_on><title>SharePoint</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=1c4780fadbfa5300f72fe04a489619d9"/></record_update>]]></payload>
+<payload_hash>397715785</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2f434210db871300f72fe04a4896192c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afcc2450000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>SharePoint</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>314744fa2bfa5300521fcc0c620eb844</update_guid>
+<update_guid_history>314744fa2bfa5300521fcc0c620eb844:397715785</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_9bc544badbfa5300f72fe04a48961923</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Data Network">cf24847adbfa5300f72fe04a48961943</parent><roles/><sc_catalog/><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:46:27</sys_created_on><sys_id>9bc544badbfa5300f72fe04a48961923</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Client Access Services</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_9bc544badbfa5300f72fe04a48961923</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:46:27</sys_updated_on><title>Client Access Services</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=9bc544badbfa5300f72fe04a48961923"/></record_update>]]></payload>
+<payload_hash>1269558412</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2f434210db871300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af6ffc30000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Client Access Services</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>29d584bad3fa5300170f3cc178dedebc</update_guid>
+<update_guid_history>29d584bad3fa5300170f3cc178dedebc:1269558412</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_1d5b847edbfa5300f72fe04a489619b7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Print Queue">6c4b007edbfa5300f72fe04a48961951</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:10:27</sys_created_on><sys_id>1d5b847edbfa5300f72fe04a489619b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Print Queue.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_1d5b847edbfa5300f72fe04a489619b7</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:10:27</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1109735249</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2f434610db871300f72fe04a48961922</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0cf90a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Print Queue.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>1d5b847e74fa53008b65ccc58b4b6eb9</update_guid>
+<update_guid_history>1d5b847e74fa53008b65ccc58b4b6eb9:-1109735249</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_bba5c0badbfa5300f72fe04a489619d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Wi-Lan">0895407adbfa5300f72fe04a48961933</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:45:47</sys_created_on><sys_id>bba5c0badbfa5300f72fe04a489619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Wi-Lan.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_bba5c0badbfa5300f72fe04a489619d5</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:45:47</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>743024706</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>2f434610db871300f72fe04a48961925</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af6630e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Wi-Lan.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>bba5c0ba12fa530044fc472ae25d87d7</update_guid>
+<update_guid_history>bba5c0ba12fa530044fc472ae25d87d7:743024706</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_4f69483edbfa5300f72fe04a48961915</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Phones">8647bd77db961300f72fe04a489619e8</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:02:15</sys_created_on><sys_id>4f69483edbfa5300f72fe04a48961915</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mobile Phones</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_4f69483edbfa5300f72fe04a48961915</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:02:15</sys_updated_on><title>Mobile Phones</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=4f69483edbfa5300f72fe04a48961915"/></record_update>]]></payload>
+<payload_hash>-876302710</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>63434210db871300f72fe04a4896192e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0577b10000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Mobile Phones</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>4d79083ecffa530079ddcaefdc58a170</update_guid>
+<update_guid_history>4d79083ecffa530079ddcaefdc58a170:-876302710</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_c216f5b7db961300f72fe04a489619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>User and business account changes, such as email, login credentials (IDIR), contact information (GAL), groups, file drives.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:00:25</sys_created_on><sys_id>c216f5b7db961300f72fe04a489619dc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Accounts &amp; Access</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_c216f5b7db961300f72fe04a489619dc</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:29:17</sys_updated_on><title>Accounts &amp; Access</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=c216f5b7db961300f72fe04a489619dc"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>793</size_bytes><size_compressed>522</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:29:26</sys_created_on><sys_id>90f1403adbfa5300f72fe04a489619ea</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:29:26</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>c216f5b7db961300f72fe04a489619dc</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="90f1403adbfa5300f72fe04a489619ea">90f1403adbfa5300f72fe04a489619ea</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:29:26</sys_created_on><sys_id>d0f1403adbfa5300f72fe04a489619ea</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>bZHdatwwEIWvE8g7TNWrgjSW5H8nTmhCSQMNFBb2tni9imPi2sby2rspffeO7KX0omB7JJ0z38zIN3fHnw1MZrB11+ZMoWRg2rLb122Vs8P4IhJ2d3t1efNBCHg0rRmKsRsy+LzvdgaemuZgx+UItEaJisNm+whfjn03jPC9OVTiqQVcDrdrkQwilBLuD3WzB/kJQAjHt1P1bxuKQb3P2bfiZIYftKEuW5uz13HsM8+b5xlnH7uh8rSU0qPksyU7NnX79j+jStPUW1Sy5kz2RwanNV5dXsBUm/m+cwJISDQ9DOx4akzOTFvsGiN2RflWDd2h3WetmeGv73opndm+KMncD8aaYTJsGcoBYDz1JIzmOHqltU64QDvKXy9102QfpfT9KLr+TXZv8bvEvhhfoWwKSzOTlQHdxbPkiZ5EgOpB8sjHkKeoeag43XzEg7CUmHBFRwpjrtGnN+Y++g9KkxC6BMrlUUA7t4hjTF9jHxPqp5RC+ahEgrHQAQZCE0joFKNSCUXEVGhKIaJwxHghKupnbYSio20T/VW+w3OgeEC9lUJJaofQCYZCqTUSPtr4rlfJyShd9dXHSQ+4UmtcfKGbx7H4mXmmoyoFFXTsgCYlYV1oieHGp0noPtxnjdZpwlGWhTNR1U2QECE421C9M+92+QlTRfEPFrdwfxkDAAA=</data><length>684</length><position>1</position><sys_attachment display_value="icon" sys_id="90f1403adbfa5300f72fe04a489619ea">90f1403adbfa5300f72fe04a489619ea</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:29:26</sys_created_on><sys_id>54f1403adbfa5300f72fe04a489619ea</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>1394493746</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>63434210db871300f72fe04a48961931</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642ae76ba70000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Accounts &amp; Access</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>d8f1403a46fa53005957f9b261dc5cee</update_guid>
+<update_guid_history>d8f1403a46fa53005957f9b261dc5cee:1394493746,cee140f624fa53009222d728f1dc8231:575008384,e4e1c876cbfa530086e9afe29769bf5c:-1709325740,a586f9b73d961300719a5ea5c0f5d25f:-2066311317,98567d77299613005638177a79d11e40:-1709325740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_461acc3edbfa5300f72fe04a489619fc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Conferencing">01f9883edbfa5300f72fe04a489619a7</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:05:03</sys_created_on><sys_id>461acc3edbfa5300f72fe04a489619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conferencing.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_461acc3edbfa5300f72fe04a489619fc</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:05:03</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>961502480</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>63434610db871300f72fe04a48961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b08073b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Conferencing.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>861acc3ef1fa5300f3b907136b68f2fe</update_guid>
+<update_guid_history>861acc3ef1fa5300f3b907136b68f2fe:961502480</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_ed680cfadbfa5300f72fe04a48961984</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Hosting Consulting">50588cbadbfa5300f72fe04a4896198b</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:57:38</sys_created_on><sys_id>ed680cfadbfa5300f72fe04a48961984</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hosting Consulting.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_ed680cfadbfa5300f72fe04a48961984</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:57:38</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1500349754</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>63434610db871300f72fe04a48961927</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b013d250000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Hosting Consulting.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>ed680cfa7ffa5300ec350ba03bab5f86</update_guid>
+<update_guid_history>ed680cfa7ffa5300ec350ba03bab5f86:1500349754</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_260b847edbfa5300f72fe04a489619b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Printing Services">2bca407edbfa5300f72fe04a489619de</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:09:20</sys_created_on><sys_id>260b847edbfa5300f72fe04a489619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Managed Print Services (MPS)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_260b847edbfa5300f72fe04a489619b1</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:09:20</sys_updated_on><title>Managed Print Services (MPS)</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=260b847edbfa5300f72fe04a489619b1"/></record_update>]]></payload>
+<payload_hash>-1311076709</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>67434210db871300f72fe04a4896192d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0bf31f0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Managed Print Services (MPS)</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>b81b007e84fa5300303d07ae863df94f</update_guid>
+<update_guid_history>b81b007e84fa5300303d07ae863df94f:-1311076709</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_a86c08bedbfa5300f72fe04a489619d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Software applications for desktop workstations, laptops &amp; tablets.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Workstations &amp; Devices">429bc87edbfa5300f72fe04a48961947</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:15:16</sys_created_on><sys_id>a86c08bedbfa5300f72fe04a489619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Software</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_a86c08bedbfa5300f72fe04a489619d0</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:15:16</sys_updated_on><title>Software</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=a86c08bedbfa5300f72fe04a489619d0"/></record_update>]]></payload>
+<payload_hash>-1152697894</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>67434210db871300f72fe04a48961930</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b11622d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Software</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>376c48be29fa530061fea2651813c322</update_guid>
+<update_guid_history>376c48be29fa530061fea2651813c322:-1152697894</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_2abc0cbedbfa5300f72fe04a48961981</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Workstation Permissions">f1acc8bedbfa5300f72fe04a48961932</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:16:34</sys_created_on><sys_id>2abc0cbedbfa5300f72fe04a48961981</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workstation Permissions.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_2abc0cbedbfa5300f72fe04a48961981</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:16:34</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>123028544</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>67434610db871300f72fe04a48961923</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b128fcb0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Workstation Permissions.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>6abc0cbe0ffa53001c5bfd15589e9383</update_guid>
+<update_guid_history>6abc0cbe0ffa53001c5bfd15589e9383:123028544</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_de57c0fadbfa5300f72fe04a48961915</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="SharePoint">1c4780fadbfa5300f72fe04a489619d9</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:53:03</sys_created_on><sys_id>de57c0fadbfa5300f72fe04a48961915</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SharePoint.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_de57c0fadbfa5300f72fe04a48961915</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:53:03</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>2037209903</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>67434610db871300f72fe04a48961926</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afd0b360000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>SharePoint.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>1257c0fabafa530002e73f97b4031018</update_guid>
+<update_guid_history>1257c0fabafa530002e73f97b4031018:2037209903</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_19d6c8badbfa5300f72fe04a48961910</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Enterprise Applications &amp; Security">e22604badbfa5300f72fe04a4896194c</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:50:55</sys_created_on><sys_id>19d6c8badbfa5300f72fe04a48961910</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Firewalls</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_19d6c8badbfa5300f72fe04a48961910</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:50:55</sys_updated_on><title>Firewalls</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=19d6c8badbfa5300f72fe04a48961910"/></record_update>]]></payload>
+<payload_hash>-2130925299</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>6b434210db871300f72fe04a4896192c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afb15bf0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Firewalls</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>c7d64cba91fa5300b2fc8a3980b6d16a</update_guid>
+<update_guid_history>c7d64cba91fa5300b2fc8a3980b6d16a:-2130925299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_941d8cbedbfa5300f72fe04a489619c6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Workstations &amp; Devices">429bc87edbfa5300f72fe04a48961947</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:18:08</sys_created_on><sys_id>941d8cbedbfa5300f72fe04a489619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workstation Moves</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_941d8cbedbfa5300f72fe04a489619c6</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:18:08</sys_updated_on><title>Workstation Moves</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=941d8cbedbfa5300f72fe04a489619c6"/></record_update>]]></payload>
+<payload_hash>-1699829756</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>6b434210db871300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b1400480000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Workstation Moves</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>a91d00fe68fa53006ff4603ffb9339ba</update_guid>
+<update_guid_history>a91d00fe68fa53006ff4603ffb9339ba:-1699829756</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_04f64cbadbfa5300f72fe04a4896199f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Firewalls">19d6c8badbfa5300f72fe04a48961910</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:51:16</sys_created_on><sys_id>04f64cbadbfa5300f72fe04a4896199f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Firewalls.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_04f64cbadbfa5300f72fe04a4896199f</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:51:16</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1817474273</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>6b434610db871300f72fe04a48961922</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afb68250000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Firewalls.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>c4f64cba70fa5300bdd7fc7cc069d4a1</update_guid>
+<update_guid_history>c4f64cba70fa5300bdd7fc7cc069d4a1:1817474273</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_b7ec48bedbfa5300f72fe04a48961913</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Workstation Consulting (Project)">e9dc88bedbfa5300f72fe04a48961919</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:17:28</sys_created_on><sys_id>b7ec48bedbfa5300f72fe04a48961913</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workstation Consulting (Project).Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_b7ec48bedbfa5300f72fe04a48961913</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:17:28</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1285470862</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>6b434610db871300f72fe04a48961925</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b1362790000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Workstation Consulting (Project).Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>b7ec48be0cfa5300619b0441a3a77c15</update_guid>
+<update_guid_history>b7ec48be0cfa5300619b0441a3a77c15:1285470862</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_7d18c8fadbfa5300f72fe04a4896196b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Hosting">249744fadbfa5300f72fe04a489619fe</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:56:30</sys_created_on><sys_id>7d18c8fadbfa5300f72fe04a4896196b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BC Secure Access Gateway</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_7d18c8fadbfa5300f72fe04a4896196b</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:56:30</sys_updated_on><title>BC Secure Access Gateway</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=7d18c8fadbfa5300f72fe04a4896196b"/></record_update>]]></payload>
+<payload_hash>1350284813</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>6f434210db871300f72fe04a4896192e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b00343a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>BC Secure Access Gateway</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>3c2888fa85fa53006a858bd5df385c1b</update_guid>
+<update_guid_history>3c2888fa85fa53006a858bd5df385c1b:1350284813</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_e9dc88bedbfa5300f72fe04a48961919</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Workstations &amp; Devices">429bc87edbfa5300f72fe04a48961947</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:17:16</sys_created_on><sys_id>e9dc88bedbfa5300f72fe04a48961919</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workstation Consulting (Project)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_e9dc88bedbfa5300f72fe04a48961919</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:17:16</sys_updated_on><title>Workstation Consulting (Project)</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=e9dc88bedbfa5300f72fe04a48961919"/></record_update>]]></payload>
+<payload_hash>-1430106724</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>6f434210db871300f72fe04a48961931</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b1333a30000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Workstation Consulting (Project)</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>3cec8cbe34fa5300e84d9e16791fabb4</update_guid>
+<update_guid_history>3cec8cbe34fa5300e84d9e16791fabb4:-1430106724</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_7e4ccc7edbfa5300f72fe04a4896191d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Hardware">d12cc87edbfa5300f72fe04a48961955</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:14:40</sys_created_on><sys_id>7e4ccc7edbfa5300f72fe04a4896191d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_7e4ccc7edbfa5300f72fe04a4896191d</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:14:40</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1445947957</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>6f434610db871300f72fe04a48961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b10d42b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Hardware.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>7e4ccc7e26fa53004a7be729b094f21f</update_guid>
+<update_guid_history>7e4ccc7e26fa53004a7be729b094f21f:-1445947957</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_249744fadbfa5300f72fe04a489619fe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Servers, BC Secure Access Gateway, hosting consulting services, and other hosting services.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:54:48</sys_created_on><sys_id>249744fadbfa5300f72fe04a489619fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hosting</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_249744fadbfa5300f72fe04a489619fe</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:54:48</sys_updated_on><title>Hosting</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=249744fadbfa5300f72fe04a489619fe"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>1545</size_bytes><size_compressed>632</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:54:56</sys_created_on><sys_id>fdc7c0fadbfa5300f72fe04a48961995</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:54:56</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>249744fadbfa5300f72fe04a489619fe</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="fdc7c0fadbfa5300f72fe04a48961995">fdc7c0fadbfa5300f72fe04a48961995</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:54:56</sys_created_on><sys_id>31c7c0fadbfa5300f72fe04a48961996</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>nVRba9swFH5uof9B054GkizJjpO4ycoaRltYYTDw63Ad1Tb1bGM5TtKx/75z5Ca90kJQsC7nu5xzJDI72/wpSW9aW9TVnCohKTFVWi+LKpvTVXfLJ/Ts68nx7BPn5MJUpk26uo3It2V9Y8hVWa5s546I1kIKxciv+IJ83zR125Gf5SrjVxUR7jAeTCISCinJ+aool0R+IYRz1Ld99jQNRUmxnNMfyda0v2EDWVZ2TvOuayLPW6/XYu2Lus08LaX0gPwAiTZlUd29BVTT6dRzUYDOqWw2lGyH+eT4iPSFWZ/XGCCSBBP4UWK7bWnm1FTJTWn4TZLeZW29qpZRZdZkjzt11pFtkhTATWusaXtDXVEoQLptA4HObDovtRYDR8J28u9tUZbRZyl9PwxP/wHcc3gkZgiaNUmXk7RMLFQOBEqgI9fBmKkglSJkkikuRQBfFatUwjrEPVc4LtUCYxKHm1WvdIqb0B0oHHkgwn4sAJxyF+CKOQWmwP/oLYbWcRDmfPSKYB8xSHuen31MDLixPxKo9BLVc6XR92UtOYc8YxVcBuN7ch2ETPsCypGXGhhyod2ePZzvZkCOQV7DWwJq7msxcaXCIYooMWKD2wLWYK/ZkxljeO7jXu8+sc6DAH0RcU+9dy4JpSDpV13qtRi/7Kl9vMaRCBeBhs0IC1FiiiJsp/aupe+Qh1nCfYTOEhbaWe7U3rXU4yHBQyz1BLhoCYuRs9ypfdxYH4Revx3n+fzh2OcpLQLp2AzmiVNhe72Pe3uwq+87NvZUDa57vY/be7CrDh0b2zpUyPZ6g+vMy9wX/jxh/g9CN82+CQYAAA==</data><length>832</length><position>1</position><sys_attachment display_value="icon" sys_id="fdc7c0fadbfa5300f72fe04a48961995">fdc7c0fadbfa5300f72fe04a48961995</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:54:56</sys_created_on><sys_id>b1c7c0fadbfa5300f72fe04a48961996</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>999804997</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a3434210db871300f72fe04a4896192d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afec39a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Hosting</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>75c7c0fad0fa5300d7fe5e49301b4c99</update_guid>
+<update_guid_history>75c7c0fad0fa5300d7fe5e49301b4c99:999804997,77b748fad1fa5300b500512e4111d81b:-1815241296</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_9cb6f9b7db961300f72fe04a48961976</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Cancel accounts and access, i.e., for a person no longer working in government.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Accounts &amp; Access">c216f5b7db961300f72fe04a489619dc</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:03:00</sys_created_on><sys_id>9cb6f9b7db961300f72fe04a48961976</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Cancel Account</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_9cb6f9b7db961300f72fe04a48961976</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:34:34</sys_updated_on><title>Cancel Account</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=9cb6f9b7db961300f72fe04a48961976"/></record_update>]]></payload>
+<payload_hash>-1479337528</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a3434210db871300f72fe04a48961930</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aec1c7e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Cancel Account</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>5b13c476893a53001fc2810534a7da15</update_guid>
+<update_guid_history>5b13c476893a53001fc2810534a7da15:-1479337528,c6e679b786961300f0da88bef0b0cf11:360612292</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_27d4c87adbfa5300f72fe04a48961963</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Data Network Consulting">1994047adbfa5300f72fe04a48961947</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:42:13</sys_created_on><sys_id>27d4c87adbfa5300f72fe04a48961963</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Data Network Consulting.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_27d4c87adbfa5300f72fe04a48961963</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:42:13</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-685567362</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a3434610db871300f72fe04a48961923</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af31e940000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Data Network Consulting.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>27d4c87af8fa5300238b3c599d39af65</update_guid>
+<update_guid_history>27d4c87af8fa5300238b3c599d39af65:-685567362</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_c893007adbfa5300f72fe04a489619ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Transfer Account">f0434c3adbfa5300f72fe04a489619a9</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:36:31</sys_created_on><sys_id>c893007adbfa5300f72fe04a489619ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Transfer Account.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_c893007adbfa5300f72fe04a489619ba</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:36:31</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1465147214</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a3434610db871300f72fe04a48961926</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aede7ac0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Transfer Account.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>c493007af5fa5300e413dd46f71fbfbd</update_guid>
+<update_guid_history>c493007af5fa5300e413dd46f71fbfbd:1465147214</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_1994047adbfa5300f72fe04a48961947</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Data Network">cf24847adbfa5300f72fe04a48961943</parent><roles/><sc_catalog/><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:41:30</sys_created_on><sys_id>1994047adbfa5300f72fe04a48961947</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Data Network Consulting</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_1994047adbfa5300f72fe04a48961947</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:41:30</sys_updated_on><title>Data Network Consulting</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=1994047adbfa5300f72fe04a48961947"/></record_update>]]></payload>
+<payload_hash>1633946662</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a7434210db871300f72fe04a4896192c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af277a80000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Data Network Consulting</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>81b4487ae9fa53000e68d40599fea1d9</update_guid>
+<update_guid_history>81b4487ae9fa53000e68d40599fea1d9:1633946662</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_8647bd77db961300f72fe04a489619e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Phone products and services, including desk phones, unified communications (UC), mobile, and conferencing.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:05:03</sys_created_on><sys_id>8647bd77db961300f72fe04a489619e8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Phones</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_8647bd77db961300f72fe04a489619e8</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-11 16:25:03</sys_updated_on><title>Phones</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=8647bd77db961300f72fe04a489619e8"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>1827</size_bytes><size_compressed>948</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:59:56</sys_created_on><sys_id>cfe8c03edbfa5300f72fe04a489619f2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:59:56</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>8647bd77db961300f72fe04a489619e8</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="cfe8c03edbfa5300f72fe04a489619f2">cfe8c03edbfa5300f72fe04a489619f2</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:59:56</sys_created_on><sys_id>03e8c03edbfa5300f72fe04a489619f3</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>lVVdixs3FH3eQP6DOn0qSLK+Rho564bGlBBooFDIa/GOJ47J1Dae2fVuSv97z5Gc0EJT2oeVNNLVveeec+S9ffn42ygehvO0Px5WjdWmEcOhP273h92quZ/fq655+f3zZ7ffKCVeD4fhvJmP56X4YXu8G8Sbcbyf5rIlnNNGWyl+efda/Ph4Op5n8fN4v1NvDkKXzXe1yFJEbYx4db8ft8J8J4RSzD897P4KwzZiv101P22ehvOv+ADKw7RqPszzablYXC4XffH6eN4tnDFmgcvXkOXjuD98/KdAm3NelFOErhpzemzEU52fP7sRD/vh8urIA2FEdtqK7HXXiGl+GodVMxw2d+Og7jb9x935eH/YLg/DRfwt9kWBsJxOmx4XTudhGs4PQ1OaYxIxP51wMA+P86KfJh7c6Gk2v7/fj+PyW2O8j/HFHwhflHhe3DHo9rSZP4h+3ExgABcaAWbexqCjjKC8V6BLGd0qpwNmr7z2Et+jSlikdWtljDrL4LSTuOalD7INOq1dqzsZWmw7ZvORc5Dej52K2qL2Tc/UnbRIjUalZfIeWwFVnUIyZR0Hq2CAUE+MTgVT/cuM5EGHP4ePJA1yFYjEHpDUoYQr+Zz0OpTCQA+4vOF0KzEgqWd0WCOPtB12jbQZ6zJ1Pf3HxCzhSIIDAvaXe5wHCYRoMrNWwuXAhrDKpZwpeQBfMo1BJLk1tYjini2thb7OneyACMBadohCZd+SS3RKyAFcJWSIqmYjEeyap5Vbc2WF91rFCLdOEeihVycj5Ys4kV+0/iTepg4lMOQeEjnZVgVamUk246yhQr4kRkKri5bKYx0rtWsyG0hGIBckPSCDAwXXJlIhPlXeAwuQ3Xy1Qke4koJAsz7AWqnQYUlGJ3NVpxsVt5CoylmoLNTlQmimTj3IJSkS0jpCh3Ittm05L7agkLbg86yOFnuGVUX8VRk2G0cQplKpVrIxnIJGhrBnC3oz4SbsYmVJZBkqpZ+axdcfXFcqRe3XiQQlCsIiQYZU8CS6uQC62jvzRYIn219ROm4WixbrXY1uqy0i7dpBUCxy7dn2CV80ui3vhCa21MCXal9JCk5NNXEd+xJT3leNdJ8NuMaPV5Ke8DtWIfXyS5//ykYi1pD5RP5LtZ7KJ65pUgtHwkRZtxOfToBRWgXLRFXfYvlt+T889nxfniy10tOFLSzZ9qH4uj4Jyd6KfDHT+Z1M5DwUF3xuprZ8u9iVEf9WMP8JoyZaPCMHAAA=</data><length>1252</length><position>1</position><sys_attachment display_value="icon" sys_id="cfe8c03edbfa5300f72fe04a489619f2">cfe8c03edbfa5300f72fe04a489619f2</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:59:56</sys_created_on><sys_id>83e8c03edbfa5300f72fe04a489619f3</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>954566544</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a7434210db871300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0358e40000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Phones</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>5fe8c03e8dfa53008a47b54214d05ef6</update_guid>
+<update_guid_history>5fe8c03e8dfa53008a47b54214d05ef6:954566544,f4e8c03ebafa5300ecf188318a3659f1:716101057,46a2f00bd0221300e0ae32db884dc916:239704674,2967f1f7829613009c307a4cb942b378:-164386305,4467b1f7c9961300bf37d405c1af915c:325718829</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_f0434c3adbfa5300f72fe04a489619a9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Request account and access changes to move a user from one area of government to another.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Accounts &amp; Access">c216f5b7db961300f72fe04a489619dc</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:36:06</sys_created_on><sys_id>f0434c3adbfa5300f72fe04a489619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Transfer Account</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_f0434c3adbfa5300f72fe04a489619a9</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:36:06</sys_updated_on><title>Transfer Account</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=f0434c3adbfa5300f72fe04a489619a9"/></record_update>]]></payload>
+<payload_hash>1167477128</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a7434210db871300f72fe04a48961932</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aed86be0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Transfer Account</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>0e7300f648fa5300e0fc8426408f3951</update_guid>
+<update_guid_history>0e7300f648fa5300e0fc8426408f3951:1167477128</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_5fe7cd64db6e5300f72fe04a4896195f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_both&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: medium;"&gt;&lt;span style="font-size: 10.0pt; color: gray;"&gt;Service Overview:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10.0pt; color: gray;"&gt;This service is under construction. Please visit again at a later date to place a service request.  &lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Under construction 1&lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=5fe7cd64db6e5300f72fe04a4896195f&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;4deda47edb1113003d1dd001cf9619b2&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;short_description&gt;Service under construction&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-03 23:37:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5fe7cd64db6e5300f72fe04a4896195f&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Under construction 1&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_5fe7cd64db6e5300f72fe04a4896195f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-23 04:34:58&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow display_value=" OCIO Service Request Item"&gt;77a0da0bdb5113003d1dd001cf9619af&lt;/workflow&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5fe7cd64db6e5300f72fe04a4896195f"/&gt;&lt;fx_price action="delete_multiple" query="id=5fe7cd64db6e5300f72fe04a4896195f"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;5fe7cd64db6e5300f72fe04a4896195f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-03 23:37:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d3e88128db2e5300f72fe04a48961930&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-03 23:37:33&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;5fe7cd64db6e5300f72fe04a4896195f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-06-03 23:37:33&lt;/sys_created_on&gt;&lt;sys_id&gt;dfe889a4db6e5300f72fe04a489619aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-03 23:37:33&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-739090040</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a7434610db871300f72fe04a48961922</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aec7a4a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Under construction 1</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>9d330c3ac4fa530026fee895a8aaf2fc</update_guid>
+<update_guid_history>9d330c3ac4fa530026fee895a8aaf2fc:-739090040,0ded8128606e5300cbbbf893164abfcc:-1638160274,7a6c89283f6e5300ae483af93b2eb5ee:-525518194,e78a49e4c96e5300b9066a8cb5989833:270467034,d3e889a4796e5300bf763b3ef9b981b6:913451031</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_a22b483edbfa5300f72fe04a489619f5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Managed Print Services (MPS)">260b847edbfa5300f72fe04a489619b1</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:09:43</sys_created_on><sys_id>a22b483edbfa5300f72fe04a489619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Managed Print Services (MPS).Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_a22b483edbfa5300f72fe04a489619f5</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:09:43</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-939795267</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>a7434610db871300f72fe04a48961925</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0c4d630000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Managed Print Services (MPS).Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>6e2b887e76fa5300dc5a6346c2a46124</update_guid>
+<update_guid_history>6e2b887e76fa5300dc5a6346c2a46124:-939795267</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_72e7c8badbfa5300f72fe04a489619eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Hosting">249744fadbfa5300f72fe04a489619fe</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:55:39</sys_created_on><sys_id>72e7c8badbfa5300f72fe04a489619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Servers</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_72e7c8badbfa5300f72fe04a489619eb</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:55:39</sys_updated_on><title>Servers</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=72e7c8badbfa5300f72fe04a489619eb"/></record_update>]]></payload>
+<payload_hash>381251691</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>ab434210db871300f72fe04a4896192e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aff6a1b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Servers</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>94f784faa2fa53006c10aedbde0a311c</update_guid>
+<update_guid_history>94f784faa2fa53006c10aedbde0a311c:381251691</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_e22604badbfa5300f72fe04a4896194c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Applications such as SharePoint, Remedy and CARA.  Security related services such as firewalls and file integrity monitoring.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:48:18</sys_created_on><sys_id>e22604badbfa5300f72fe04a4896194c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Enterprise Applications &amp; Security</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_e22604badbfa5300f72fe04a4896194c</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:49:32</sys_updated_on><title>Enterprise Applications &amp; Security</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=e22604badbfa5300f72fe04a4896194c"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>1035</size_bytes><size_compressed>595</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:48:27</sys_created_on><sys_id>364648badbfa5300f72fe04a48961944</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:48:27</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>e22604badbfa5300f72fe04a4896194c</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="364648badbfa5300f72fe04a48961944">364648badbfa5300f72fe04a48961944</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:48:27</sys_created_on><sys_id>764648badbfa5300f72fe04a48961944</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>hVPda9swEH9Oof/DzXsaSLLkb7vNyhpGU1hhMPDrcBw1NvVsYztO0rH/fXey02Uw2INO8t3v43TCt3fHHxWMuuvLpl5aSkgLdJ0327LeLa398Mwj6+7j9dXtO87hQde6y4amS+DTttloeKyqfT+YFDiOkEIx+JY+wOdj23QDfK32O/5YgzDJdDJJIBBSwv2+rLYgPwBwTvr9uLtsQ1lQbpfWl+yku+/4gV3W/dIqhqFNbPtwOIiDK5puZztSShvJMyQ5VmX98i+giuPYNlWELi3ZHi04Tfv11QLGUh/uGyqAhNAHJSU10Q+nSi8tXWebSvNNlr/sumZfb5NaH+ASemMaSPo2yxHfdrrX3agtczXSgOHUYmHQx8HO+54KC9EP8udzWVXJeyldNwhufiHcNngi7gg0xcVtmw0F5FXW4xiQZwGO58n1hMciJdwiEE6uRMgkc4XiCtO040r9WHi5xFRIaT6naRWcWNzQ6JvNdaKOKhIRGS9WLuqzMBYxcx2Ekh17M361bNOl/f9mQ0USoQgKji2lZLAKHOGzCJfvoa9knkvNrMly5VBCTQBvOhBn9ESYSyZRTCJYieC8CuzbtJybIqX4DMFLBiM3TLx0zHxKGUUM5lRg8PJgIlLFJ9EzxIxjjforM1q8BE2asB46jB7yZmc2y//hmlD48kKcnwHGOiWNVeiTYOhixei/jesVnoKIBh+guidcfCKfhSLiuGhfK2/yxvu5+JJUQgifISnONCpo0GkU/PVc54i/D+6/AahNxIkLBAAA</data><length>780</length><position>1</position><sys_attachment display_value="icon" sys_id="364648badbfa5300f72fe04a48961944">364648badbfa5300f72fe04a48961944</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:48:27</sys_created_on><sys_id>f64648badbfa5300f72fe04a48961944</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>-241641534</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>ab434210db871300f72fe04a48961931</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af9d24d0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Enterprise Applications &amp; Security</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>72864cbae3fa5300a5f6e77f22c47e5d</update_guid>
+<update_guid_history>72864cbae3fa5300a5f6e77f22c47e5d:-241641534,f64648ba24fa5300ee5d52d0c8506147:1850031305,2c468c7a9efa530020ba67f57613589e:601029958</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_7cfb887edbfa5300f72fe04a4896192b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Devices">fbcbcc7edbfa5300f72fe04a4896190f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:13:10</sys_created_on><sys_id>7cfb887edbfa5300f72fe04a4896192b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Devices.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_7cfb887edbfa5300f72fe04a4896192b</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:13:10</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>232113255</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>ab434610db871300f72fe04a48961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0f74340000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Devices.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>bcfb887e89fa5300da6e131af087a32d</update_guid>
+<update_guid_history>bcfb887e89fa5300da6e131af087a32d:232113255</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_4eb2300bdb221300f72fe04a48961971</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Landlines, voicemail, and enhanced phone services.  For desk phones using VoIP or Lync technology, please refer to Unified Communications (UC).</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Phones">8647bd77db961300f72fe04a489619e8</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-11 16:26:07</sys_created_on><sys_id>4eb2300bdb221300f72fe04a48961971</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Traditional Desk Phones</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_4eb2300bdb221300f72fe04a48961971</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-25 01:24:30</sys_updated_on><title>Traditional Desk Phones</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=4eb2300bdb221300f72fe04a48961971"/></record_update>]]></payload>
+<payload_hash>-78319185</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>af434210db871300f72fe04a4896192d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>164348ad35a0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Traditional Desk Phones</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>f2ca6d5b10be93001835b8fc3d2dc926</update_guid>
+<update_guid_history>f2ca6d5b10be93001835b8fc3d2dc926:-78319185,3de2f00b6b22130011ef688d09d70afa:-1475814068</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_c01700fadbfa5300f72fe04a4896197d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Enterprise Applications &amp; Security">e22604badbfa5300f72fe04a4896194c</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:51:54</sys_created_on><sys_id>c01700fadbfa5300f72fe04a4896197d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>File Integrity Monitoring</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_c01700fadbfa5300f72fe04a4896197d</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:51:54</sys_updated_on><title>File Integrity Monitoring</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=c01700fadbfa5300f72fe04a4896197d"/></record_update>]]></payload>
+<payload_hash>1856142565</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>af434210db871300f72fe04a48961930</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642afbfc920000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>File Integrity Monitoring</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>591780fa2ffa5300cc479e42f752df09</update_guid>
+<update_guid_history>591780fa2ffa5300cc479e42f752df09:1856142565</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_446500badbfa5300f72fe04a4896197d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="File Integrity Monitoring">9c450c7adbfa5300f72fe04a489619ab</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:44:27</sys_created_on><sys_id>446500badbfa5300f72fe04a4896197d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>File Integrity Monitoring.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_446500badbfa5300f72fe04a4896197d</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:44:27</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1582465621</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>af434610db871300f72fe04a48961923</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af5281f0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>File Integrity Monitoring.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>846500ba7cfa5300d882bb217c993c7f</update_guid>
+<update_guid_history>846500ba7cfa5300d882bb217c993c7f:1582465621</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_e7f744fadbfa5300f72fe04a4896195a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Servers">72e7c8badbfa5300f72fe04a489619eb</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:55:53</sys_created_on><sys_id>e7f744fadbfa5300f72fe04a4896195a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Servers.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_e7f744fadbfa5300f72fe04a4896195a</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:55:53</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1360655340</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>af434610db871300f72fe04a48961926</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642affa0100000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Servers.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>a7f7c8fa3ffa5300e57a1d1c76bcb9ad</update_guid>
+<update_guid_history>a7f7c8fa3ffa5300e57a1d1c76bcb9ad:1360655340</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_0895407adbfa5300f72fe04a48961933</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Data Network">cf24847adbfa5300f72fe04a48961943</parent><roles/><sc_catalog/><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:45:28</sys_created_on><sys_id>0895407adbfa5300f72fe04a48961933</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Wi-Lan</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_0895407adbfa5300f72fe04a48961933</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:45:28</sys_updated_on><title>Wi-Lan</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=0895407adbfa5300f72fe04a48961933"/></record_update>]]></payload>
+<payload_hash>749131436</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e3434210db871300f72fe04a4896192c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af617610000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Wi-Lan</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>c39504ba7bfa530050f9bbc37f28f83b</update_guid>
+<update_guid_history>c39504ba7bfa530050f9bbc37f28f83b:749131436</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_8605c43adbfa5300f72fe04a489619ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Data Network">cf24847adbfa5300f72fe04a48961943</parent><roles/><sc_catalog/><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:43:08</sys_created_on><sys_id>8605c43adbfa5300f72fe04a489619ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Domain Name Registration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_8605c43adbfa5300f72fe04a489619ad</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:43:08</sys_updated_on><title>Domain Name Registration</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=8605c43adbfa5300f72fe04a489619ad"/></record_update>]]></payload>
+<payload_hash>-908134036</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e3434210db871300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af3f60c0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Domain Name Registration</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>c1150c7a38fa5300cdb346ffa7a2891e</update_guid>
+<update_guid_history>c1150c7a38fa5300cdb346ffa7a2891e:-908134036</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_ed3ebcb6db5113003d1dd001cf9619c6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Services and devices for Voice Network &amp; Communication</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>jjose</sys_created_by><sys_created_on>2018-04-09 19:26:25</sys_created_on><sys_id>ed3ebcb6db5113003d1dd001cf9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Voice Network &amp; Communication</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_ed3ebcb6db5113003d1dd001cf9619c6</sys_update_name><sys_updated_by>jjose</sys_updated_by><sys_updated_on>2018-04-09 19:26:25</sys_updated_on><title>Voice Network &amp; Communication</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=ed3ebcb6db5113003d1dd001cf9619c6"/></record_update>]]></payload>
+<payload_hash>-491378319</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e3434210db871300f72fe04a48961932</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b09ec310000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Voice Network &amp; Communication</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>d09a047e9efa53007d4b9f95d9656a82</update_guid>
+<update_guid_history>d09a047e9efa53007d4b9f95d9656a82:-491378319,d9208df65d511300c232b82f452a8452:2117955939,1c0081f650511300e6d0ff94ceef093e:-491378319</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_fbcbcc7edbfa5300f72fe04a4896190f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Desktops, laptops, and tablets.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Workstations &amp; Devices">429bc87edbfa5300f72fe04a48961947</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:12:56</sys_created_on><sys_id>fbcbcc7edbfa5300f72fe04a4896190f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Devices</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_fbcbcc7edbfa5300f72fe04a4896190f</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:12:56</sys_updated_on><title>Devices</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=fbcbcc7edbfa5300f72fe04a4896190f"/></record_update>]]></payload>
+<payload_hash>-1445744024</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e3434610db871300f72fe04a48961922</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0f3eb20000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Devices</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>25eb40beeffa5300818c44a9bb1f3817</update_guid>
+<update_guid_history>25eb40beeffa5300818c44a9bb1f3817:-1445744024</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_9525c47adbfa5300f72fe04a489619e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Domain Name Registration">8605c43adbfa5300f72fe04a489619ad</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:43:26</sys_created_on><sys_id>9525c47adbfa5300f72fe04a489619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Domain Name Registration.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_9525c47adbfa5300f72fe04a489619e1</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:43:26</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>1499218311</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e3434610db871300f72fe04a48961925</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af439d10000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Domain Name Registration.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>d525c47a5afa5300492542ee0d6b6ee3</update_guid>
+<update_guid_history>d525c47a5afa5300492542ee0d6b6ee3:1499218311</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_6c4b007edbfa5300f72fe04a48961951</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Printing Services">2bca407edbfa5300f72fe04a489619de</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:10:15</sys_created_on><sys_id>6c4b007edbfa5300f72fe04a48961951</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Print Queue</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_6c4b007edbfa5300f72fe04a48961951</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:10:15</sys_updated_on><title>Print Queue</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=6c4b007edbfa5300f72fe04a48961951"/></record_update>]]></payload>
+<payload_hash>317032821</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e7434210db871300f72fe04a4896192e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b0cc9500000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Print Queue</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>524bc87eb4fa53008484c1cb1ca81845</update_guid>
+<update_guid_history>524bc87eb4fa53008484c1cb1ca81845:317032821</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_d12cc87edbfa5300f72fe04a48961955</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Other hardware required for workstations &amp; devices.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Workstations &amp; Devices">429bc87edbfa5300f72fe04a48961947</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:14:16</sys_created_on><sys_id>d12cc87edbfa5300f72fe04a48961955</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_d12cc87edbfa5300f72fe04a48961955</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:14:16</sys_updated_on><title>Hardware</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=d12cc87edbfa5300f72fe04a48961955"/></record_update>]]></payload>
+<payload_hash>-780399784</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e7434210db871300f72fe04a48961931</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b1078030000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Hardware</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>093c04be41fa5300895ddd53fcc7b91b</update_guid>
+<update_guid_history>093c04be41fa5300895ddd53fcc7b91b:-780399784</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_7c89c43edbfa5300f72fe04a489619e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Mobile Phones">4f69483edbfa5300f72fe04a48961915</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:02:30</sys_created_on><sys_id>7c89c43edbfa5300f72fe04a489619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mobile Phones.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_7c89c43edbfa5300f72fe04a489619e2</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:02:30</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1786257245</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e7434610db871300f72fe04a48961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b05b1aa0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Mobile Phones.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>bc89c43efbfa53005e124c6942475de4</update_guid>
+<update_guid_history>bc89c43efbfa53005e124c6942475de4:-1786257245</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_fcd9883edbfa5300f72fe04a4896198d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Phone Consulting">7fb9c83edbfa5300f72fe04a489619c5</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:03:53</sys_created_on><sys_id>fcd9883edbfa5300f72fe04a4896198d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Phone Consulting.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_fcd9883edbfa5300f72fe04a4896198d</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:03:53</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-772546035</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>e7434610db871300f72fe04a48961927</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b06f2df0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Phone Consulting.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>30d9883e53fa5300f047e0435c8d6890</update_guid>
+<update_guid_history>30d9883e53fa5300f047e0435c8d6890:-772546035</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_429bc87edbfa5300f72fe04a48961947</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Desktop workstations, laptops, tablets, including related hardware, software, permissions and services.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:11:56</sys_created_on><sys_id>429bc87edbfa5300f72fe04a48961947</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workstations &amp; Devices</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_429bc87edbfa5300f72fe04a48961947</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:11:56</sys_updated_on><title>Workstations &amp; Devices</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=429bc87edbfa5300f72fe04a48961947"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>734003</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>icon</file_name><image_height/><image_width/><size_bytes>1509</size_bytes><size_compressed>774</size_compressed><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 05:43:01</sys_created_on><sys_id>72b20ed8db471300f72fe04a489619f3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-28 05:43:01</sys_updated_on><table_name>ZZ_YYsc_category</table_name><table_sys_id>429bc87edbfa5300f72fe04a48961947</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="72b20ed8db471300f72fe04a489619f3">72b20ed8db471300f72fe04a489619f3</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 05:43:01</sys_created_on><sys_id>b2b20ed8db471300f72fe04a489619f3</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>lVPRbpswFH1upf6Dx15WyTbGEAJps2ptp6bSKk3qlNeJGoegEoOwQ5JO+/ddm5B0UjtpDzbm3HPuub5cLq+2qwp1stVlraZeQJmHpBJ1Xqpi6q3NgiTe1eez08sPhKA7qWSbmbqdoC95/STRfVWttXEQ4pwyGmD0OL9DX7dN3Rr0vVoX5F4h6sB5bzJBMWUMXa/LKkfsHCFCbH7dFa/LCLyz0xNU5lPvW7aT7c/AQ1Co0hMhpt7SmGbi+6KVmSk7KerVqlaa1m3hK/1xYOZHZrNuKxfOhS8ruZLKaB9M/IFbqmctskYeFJvNhg5gnzhbSd1kQmp/wAdxmy/+0m1CpwjSNPUZ9zknwCB6p0y2Ja8K1NDlBtZBPABU1+tWyAVkkVRJ49/+uD0ECaO5yQ85uuItb84Y8yHmuuiY/2Ttk20ruNq7V3FRoE491mw9tNs/u1JurmuLIoaSBI0jZ6rNroJ2SpU9VZI8ZeK5aOu1yidKbtCBeuGsJ66xU69ppZZtJz03EDYBMjv7UYzcGl9obQMnVBv2a1FW1eQjY2EYxxe/ge47vhUWCCZSaejeCpT2WGVGfmKYpCNOw5gHyblLdNlkZolElWnoDiT1EIzbQ8Kx5UUipCFmOMacjmGPuxETDANIHEAAmo3CLlmGAiYJmBwzmsLONXEHAsdZyAVxYcItCjsH5xPtzpazDDuSzGJBnB2JbXbY445YP4c6xDrOEv6C+gJjGlnRPjXep+sitkxYRyJ2k0TAGlOOkxA4ToAHpa0AEgUxHQGQwl2ZuyuDd/sPM7ggIIBGeFj2hgGNKpIACZYg+wgJ+t2+OfCwbGlWAmyrsq43QewcRxjMeW+Oj3VAUdyapzGn/H+KSqHhsN4syvq+XRgorPIGPLnzhF5bO2ePj5XYpoMZYzAWs6iLhXUNhs+N+XIcDzMwfPp5z36x5ughcuoIGv3+qOjjhDxGHNBegQ9aqCKyaADnWZjC5AVs3r++eL6dfL9w83882p8bnn8A8lrzQ+UFAAA=</data><length>1020</length><position>1</position><sys_attachment display_value="icon" sys_id="72b20ed8db471300f72fe04a489619f3">72b20ed8db471300f72fe04a489619f3</sys_attachment><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-28 05:43:01</sys_created_on><sys_id>36b20ed8db471300f72fe04a489619f3</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>979128429</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>eb434210db871300f72fe04a4896192d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16444ea95710000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Workstations &amp; Devices</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>32b20ed8bf47130080f27208de91ddfb</update_guid>
+<update_guid_history>32b20ed8bf47130080f27208de91ddfb:979128429,3aa28edcd04713003a5e976224df3d36:990221275,1abbcc7e5cfa5300da08e671d9306295:-1690849862,baab4c7e95fa5300255e64666a67bb1c:990221275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_b629ccfadbfa5300f72fe04a48961940</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Request or change UC, a service which integrates phones/headsets wtih Lync (Skype) and Outlook tools using Voice over Internet Protocol (VoIP) technology.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Phones">8647bd77db961300f72fe04a489619e8</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:01:21</sys_created_on><sys_id>b629ccfadbfa5300f72fe04a48961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unified Communications (UC)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_b629ccfadbfa5300f72fe04a48961940</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:01:21</sys_updated_on><title>Unified Communications (UC)</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=b629ccfadbfa5300f72fe04a48961940"/></record_update>]]></payload>
+<payload_hash>998873602</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>eb434210db871300f72fe04a48961930</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b04a4db0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Unified Communications (UC)</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>8849443efefa5300a2f413e23df979b8</update_guid>
+<update_guid_history>8849443efefa5300a2f413e23df979b8:998873602</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_30e3c07adbfa5300f72fe04a48961967</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="New Account Set-Up">a9b3407adbfa5300f72fe04a4896190b</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:37:57</sys_created_on><sys_id>30e3c07adbfa5300f72fe04a48961967</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Account Set-Up.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_30e3c07adbfa5300f72fe04a48961967</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:37:57</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1367659445</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>eb434610db871300f72fe04a48961923</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642aef34ba0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>New Account Set-Up.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>70e3c07abcfa530088fd1623f66ef469</update_guid>
+<update_guid_history>70e3c07abcfa530088fd1623f66ef469:-1367659445</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_e72d0cbedbfa5300f72fe04a48961988</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Workstation Moves">941d8cbedbfa5300f72fe04a489619c6</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:18:33</sys_created_on><sys_id>e72d0cbedbfa5300f72fe04a48961988</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workstation Moves.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_e72d0cbedbfa5300f72fe04a48961988</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:18:33</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>583694663</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>eb434610db871300f72fe04a48961926</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b1460660000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Workstation Moves.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>2b2d0cbe5dfa5300c0994bb3d23cee8a</update_guid>
+<update_guid_history>2b2d0cbe5dfa5300c0994bb3d23cee8a:583694663</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_1ef67db7db961300f72fe04a489619ce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Request changes to an email account, login credentials (IDIR), contact information (GAL), groups, file drives (H, shared), remote access, or distribution lists.</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Accounts &amp; Access">c216f5b7db961300f72fe04a489619dc</parent><roles/><sc_catalog display_value="OCIO Catalog">4deda47edb1113003d1dd001cf9619b2</sc_catalog><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:04:04</sys_created_on><sys_id>1ef67db7db961300f72fe04a489619ce</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Changes to Existing Accounts</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_1ef67db7db961300f72fe04a489619ce</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:32:10</sys_updated_on><title>Changes to Existing Accounts</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=1ef67db7db961300f72fe04a489619ce"/></record_update>]]></payload>
+<payload_hash>1417272852</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>ef434210db871300f72fe04a4896192c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642ae9ea7e0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Changes to Existing Accounts</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>d492c43a96fa53004c88c72117afd4a4</update_guid>
+<update_guid_history>d492c43a96fa53004c88c72117afd4a4:1417272852,252771f717961300b9e400a29a4adb25:-720430433</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_category_9c450c7adbfa5300f72fe04a489619ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Data Network">cf24847adbfa5300f72fe04a48961943</parent><roles/><sc_catalog/><show_in_cms>false</show_in_cms><sys_class_name>sc_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:44:03</sys_created_on><sys_id>9c450c7adbfa5300f72fe04a489619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>File Integrity Monitoring</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_category_9c450c7adbfa5300f72fe04a489619ab</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:44:03</sys_updated_on><title>File Integrity Monitoring</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=9c450c7adbfa5300f72fe04a489619ab"/></record_update>]]></payload>
+<payload_hash>-1392581016</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>ef434210db871300f72fe04a4896192f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af4ccec0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>File Integrity Monitoring</target_name>
+<type>Category</type>
+<update_domain>global</update_domain>
+<update_guid>ae45c47ac9fa5300ef0e8f739447abe9</update_guid>
+<update_guid_history>ae45c47ac9fa5300ef0e8f739447abe9:-1392581016</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_2349803edbfa5300f72fe04a48961976</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Unified Communications (UC)">b629ccfadbfa5300f72fe04a48961940</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 05:01:36</sys_created_on><sys_id>2349803edbfa5300f72fe04a48961976</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unified Communications (UC).Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_2349803edbfa5300f72fe04a48961976</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 05:01:36</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-2009687632</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>ef434610db871300f72fe04a48961922</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642b04df5b0000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Unified Communications (UC).Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>6349803e7cfa530076526ba0e1eca778</update_guid>
+<update_guid_history>6349803e7cfa530076526ba0e1eca778:-2009687632</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_bee504badbfa5300f72fe04a48961948</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Under construction">9bed8568db6e5300f72fe04a48961942</sc_cat_item><sc_category display_value="Client Access Services">9bc544badbfa5300f72fe04a48961923</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-23 04:46:49</sys_created_on><sys_id>bee504badbfa5300f72fe04a48961948</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Client Access Services.Under construction</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_bee504badbfa5300f72fe04a48961948</sys_update_name><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-23 04:46:49</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>2088748817</payload_hash>
+<remote_update_set display_value="OCIO Categories and Sub categories - v01">2f434210db871300f72fe04a4896192b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>James.Jose</sys_created_by>
+<sys_created_on>2018-06-28 05:45:32</sys_created_on>
+<sys_id>ef434610db871300f72fe04a48961925</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1642af753050000001</sys_recorded_at>
+<sys_updated_by>James.Jose</sys_updated_by>
+<sys_updated_on>2018-06-28 05:45:32</sys_updated_on>
+<table/>
+<target_name>Client Access Services.Under construction</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>bee504ba75fa530074345b7f7b64d74a</update_guid>
+<update_guid_history>bee504ba75fa530074345b7f7b64d74a:2088748817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
